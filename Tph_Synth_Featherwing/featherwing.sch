@@ -25,4 +25,32 @@ F 3 "" H 4790 3370 50  0001 C CNN
 	1    4790 3370
 	1    0    0    -1  
 $EndComp
+Text HLabel 6390 1870 1    50   Output ~ 0
+F_SCL
+Text HLabel 6490 1870 1    50   Output ~ 0
+F_SDA
+$Comp
+L power:GND #PWR?
+U 1 1 5DECF2D0
+P 5290 3570
+F 0 "#PWR?" H 5290 3320 50  0001 C CNN
+F 1 "GND" H 5295 3397 50  0000 C CNN
+F 2 "" H 5290 3570 50  0001 C CNN
+F 3 "" H 5290 3570 50  0001 C CNN
+	1    5290 3570
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5DECF43D
+P 5090 3570
+F 0 "#PWR?" H 5090 3420 50  0001 C CNN
+F 1 "+3V3" H 5105 3743 50  0000 C CNN
+F 2 "" H 5090 3570 50  0001 C CNN
+F 3 "" H 5090 3570 50  0001 C CNN
+	1    5090 3570
+	-1   0    0    1   
+$EndComp
+Text HLabel 5590 1870 1    50   Output ~ 0
+5V
 $EndSCHEMATC
