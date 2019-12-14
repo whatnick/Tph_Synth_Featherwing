@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name LM2663M)(type Legacy)(uri C:/Users/Tisham/Documents/kicad/Tph_Synth_Featherwing/Tph_Synth_Featherwing/library/LM2663M.lib)(options "")(descr ""))
   (lib (name adafruit_featherwing)(type Legacy)(uri C:/Users/Tisham/Documents/kicad/Tph_Synth_Featherwing/Tph_Synth_Featherwing/library/adafruit_featherwing.lib)(options "")(descr ""))
+  (lib (name PAM2401SCADJ)(type Legacy)(uri C:/Users/Tisham/Documents/kicad/Tph_Synth_Featherwing/Tph_Synth_Featherwing/library/PAM2401SCADJ.lib)(options "")(descr ""))
 )

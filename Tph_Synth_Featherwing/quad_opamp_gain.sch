@@ -69,4 +69,112 @@ F 3 "~" H 8250 3460 50  0001 C CNN
 	5    8250 3460
 	1    0    0    -1  
 $EndComp
+Text HLabel 8150 3160 1    50   Input ~ 0
++5V
+Text HLabel 8150 3760 3    50   Input ~ 0
+-5V
+$Comp
+L Device:R_Small R?
+U 1 1 5DF55CB7
+P 3930 3155
+F 0 "R?" V 3734 3155 50  0000 C CNN
+F 1 "R_Small" V 3825 3155 50  0000 C CNN
+F 2 "" H 3930 3155 50  0001 C CNN
+F 3 "~" H 3930 3155 50  0001 C CNN
+	1    3930 3155
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DF55D16
+P 3960 4260
+F 0 "R?" V 3764 4260 50  0000 C CNN
+F 1 "R_Small" V 3855 4260 50  0000 C CNN
+F 2 "" H 3960 4260 50  0001 C CNN
+F 3 "~" H 3960 4260 50  0001 C CNN
+	1    3960 4260
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DF55D6A
+P 3960 5290
+F 0 "R?" V 3764 5290 50  0000 C CNN
+F 1 "R_Small" V 3855 5290 50  0000 C CNN
+F 2 "" H 3960 5290 50  0001 C CNN
+F 3 "~" H 3960 5290 50  0001 C CNN
+	1    3960 5290
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DF55FCA
+P 3975 6455
+F 0 "R?" V 3779 6455 50  0000 C CNN
+F 1 "R_Small" V 3870 6455 50  0000 C CNN
+F 2 "" H 3975 6455 50  0001 C CNN
+F 3 "~" H 3975 6455 50  0001 C CNN
+	1    3975 6455
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Variable R?
+U 1 1 5DF56149
+P 3580 3000
+F 0 "R?" H 3708 3046 50  0000 L CNN
+F 1 "R_Variable" H 3708 2955 50  0000 L CNN
+F 2 "" V 3510 3000 50  0001 C CNN
+F 3 "~" H 3580 3000 50  0001 C CNN
+	1    3580 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Variable R?
+U 1 1 5DF561AD
+P 3605 4125
+F 0 "R?" H 3733 4171 50  0000 L CNN
+F 1 "R_Variable" H 3733 4080 50  0000 L CNN
+F 2 "" V 3535 4125 50  0001 C CNN
+F 3 "~" H 3605 4125 50  0001 C CNN
+	1    3605 4125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Variable R?
+U 1 1 5DF561ED
+P 3635 5120
+F 0 "R?" H 3763 5166 50  0000 L CNN
+F 1 "R_Variable" H 3763 5075 50  0000 L CNN
+F 2 "" V 3565 5120 50  0001 C CNN
+F 3 "~" H 3635 5120 50  0001 C CNN
+	1    3635 5120
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Variable R?
+U 1 1 5DF56243
+P 3585 6285
+F 0 "R?" H 3713 6331 50  0000 L CNN
+F 1 "R_Variable" H 3713 6240 50  0000 L CNN
+F 2 "" V 3515 6285 50  0001 C CNN
+F 3 "~" H 3585 6285 50  0001 C CNN
+	1    3585 6285
+	1    0    0    -1  
+$EndComp
+Text HLabel 4495 2720 2    50   Output ~ 0
+VA_out
+Text HLabel 4525 3845 2    50   Output ~ 0
+VB_out
+Text HLabel 4460 4890 2    50   Output ~ 0
+VC_out
+Text HLabel 4470 5965 2    50   Output ~ 0
+IAC_out
+Text HLabel 3175 2830 0    50   Input ~ 0
+VA_in
+Text HLabel 3195 3955 0    50   Input ~ 0
+VB_in
+Text HLabel 3190 4985 0    50   Input ~ 0
+VC_in
+Text HLabel 3200 6070 0    50   Input ~ 0
+IAC_in
 $EndSCHEMATC
