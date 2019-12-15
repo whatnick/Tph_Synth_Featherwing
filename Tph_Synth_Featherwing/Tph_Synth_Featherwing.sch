@@ -15,10 +15,13 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 1385 1895 1800 1095
+S 1455 1955 1800 1095
 U 5DCBF5A8
 F0 "Boost_Converter" 50
 F1 "boost_converter.sch" 50
+F2 "VBAT" I L 1455 2305 50 
+F3 "5V_OUT" O R 3255 2245 50 
+F4 "VUSB" I L 1455 2720 50 
 $EndSheet
 $Sheet
 S 3990 1915 1770 1095
@@ -63,6 +66,29 @@ F0 "Feathewing Headers" 50
 F1 "featherwing.sch" 50
 F2 "F_SCL" O R 3255 4255 50 
 F3 "F_SDA" O R 3255 4490 50 
-F4 "5V" O R 3255 4725 50 
+F4 "VBAT" O L 1430 4405 50 
+F5 "VUSB" O L 1430 4120 50 
 $EndSheet
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5DF7BE31
+P 9990 2315
+F 0 "J?" H 10070 2307 50  0000 L CNN
+F 1 "Conn_01x04" H 10070 2216 50  0000 L CNN
+F 2 "" H 9990 2315 50  0001 C CNN
+F 3 "~" H 9990 2315 50  0001 C CNN
+	1    9990 2315
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack3 J?
+U 1 1 5DF7C0C6
+P 9930 3530
+F 0 "J?" H 9650 3463 50  0000 R CNN
+F 1 "AudioJack3" H 9650 3554 50  0000 R CNN
+F 2 "" H 9930 3530 50  0001 C CNN
+F 3 "~" H 9930 3530 50  0001 C CNN
+	1    9930 3530
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

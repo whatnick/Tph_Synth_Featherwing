@@ -52,5 +52,7 @@ F 3 "" H 5090 3570 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text HLabel 5590 1870 1    50   Output ~ 0
-5V
+VUSB
+Text HLabel 5390 1870 1    50   Output ~ 0
+VBAT
 $EndSCHEMATC

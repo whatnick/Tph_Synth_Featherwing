@@ -7,3 +7,7 @@
 [OPA4170AIPW](https://au.element14.com/texas-instruments/opa4170aipw/op-amp-quad-rro-1mhz-14tssop/dp/2095843)
 - Negative Rail Generator - 
 [LM2663](https://au.element14.com/texas-instruments/lm2663mx-nopb/dc-dc-charge-pump-inverting-soic/dp/3008264)
+
+## Battery to 5V boost converter (2019-12-16)
+- Added boost converter -
+[PAM2401](https://au.mouser.com/datasheet/2/115/PAM2401-347378.pdf)

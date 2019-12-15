@@ -30,7 +30,7 @@ L Device:C_Small C?
 U 1 1 5DECCADB
 P 4380 3030
 F 0 "C?" V 4151 3030 50  0000 C CNN
-F 1 "C_Small" V 4242 3030 50  0000 C CNN
+F 1 "100n" V 4242 3030 50  0000 C CNN
 F 2 "" H 4380 3030 50  0001 C CNN
 F 3 "~" H 4380 3030 50  0001 C CNN
 	1    4380 3030
@@ -64,13 +64,13 @@ Wire Wire Line
 	4110 3030 4110 3070
 Wire Wire Line
 	4110 3850 4110 3770
-Text HLabel 4710 3270 2    50   Output ~ 0
+Text HLabel 5540 3265 2    50   Output ~ 0
 VOUTA
-Text HLabel 4710 3370 2    50   Output ~ 0
+Text HLabel 5540 3365 2    50   Output ~ 0
 VOUTB
-Text HLabel 4710 3470 2    50   Output ~ 0
+Text HLabel 5540 3470 2    50   Output ~ 0
 VOUTC
-Text HLabel 4710 3570 2    50   Output ~ 0
+Text HLabel 5540 3565 2    50   Output ~ 0
 VOUTD
 $Bitmap
 Pos 10020 5210
@@ -33757,7 +33757,7 @@ L Device:R_Small R?
 U 1 1 5DECE9C2
 P 3075 3135
 F 0 "R?" H 3134 3181 50  0000 L CNN
-F 1 "R_Small" H 3134 3090 50  0000 L CNN
+F 1 "2.2k" H 3134 3090 50  0000 L CNN
 F 2 "" H 3075 3135 50  0001 C CNN
 F 3 "~" H 3075 3135 50  0001 C CNN
 	1    3075 3135
@@ -33768,7 +33768,7 @@ L Device:R_Small R?
 U 1 1 5DECEA02
 P 2785 3140
 F 0 "R?" H 2844 3186 50  0000 L CNN
-F 1 "R_Small" H 2844 3095 50  0000 L CNN
+F 1 "2.2k" H 2844 3095 50  0000 L CNN
 F 2 "" H 2785 3140 50  0001 C CNN
 F 3 "~" H 2785 3140 50  0001 C CNN
 	1    2785 3140
@@ -33837,4 +33837,110 @@ Wire Wire Line
 Connection ~ 3075 2890
 Wire Wire Line
 	3075 2890 4110 2890
+$Comp
+L Device:C_Small C?
+U 1 1 5DF8058E
+P 4725 3785
+F 0 "C?" H 4817 3831 50  0000 L CNN
+F 1 "C_Small" H 4817 3740 50  0000 L CNN
+F 2 "" H 4725 3785 50  0001 C CNN
+F 3 "~" H 4725 3785 50  0001 C CNN
+	1    4725 3785
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DF805CE
+P 4870 3785
+F 0 "C?" H 4962 3831 50  0000 L CNN
+F 1 "C_Small" H 4962 3740 50  0000 L CNN
+F 2 "" H 4870 3785 50  0001 C CNN
+F 3 "~" H 4870 3785 50  0001 C CNN
+	1    4870 3785
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DF805F6
+P 5015 3785
+F 0 "C?" H 5107 3831 50  0000 L CNN
+F 1 "C_Small" H 5107 3740 50  0000 L CNN
+F 2 "" H 5015 3785 50  0001 C CNN
+F 3 "~" H 5015 3785 50  0001 C CNN
+	1    5015 3785
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DF80626
+P 5165 3785
+F 0 "C?" H 5257 3831 50  0000 L CNN
+F 1 "C_Small" H 5257 3740 50  0000 L CNN
+F 2 "" H 5165 3785 50  0001 C CNN
+F 3 "~" H 5165 3785 50  0001 C CNN
+	1    5165 3785
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4710 3270 5165 3270
+Wire Wire Line
+	5540 3270 5540 3265
+Wire Wire Line
+	4710 3370 5015 3370
+Wire Wire Line
+	5540 3370 5540 3365
+Wire Wire Line
+	4710 3470 4870 3470
+Wire Wire Line
+	5540 3570 5540 3565
+Wire Wire Line
+	4725 3685 4725 3570
+Wire Wire Line
+	4710 3570 4725 3570
+Connection ~ 4725 3570
+Wire Wire Line
+	4725 3570 5540 3570
+Wire Wire Line
+	4870 3685 4870 3470
+Connection ~ 4870 3470
+Wire Wire Line
+	4870 3470 5540 3470
+Wire Wire Line
+	5015 3685 5015 3370
+Connection ~ 5015 3370
+Wire Wire Line
+	5015 3370 5540 3370
+Wire Wire Line
+	5165 3685 5165 3270
+Connection ~ 5165 3270
+Wire Wire Line
+	5165 3270 5540 3270
+Wire Wire Line
+	4725 3885 4725 4000
+Wire Wire Line
+	4725 4000 4870 4000
+Wire Wire Line
+	4870 4000 4870 3885
+Wire Wire Line
+	4870 4000 5015 4000
+Wire Wire Line
+	5015 4000 5015 3885
+Connection ~ 4870 4000
+Wire Wire Line
+	5015 4000 5165 4000
+Wire Wire Line
+	5165 4000 5165 3885
+Connection ~ 5015 4000
+$Comp
+L power:GND #PWR?
+U 1 1 5DF82C9C
+P 5165 4000
+F 0 "#PWR?" H 5165 3750 50  0001 C CNN
+F 1 "GND" H 5170 3827 50  0000 C CNN
+F 2 "" H 5165 4000 50  0001 C CNN
+F 3 "" H 5165 4000 50  0001 C CNN
+	1    5165 4000
+	1    0    0    -1  
+$EndComp
+Connection ~ 5165 4000
 $EndSCHEMATC
