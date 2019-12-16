@@ -11,3 +11,6 @@
 ## Battery to 5V boost converter (2019-12-16)
 - Added boost converter -
 [PAM2401](https://au.mouser.com/datasheet/2/115/PAM2401-347378.pdf)
+
+## AC Constant Current source (2019-12-17)
+- Uses spare opamp of Quad-opamp package in [modified-Howland current pump](http://www.ti.com/lit/an/snoa474a/snoa474a.pdf) mode.
