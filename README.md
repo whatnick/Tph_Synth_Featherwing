@@ -8,7 +8,7 @@ filtering and signal conditioning using Opamps.
 - Pot driven voltage Setting by controlling inverting-Opamp gain.
 - Modified-Howland current source to simulate current clamp output.
 - Pot driven current source using a tapped potentiometer attached to DAC output.
-- ±5v RMS output using dual-rail Opamp mode - [OPA4170AIPW](https://au.element14.com/texas-instruments/opa4170aipw/op-amp-quad-rro-1mhz-14tssop/dp/2095843).
+- ±5v RMS output using dual-rail Opamp mode - [OPA4170AIPW](https://au.element14.com/texas-instruments/opa4170aipw/op-amp-quad-rro-1mhz-14tssop/dp/2095843) or [LM324PWR](https://au.element14.com/texas-instruments/lm324pwr/ic-op-amp-1-2mhz-0-5v-us-tssop/dp/2342289)
 - Dual-voltage rail generation using [LM2663](https://au.element14.com/texas-instruments/lm2663mx-nopb/dc-dc-charge-pump-inverting-soic/dp/3008264) to flip 5v input to -5v.
 - Boost-converter to push battery voltage (4.2v-3.7v) to 5v for non-USB power mode using [PAM2401](https://au.mouser.com/datasheet/2/115/PAM2401-347378.pdf).
 - I2C DAC circuit to generate plausible phase shifted sine-wave, like in my [DIYODE 

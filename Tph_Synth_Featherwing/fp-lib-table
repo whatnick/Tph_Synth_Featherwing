@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name LM2663M)(type Legacy)(uri "$(KIPRJMOD)/footprints/LM2663M.mod")(options "")(descr ""))
+  (lib (name featherwing)(type KiCad)(uri "$(KIPRJMOD)/footprints")(options "")(descr ""))
+)
