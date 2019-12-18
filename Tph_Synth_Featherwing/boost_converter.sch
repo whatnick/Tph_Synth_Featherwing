@@ -2416,7 +2416,8 @@ P 4080 2720
 F 0 "L1" H 4039 2674 50  0000 R CNN
 F 1 "2.2uH/3A" H 4039 2765 50  0000 R CNN
 F 2 "Inductor_SMD:L_Bourns-SRR1005" H 4080 2720 50  0001 C CNN
-F 3 "~" H 4080 2720 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/SRR1005.pdf" H 4080 2720 50  0001 C CNN
+F 4 "SRR1005-2R2M" H 4080 2720 50  0001 C CNN "manf#"
 	1    4080 2720
 	-1   0    0    1   
 $EndComp
