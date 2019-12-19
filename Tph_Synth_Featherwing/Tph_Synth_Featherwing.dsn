@@ -36,10 +36,10 @@
     (component Capacitor_SMD:C_0805_2012Metric
       (place C18 116500 -89000 front 0 (PN 10u))
       (place C5 113500 -130520 front 270 (PN 10u))
-      (place C10 121000 -105000 front 0 (PN 10u))
+      (place C10 121000 -104500 front 180 (PN 10u))
       (place C7 97500 -108500 front 270 (PN 10u))
       (place C4 102500 -130520 front 270 (PN 10u))
-      (place C2 122500 -130000 front 0 (PN 22u))
+      (place C2 122500 -132000 front 0 (PN 22u))
       (place C8 100000 -108500 front 270 (PN 10u))
     )
     (component "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
@@ -47,37 +47,37 @@
       (place JP1 130500 -132000 back 0 (PN boost_disable))
     )
     (component "Inductor_SMD:L_Bourns-SRR1005"
-      (place L1 130500 -125000 front 270 (PN 2.2uH/3A))
+      (place L1 130500 -125000 front 90 (PN 2.2uH/3A))
     )
     (component Capacitor_SMD:C_0603_1608Metric
-      (place C17 98500 -121500 front 90 (PN 100n))
-      (place C15 94500 -121500 front 90 (PN 100n))
+      (place C17 96250 -122750 front 0 (PN 100n))
+      (place C15 96250 -117583 front 0 (PN 100n))
       (place C13 91500 -128500 front 270 (PN 100n))
       (place R17 98000 -130000 front 90 (PN 2.2k))
       (place R15 121000 -94500 front 90 (PN "1k / 1%"))
-      (place R5 97500 -94787.5 front 90 (PN 10k))
-      (place R3 118212 -127500 front 180 (PN 100k))
+      (place R5 97500 -93500 front 270 (PN 10k))
+      (place R3 117500 -128250 front 180 (PN 100k))
       (place R11 117000 -93500 front 180 (PN "100k / 0.25%"))
       (place R12 112000 -112000 front 0 (PN "100k / 0.25%"))
     )
     (component Capacitor_SMD:C_0603_1608Metric::1
-      (place C16 96500 -121500 front 90 (PN 100n))
-      (place C14 92500 -121500 front 90 (PN 100n))
+      (place C16 96250 -120167 front 0 (PN 100n))
+      (place C14 96250 -115000 front 0 (PN 100n))
       (place C12 117000 -98500 front 180 (PN 5p))
-      (place R6 102500 -88500 front 180 (PN 10k))
+      (place R6 97500 -100038 front 270 (PN 10k))
       (place R16 100000 -130000 front 90 (PN 2.2k))
       (place R13 121000 -90500 front 90 (PN "100k / 0.25%"))
-      (place R4 97500 -98712.5 front 90 (PN 10k))
-      (place R1 118250 -131500 front 180 (PN 10k))
+      (place R4 102500 -88500 front 180 (PN 10k))
+      (place R1 121750 -119750 front 0 (PN 10k))
       (place R14 117000 -96000 front 0 (PN "100k / 0.25%"))
-      (place R2 118212 -129500 front 0 (PN 750k))
+      (place R2 117538 -132250 front 0 (PN 750k))
     )
     (component Capacitor_SMD:C_0805_2012Metric::1
-      (place C11 121062 -111500 front 0 (PN 10u))
-      (place C9 121062 -108000 front 0 (PN 10u))
+      (place C11 121062 -111500 front 180 (PN 10u))
+      (place C9 121062 -108000 front 180 (PN 10u))
       (place C6 102500 -108500 front 270 (PN 10u))
-      (place C3 122438 -127500 front 0 (PN 22u))
-      (place C1 122500 -132500 front 0 (PN 22u))
+      (place C3 122500 -128250 front 0 (PN 22u))
+      (place C1 116750 -119750 front 180 (PN 22u))
     )
     (component "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal"
       (place J1 132000 -94000 front 270 (PN AudioJack3))
@@ -86,19 +86,19 @@
       (place J2 125000 -105000 front 0 (PN Conn_01x04))
     )
     (component Diode_SMD:D_SMB
-      (place D1 120500 -119000 front 0 (PN D_Schottky))
+      (place D1 110250 -124000 front 0 (PN D_Schottky))
     )
     (component Diode_SMD:D_SMB::1
-      (place D2 113500 -122500 front 270 (PN D_Schottky))
+      (place D2 110250 -119000 front 0 (PN D_Schottky))
     )
     (component "Package_SO:MSOP-10_3x3mm_P0.5mm"
       (place U4 95000 -128000 front 90 (PN MCP4728))
     )
     (component "Package_SO:MSOP-8_3x3mm_P0.65mm"
-      (place U1 120500 -124000 front 180 (PN PAM2401SCADJ))
+      (place U1 119750 -124250 front 180 (PN PAM2401SCADJ))
     )
     (component "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-      (place U2 108000 -129500 front 0 (PN LM2663M))
+      (place U2 108000 -130250 front 0 (PN LM2663M))
     )
     (component "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
       (place U3 106500 -95500 front 0 (PN Opamp_Quad_Generic))
@@ -108,11 +108,11 @@
     )
     (component "Potentiometer_THT:Potentiometer_Bourns_PTV09A-2_Single_Horizontal"
       (place RV1 129500 -80500 front 90 (PN "100k POT"))
-      (place R8 89500 -102000 front 180 (PN "100k var"))
+      (place R8 109250 -80500 front 90 (PN "100k var"))
     )
     (component "Potentiometer_THT:Potentiometer_Bourns_PTV09A-2_Single_Horizontal::1"
       (place R7 89500 -86000 front 180 (PN "100k var"))
-      (place R9 111500 -80500 front 90 (PN "100k var"))
+      (place R9 89500 -102000 front 180 (PN "100k var"))
     )
     (component TestPoint:TestPoint_Pad_D1.0mm
       (place TP3 113000 -108000 front 180 (PN TestPoint))
@@ -878,9 +878,6 @@
     (net "Net-(R10-Pad1)"
       (pins R10-1 RV1-2 TP3-1)
     )
-    (net "Net-(C2-Pad1)"
-      (pins C3-1 C2-1 D1-2 U1-7 R2-1)
-    )
     (net /Boost_Converter/FB
       (pins U1-5 R3-1 R2-2)
     )
@@ -971,15 +968,17 @@
     (net "Net-(C18-Pad2)"
       (pins C18-2 JP2-1 RV1-1)
     )
-    (class kicad_default "" +3V3 /Boost_Converter/FB /Boost_Converter/VBAT
-      /Boost_Converter/VUSB "/Controlled Gain Output/+5V" "/Controlled Gain Output/-5V"
-      "/Controlled Gain Output/IAC_in" "/Controlled Gain Output/IAC_out" "/Controlled Gain Output/VA_in"
-      "/Controlled Gain Output/VA_out" "/Controlled Gain Output/VB_in" "/Controlled Gain Output/VB_out"
-      "/Controlled Gain Output/VC_in" "/Controlled Gain Output/VC_out" "/Feathewing Headers/F_SCL"
-      "/Feathewing Headers/F_SDA" GND "Net-(C10-Pad2)" "Net-(C11-Pad2)" "Net-(C12-Pad1)"
-      "Net-(C12-Pad2)" "Net-(C13-Pad2)" "Net-(C18-Pad2)" "Net-(C2-Pad1)" "Net-(C4-Pad1)"
-      "Net-(C4-Pad2)" "Net-(C6-Pad1)" "Net-(C7-Pad1)" "Net-(C8-Pad1)" "Net-(C9-Pad2)"
-      "Net-(J1-PadR)" "Net-(JP1-Pad1)" "Net-(L1-Pad1)" "Net-(MS1-Pad1)" "Net-(MS1-Pad10)"
+    (net /Boost_Converter/BOOST_5V
+      (pins C3-1 C2-1 D1-2 U1-7 R2-1)
+    )
+    (class kicad_default "" /Boost_Converter/FB "/Controlled Gain Output/IAC_in"
+      "/Controlled Gain Output/IAC_out" "/Controlled Gain Output/VA_in" "/Controlled Gain Output/VA_out"
+      "/Controlled Gain Output/VB_in" "/Controlled Gain Output/VB_out" "/Controlled Gain Output/VC_in"
+      "/Controlled Gain Output/VC_out" "/Feathewing Headers/F_SCL" "/Feathewing Headers/F_SDA"
+      "Net-(C10-Pad2)" "Net-(C11-Pad2)" "Net-(C12-Pad1)" "Net-(C12-Pad2)"
+      "Net-(C13-Pad2)" "Net-(C18-Pad2)" "Net-(C2-Pad1)" "Net-(C4-Pad1)" "Net-(C4-Pad2)"
+      "Net-(C6-Pad1)" "Net-(C7-Pad1)" "Net-(C8-Pad1)" "Net-(C9-Pad2)" "Net-(J1-PadR)"
+      "Net-(JP1-Pad1)" "Net-(L1-Pad1)" "Net-(MS1-Pad1)" "Net-(MS1-Pad10)"
       "Net-(MS1-Pad11)" "Net-(MS1-Pad12)" "Net-(MS1-Pad13)" "Net-(MS1-Pad14)"
       "Net-(MS1-Pad15)" "Net-(MS1-Pad16)" "Net-(MS1-Pad19)" "Net-(MS1-Pad20)"
       "Net-(MS1-Pad21)" "Net-(MS1-Pad22)" "Net-(MS1-Pad23)" "Net-(MS1-Pad24)"
@@ -993,6 +992,16 @@
       )
       (rule
         (width 250)
+        (clearance 200.1)
+      )
+    )
+    (class Power +3V3 /Boost_Converter/BOOST_5V /Boost_Converter/VBAT /Boost_Converter/VUSB
+      "/Controlled Gain Output/+5V" "/Controlled Gain Output/-5V" GND
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 400)
         (clearance 200.1)
       )
     )

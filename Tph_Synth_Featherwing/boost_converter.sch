@@ -2663,4 +2663,6 @@ Wire Wire Line
 Connection ~ 8005 2645
 Wire Wire Line
 	8005 2645 8175 2645
+Text Label 7235 2645 0    50   ~ 0
+BOOST_5V
 $EndSCHEMATC
