@@ -1,0 +1,84 @@
+
+(rules PCB Tph_Synth_Featherwing
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 3890)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.1)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.9)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "Net-(MS1-Pad1)" +3V3 "Net-(MS1-Pad3)" GND "Net-(MS1-Pad5)" "Net-(MS1-Pad6)" "Net-(MS1-Pad7)" "Net-(MS1-Pad8)"
+    "Net-(MS1-Pad9)" "Net-(MS1-Pad10)" "Net-(MS1-Pad11)" "Net-(MS1-Pad12)" "Net-(MS1-Pad13)" "Net-(MS1-Pad14)" "Net-(MS1-Pad15)" "Net-(MS1-Pad16)"
+    "/Feathewing Headers/F_SDA" "/Feathewing Headers/F_SCL" "Net-(MS1-Pad19)" "Net-(MS1-Pad20)" "Net-(MS1-Pad21)" "Net-(MS1-Pad22)" "Net-(MS1-Pad23)" "Net-(MS1-Pad24)"
+    "Net-(MS1-Pad25)" "/Boost_Converter/VUSB" "Net-(MS1-Pad27)" "/Boost_Converter/VBAT" "Net-(TP7-Pad1)" "Net-(R12-Pad1)" "Net-(TP6-Pad1)" "Net-(C12-Pad2)"
+    "Net-(TP2-Pad1)" "Net-(TP1-Pad1)" "Net-(R10-Pad1)" "Net-(C2-Pad1)" "/Boost_Converter/FB" "Net-(R10-Pad2)" "Net-(C12-Pad1)" "Net-(JP1-Pad1)"
+    "Net-(R4-Pad1)" "Net-(C6-Pad1)" "Net-(C7-Pad1)" "Net-(R5-Pad1)" "/Controlled Gain Output/IAC_out" "Net-(C13-Pad2)" "Net-(R6-Pad1)" "Net-(C8-Pad1)"
+    "Net-(C11-Pad2)" "Net-(C9-Pad2)" "Net-(C10-Pad2)" "/Controlled Gain Output/IAC_in" "/Controlled Gain Output/+5V" "/Controlled Gain Output/-5V" "Net-(C4-Pad1)" "Net-(C4-Pad2)"
+    "Net-(L1-Pad1)" "Net-(U1-Pad6)" "/Controlled Gain Output/VA_in" "/Controlled Gain Output/VB_in" "/Controlled Gain Output/VC_in" "/Controlled Gain Output/VA_out" "/Controlled Gain Output/VB_out" "/Controlled Gain Output/VC_out"
+    "Net-(J1-PadR)" "Net-(C18-Pad2)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

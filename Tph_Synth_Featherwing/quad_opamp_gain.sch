@@ -175,7 +175,7 @@ Text HLabel 1820 2530 0    50   Input ~ 0
 VB_in
 Text HLabel 1805 3555 0    50   Input ~ 0
 VC_in
-Text HLabel 5585 1650 0    50   Input ~ 0
+Text HLabel 5365 1415 0    50   Input ~ 0
 IAC_in
 Text Notes 1785 4755 0    50   ~ 0
 Pot controlled inverting amplifier
@@ -6328,10 +6328,6 @@ F 3 "" H 5760 2155 50  0001 C CNN
 	1    5760 2155
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5585 1650 5760 1650
-Wire Wire Line
-	5760 1650 5760 1855
 $Comp
 L Connector:TestPoint TP4
 U 1 1 5DF7507C
@@ -6367,4 +6363,40 @@ F 3 "~" H 6110 2005 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 5910 2005
+$Comp
+L Device:C_Small C18
+U 1 1 5DFB3F54
+P 5760 1660
+F 0 "C18" H 5852 1706 50  0000 L CNN
+F 1 "10u" H 5852 1615 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5760 1660 50  0001 C CNN
+F 3 "~" H 5760 1660 50  0001 C CNN
+	1    5760 1660
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5760 1760 5760 1815
+$Comp
+L Jumper:Jumper_2_Open JP2
+U 1 1 5DFB4142
+P 5520 1615
+F 0 "JP2" V 5566 1527 50  0000 R CNN
+F 1 "Jumper_2_Open" V 5475 1527 50  0000 R CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 5520 1615 50  0001 C CNN
+F 3 "~" H 5520 1615 50  0001 C CNN
+	1    5520 1615
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5520 1815 5760 1815
+Connection ~ 5760 1815
+Wire Wire Line
+	5760 1815 5760 1855
+Wire Wire Line
+	5760 1560 5760 1415
+Wire Wire Line
+	5760 1415 5520 1415
+Wire Wire Line
+	5520 1415 5365 1415
+Connection ~ 5520 1415
 $EndSCHEMATC

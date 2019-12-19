@@ -20,3 +20,4 @@ Article](https://diyodemag.com/features/safe_3-phase_generator) using [MCP4728](
 ## Roadmap Features :
 - Experiment with power Opamps or eBay power amplifiers to output real 240v rail-to-rail swings.
 - Experiment with power path IC's to manage supply from USB vs Battery. Particulary [LTC4412](https://www.analog.com/media/en/technical-documentation/data-sheets/4412fb.pdf) is of interest at high-power modes due to losses in [Schottky diodes](https://www.analog.com/media/en/technical-documentation/product-information/Battery_Management_Soulutions_PowerPath.pdf) and LV usage with buck-converters from 240v.
+- Add I2C digital pots instead of physical pots.

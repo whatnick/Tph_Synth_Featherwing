@@ -24,3 +24,4 @@
 ## Update L for 3A (2019-12-19)
 - Initial choice had 3A as saturation current instead of operating current [SRR1005-2R2M](https://www.digikey.com/product-detail/en/bourns-inc/SRR1005-2R2M/SRR1005-2R2MTRTR-ND/419242).
 - Perform initial placement. Group functional blocks together and add missing 3D parts from manufacturer in the 3dmodels directory.
+- Do a prelim auto-route to spot placment errors and check routing feasibility.
