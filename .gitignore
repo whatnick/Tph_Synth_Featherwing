@@ -1,3 +1,6 @@
 # KiCAD Backup files
 *.bak
 *kicad_pcb-bak
+
+# Manufacturer Gerber zips
+*/gerbers/*.zip
