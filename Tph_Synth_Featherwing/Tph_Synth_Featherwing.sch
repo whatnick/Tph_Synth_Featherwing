@@ -206,4 +206,15 @@ Wire Wire Line
 	3470 4490 3470 4670
 Wire Wire Line
 	3470 4670 3930 4670
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO1
+U 1 1 5DFCD1ED
+P 7385 6865
+F 0 "LOGO1" H 7385 7140 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 7385 6640 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen" H 7385 6865 50  0001 C CNN
+F 3 "~" H 7385 6865 50  0001 C CNN
+	1    7385 6865
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
