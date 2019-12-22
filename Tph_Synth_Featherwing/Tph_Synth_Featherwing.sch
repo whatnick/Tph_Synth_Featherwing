@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Tph_Synth_Featherwing-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -77,6 +76,7 @@ F 0 "J2" H 10100 3027 50  0000 L CNN
 F 1 "Conn_01x04" H 10100 2936 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Nano-Fit_105314-xx04_2x02_P2.50mm_Horizontal" H 10020 3035 50  0001 C CNN
 F 3 "~" H 10020 3035 50  0001 C CNN
+F 4 "105314-1204" H 10020 3035 50  0001 C CNN "manf#"
 	1    10020 3035
 	1    0    0    -1  
 $EndComp
@@ -88,6 +88,7 @@ F 0 "J1" H 9675 4198 50  0000 R CNN
 F 1 "AudioJack3" H 9675 4289 50  0000 R CNN
 F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal" H 9955 4265 50  0001 C CNN
 F 3 "~" H 9955 4265 50  0001 C CNN
+F 4 "SJ-3523-SMT-TR" H 9955 4265 50  0001 C CNN "manf#"
 	1    9955 4265
 	-1   0    0    1   
 $EndComp
@@ -214,6 +215,7 @@ F 0 "LOGO1" H 7385 7140 50  0001 C CNN
 F 1 "Logo_Open_Hardware_Small" H 7385 6640 50  0001 C CNN
 F 2 "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen" H 7385 6865 50  0001 C CNN
 F 3 "~" H 7385 6865 50  0001 C CNN
+F 4 " " H 7385 6865 50  0001 C CNN "DNP"
 	1    7385 6865
 	1    0    0    -1  
 $EndComp

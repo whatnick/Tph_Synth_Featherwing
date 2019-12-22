@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Tph_Synth_Featherwing-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -27,6 +26,7 @@ F 5 "Charge Pump INV/STPUP/STPDN -1.5V to -5.5V 200mA 8-Pin SOIC N Rail" H 5515 
 F 6 "SOIC-8 Texas Instruments" H 5515 3250 50  0001 L BNN "Field6"
 F 7 "LM2663M" H 5515 3250 50  0001 L BNN "Field7"
 F 8 "Texas Instruments" H 5515 3250 50  0001 L BNN "Field8"
+F 9 "LM2663MX/NOPB" H 5515 3250 50  0001 C CNN "manf#"
 	1    5515 3250
 	1    0    0    -1  
 $EndComp
@@ -3325,6 +3325,7 @@ F 0 "C4" H 4483 3266 50  0000 L CNN
 F 1 "10u" H 4483 3175 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 4395 3220 50  0001 C CNN
 F 3 "~" H 4395 3220 50  0001 C CNN
+F 4 "GMK212BBJ106MG-T" H 4395 3220 50  0001 C CNN "manf#"
 	1    4395 3220
 	1    0    0    -1  
 $EndComp
@@ -3336,6 +3337,7 @@ F 0 "C5" H 6202 3189 50  0000 R CNN
 F 1 "10u" H 6202 3280 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6290 3235 50  0001 C CNN
 F 3 "~" H 6290 3235 50  0001 C CNN
+F 4 "GMK212BBJ106MG-T" H 6290 3235 50  0001 C CNN "manf#"
 	1    6290 3235
 	-1   0    0    1   
 $EndComp
@@ -3347,6 +3349,7 @@ F 0 "TP2" V 4885 3624 50  0000 C CNN
 F 1 "TestPoint" V 4794 3624 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4890 3550 50  0001 C CNN
 F 3 "~" H 4890 3550 50  0001 C CNN
+F 4 " " H 4690 3550 50  0001 C CNN "DNP"
 	1    4690 3550
 	0    -1   -1   0   
 $EndComp
@@ -3358,6 +3361,7 @@ F 0 "TP1" V 4885 3424 50  0000 C CNN
 F 1 "TestPoint" V 4794 3424 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4890 3350 50  0001 C CNN
 F 3 "~" H 4890 3350 50  0001 C CNN
+F 4 " " H 4690 3350 50  0001 C CNN "DNP"
 	1    4690 3350
 	0    -1   -1   0   
 $EndComp

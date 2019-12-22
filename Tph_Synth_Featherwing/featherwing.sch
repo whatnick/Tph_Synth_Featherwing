@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Tph_Synth_Featherwing-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -22,6 +21,7 @@ F 0 "MS1" H 4790 3370 45  0001 C CNN
 F 1 "ADAFRUIT_FEATHERWING" H 4790 3370 45  0001 C CNN
 F 2 "featherwing:adafruit_featherwing" H 4790 3370 50  0001 C CNN
 F 3 "" H 4790 3370 50  0001 C CNN
+F 4 "3200" H 4790 3370 50  0001 C CNN "manf#"
 	1    4790 3370
 	1    0    0    -1  
 $EndComp
