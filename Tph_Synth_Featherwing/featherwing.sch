@@ -55,4 +55,6 @@ Text HLabel 5590 1870 1    50   Output ~ 0
 VUSB
 Text HLabel 5390 1870 1    50   Output ~ 0
 VBAT
+Text HLabel 5090 3570 0    50   Output ~ 0
+3V3
 $EndSCHEMATC
