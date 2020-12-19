@@ -966,6 +966,12 @@
     (path "/00000000-0000-0000-0000-00005dcbf63f/7fb48a19-c9b9-434f-8c8f-f93783d57d2c"
       (reference "#PWR0102") (unit 1) (value "+3V3") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00005dcbf63f/f96545fa-8bc1-471c-99be-e05e5b33efd8"
+      (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005dcbf63f/9de356db-151a-4d2a-bc2f-4df1322318a2"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005dcbf63f/00000000-0000-0000-0000-00005deccadb"
       (reference "C13") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -980,6 +986,9 @@
     )
     (path "/00000000-0000-0000-0000-00005dcbf63f/00000000-0000-0000-0000-00005df80626"
       (reference "C17") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005dcbf63f/f2bd2228-639a-485c-88f1-1293787ec652"
+      (reference "J3") (unit 1) (value "Conn_01x04") (footprint "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005dcbf63f/00000000-0000-0000-0000-00005decea02"
       (reference "R16") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0603_1608Metric")
