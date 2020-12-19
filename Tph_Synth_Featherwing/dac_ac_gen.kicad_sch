@@ -19727,6 +19727,9 @@
     (property "Datasheet" "~" (id 3) (at 175.26 77.6732 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "manf#" "SM04B-SRSS-TB(LF)(SN)" (id 4) (at 175.26 77.6732 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
 
   (symbol (lib_id "Analog_DAC:MCP4728") (at 104.394 85.598 0) (unit 1)
