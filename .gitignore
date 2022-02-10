@@ -4,3 +4,4 @@
 
 # Manufacturer Gerber zips
 */gerbers/*.zip
+.vscode/settings.json
