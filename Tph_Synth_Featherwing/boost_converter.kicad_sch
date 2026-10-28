@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "1755646e-fc08-4e43-a301-d9b3ea704cf6")
 	(paper "A4")
+	(title_block
+		(title "3-Phase Synth FeatherWing")
+		(date "2026-10-28")
+		(rev "0.4")
+	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers
@@ -3155,7 +3160,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005df574f0")
 		(property "Reference" "U1"
-			(at 142.24 60.96 0)
+			(at 142.24 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3325,7 +3330,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005df576a6")
 		(property "Reference" "L1"
-			(at 104.14 67.31 0)
+			(at 104.14 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3336,7 +3341,7 @@
 			)
 		)
 		(property "Value" "2.2uH/3A"
-			(at 104.14 69.85 0)
+			(at 104.14 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3346,7 +3351,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Bourns-SRR1005"
+		(property "Footprint" "FeatherWing_v04:L_Bourns-SRR1005_ProjectModel"
 			(at 104.14 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4200,7 +4205,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005df67867")
 		(property "Reference" "D1"
-			(at 195.58 62.23 0)
+			(at 195.58 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4284,7 +4289,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4459,7 +4464,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005df7cb12")
 		(property "Reference" "D2"
-			(at 195.58 68.58 0)
+			(at 195.58 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4469,7 +4474,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 195.58 71.12 0)
+			(at 195.58 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

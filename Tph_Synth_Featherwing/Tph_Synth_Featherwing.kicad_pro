@@ -119,7 +119,7 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "ignore",
+        "silk_edge_clearance": "error",
         "silk_over_copper": "error",
         "silk_overlap": "error",
         "skew_out_of_range": "error",

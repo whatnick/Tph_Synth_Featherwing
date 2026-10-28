@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "a49e8613-3cd2-48ed-8977-6bb5023f7722")
 	(paper "A4")
+	(title_block
+		(title "3-Phase Synth FeatherWing")
+		(date "2026-10-28")
+		(rev "0.4")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
@@ -5680,7 +5685,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
 		)
@@ -5690,9 +5695,11 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
+
+			(hide yes)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 63.5 33.02 0)
@@ -5792,7 +5799,7 @@
 	(symbol
 		(lib_id "Device:Opamp_Quad")
 		(at 63.5 62.23 0)
-		(unit 1)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5806,7 +5813,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
 		)
@@ -5816,9 +5823,11 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
+
+			(hide yes)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 63.5 62.23 0)
@@ -5918,7 +5927,7 @@
 	(symbol
 		(lib_id "Device:Opamp_Quad")
 		(at 63.5 87.63 0)
-		(unit 1)
+		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5932,7 +5941,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
 		)
@@ -5942,9 +5951,11 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
+
+			(hide yes)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 63.5 87.63 0)
@@ -6045,7 +6056,7 @@
 		(lib_id "Device:Opamp_Quad")
 		(at 176.53 38.1 0)
 		(mirror x)
-		(unit 1)
+		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6054,12 +6065,12 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005dcbfba5")
 		(property "Reference" "U3"
-			(at 176.53 48.26 0)
+			(at 181.61 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
 		)
@@ -6069,9 +6080,11 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
+
+			(hide yes)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 176.53 38.1 0)
@@ -6171,7 +6184,7 @@
 	(symbol
 		(lib_id "Device:Opamp_Quad")
 		(at 250.19 40.64 0)
-		(unit 1)
+		(unit 5)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6180,23 +6193,23 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005dcbfc26")
 		(property "Reference" "U3"
-			(at 248.92 39.37 0)
+			(at 254 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "Opamp_Quad_Generic"
-			(at 248.92 40.64 0)
+			(at 254 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 				(justify left)
 			)
@@ -6308,22 +6321,22 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005df55cb7")
 		(property "Reference" "R4"
-			(at 53.34 30.48 90)
+			(at 53.34 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
 		)
 		(property "Value" "10k"
-			(at 53.34 33.02 90)
+			(at 53.34 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
 		)
@@ -6398,22 +6411,22 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005df55d16")
 		(property "Reference" "R6"
-			(at 53.34 59.69 90)
+			(at 53.34 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
 		)
 		(property "Value" "10k"
-			(at 53.34 60.96 90)
+			(at 53.34 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
 		)
@@ -6488,22 +6501,22 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005df55d6a")
 		(property "Reference" "R5"
-			(at 53.34 85.09 90)
+			(at 53.34 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
 		)
 		(property "Value" "10k"
-			(at 53.34 87.63 90)
+			(at 53.34 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
 		)
@@ -6583,7 +6596,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
 		)
@@ -6593,7 +6606,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
 		)
@@ -6668,28 +6681,28 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005df56149")
 		(property "Reference" "R8"
-			(at 63.5 44.45 0)
+			(at 62.23 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "100k var"
-			(at 60.96 44.45 0)
+			(at 62.23 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-2_Single_Horizontal"
+		(property "Footprint" "FeatherWing_v04:Potentiometer_Bourns_PTV09A-2_Single_Horizontal_EdgeMounted"
 			(at 62.23 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -6760,28 +6773,28 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005df561ad")
 		(property "Reference" "R9"
-			(at 63.5 73.66 0)
+			(at 62.23 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "100k var"
-			(at 60.96 73.66 0)
+			(at 62.23 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-2_Single_Horizontal"
+		(property "Footprint" "FeatherWing_v04:Potentiometer_Bourns_PTV09A-2_Single_Horizontal_EdgeMounted"
 			(at 62.23 68.58 90)
 			(hide yes)
 			(show_name no)
@@ -6852,28 +6865,28 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005df561ed")
 		(property "Reference" "R7"
-			(at 63.5 100.33 0)
+			(at 62.23 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "100k var"
-			(at 60.96 100.33 0)
+			(at 62.23 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-2_Single_Horizontal"
+		(property "Footprint" "FeatherWing_v04:Potentiometer_Bourns_PTV09A-2_Single_Horizontal_EdgeMounted"
 			(at 62.23 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -6944,23 +6957,23 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005df56243")
 		(property "Reference" "R10"
-			(at 152.4 48.26 0)
+			(at 153.67 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "2k Trim"
-			(at 154.94 48.26 0)
+			(at 153.67 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 				(justify left)
 			)
@@ -7041,7 +7054,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
 		)
@@ -7051,7 +7064,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
 		)
@@ -7131,7 +7144,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
 		)
@@ -7141,7 +7154,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
 		)
@@ -7216,22 +7229,22 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005df6b1a0")
 		(property "Reference" "C12"
-			(at 175.26 26.67 90)
+			(at 181.61 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
 		)
 		(property "Value" "5p"
-			(at 175.26 29.21 90)
+			(at 181.61 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
 		)
@@ -7311,7 +7324,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
 		)
@@ -7321,7 +7334,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
 		)
@@ -7401,7 +7414,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
 		)
@@ -7411,7 +7424,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
 		)
@@ -7491,7 +7504,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
 		)
@@ -7501,7 +7514,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
 		)
@@ -7581,7 +7594,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
 		)
@@ -7591,7 +7604,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
 		)
@@ -7748,7 +7761,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
 		)
@@ -7758,7 +7771,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
 		)
@@ -7838,7 +7851,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 				(justify right)
 			)
@@ -7849,12 +7862,12 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-2_Single_Horizontal"
+		(property "Footprint" "FeatherWing_v04:Potentiometer_Bourns_PTV09A-2_Single_Horizontal_EdgeMounted"
 			(at 146.05 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -8010,7 +8023,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
 		)
@@ -8020,7 +8033,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
 		)
@@ -8100,7 +8113,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
 		)
@@ -8110,7 +8123,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
 		)
@@ -8190,7 +8203,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
 		)
@@ -8200,7 +8213,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 			)
 		)
@@ -8269,18 +8282,18 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005df7507c")
 		(property "Reference" "TP4"
-			(at 170.18 52.07 0)
+			(at 168.91 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 				(justify right)
 			)
@@ -8291,10 +8304,12 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 				(justify right)
 			)
+
+			(hide yes)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 163.83 50.8 0)
@@ -8358,7 +8373,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8369,7 +8384,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 				(justify left)
 			)
@@ -8380,10 +8395,12 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 				(justify left)
 			)
+
+			(hide yes)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 193.04 55.88 0)
@@ -8447,18 +8464,18 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005df751bb")
 		(property "Reference" "TP3"
-			(at 151.13 48.26 0)
+			(at 149.86 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 				(justify left)
 			)
@@ -8469,10 +8486,12 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 				(justify left)
 			)
+
+			(hide yes)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 154.94 50.8 0)
@@ -8781,7 +8800,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 				(justify left)
 			)
@@ -8792,7 +8811,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 				(justify left)
 			)
@@ -8862,32 +8881,34 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005dfb4142")
 		(property "Reference" "JP2"
-			(at 142.24 39.37 90)
+			(at 134.62 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 				(justify right)
 			)
 		)
 		(property "Value" "Jumper_2_Open"
-			(at 142.24 41.91 90)
+			(at 134.62 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
 				(justify right)
 			)
+
+			(hide yes)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 139.7 40.64 0)
@@ -8980,6 +9001,8 @@
 				)
 				(justify left)
 			)
+
+			(hide yes)
 		)
 		(property "Footprint" ""
 			(at 248.92 33.02 0)

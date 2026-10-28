@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "7b044939-8c4d-444f-b9e0-a15fcdeb5a86")
 	(paper "A4")
+	(title_block
+		(title "3-Phase Synth FeatherWing")
+		(date "2026-10-28")
+		(rev "0.4")
+	)
 	(lib_symbols
 		(symbol "Analog_DAC:MCP4728"
 			(pin_names
@@ -21276,13 +21281,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005decf0bd")
 		(property "Reference" "TP6"
-			(at 71.12 83.82 90)
+			(at 72.39 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21300,6 +21305,8 @@
 					(size 1.27 1.27)
 				)
 			)
+
+			(hide yes)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 72.39 82.55 0)
@@ -21363,13 +21370,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005decf142")
 		(property "Reference" "TP7"
-			(at 87.63 86.36 90)
+			(at 88.9 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21387,6 +21394,8 @@
 					(size 1.27 1.27)
 				)
 			)
+
+			(hide yes)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 88.9 85.09 0)
@@ -21456,23 +21465,23 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005df8058e")
 		(property "Reference" "C14"
-			(at 121.92 95.25 0)
+			(at 120.65 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "100n"
-			(at 121.92 97.79 0)
+			(at 120.65 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
 				(justify left)
 			)
@@ -21548,23 +21557,23 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005df805ce")
 		(property "Reference" "C15"
-			(at 125.73 95.25 0)
+			(at 124.46 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "100n"
-			(at 125.73 97.79 0)
+			(at 124.46 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
 				(justify left)
 			)
@@ -21640,23 +21649,23 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005df805f6")
 		(property "Reference" "C16"
-			(at 129.54 95.25 0)
+			(at 128.27 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "100n"
-			(at 129.54 97.79 0)
+			(at 128.27 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
 				(justify left)
 			)
@@ -21732,23 +21741,23 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005df80626")
 		(property "Reference" "C17"
-			(at 133.35 95.25 0)
+			(at 132.08 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "100n"
-			(at 133.35 97.79 0)
+			(at 132.08 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
 				(justify left)
 			)
@@ -22054,7 +22063,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9de356db-151a-4d2a-bc2f-4df1322318a2")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0105"
 			(at 163.83 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -22115,7 +22124,7 @@
 		(instances
 			(project "Tph_Synth_Featherwing"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005dcbf63f"
-					(reference "#PWR?")
+					(reference "#PWR0105")
 						(unit 1)
 				)
 			)
