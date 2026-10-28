@@ -1,4 +1,5 @@
 (fp_lib_table
-  (lib (name LM2663M)(type Legacy)(uri "$(KIPRJMOD)/footprints/LM2663M.mod")(options "")(descr ""))
+  (lib (name LM2663M)(type KiCad)(uri "$(KIPRJMOD)/footprints/LM2663M.pretty")(options "")(descr ""))
   (lib (name featherwing)(type KiCad)(uri "$(KIPRJMOD)/footprints")(options "")(descr ""))
+  (lib (name FeatherWing_v04)(type KiCad)(uri "${KIPRJMOD}/footprints/V04.pretty")(options "")(descr "v0.4 edge-mounted footprints with board-safe silkscreen"))
 )

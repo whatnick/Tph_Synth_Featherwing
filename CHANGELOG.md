@@ -1,5 +1,25 @@
 # CHANGELOG
 
+## v0.4 - KiCad 10 migration (2026-10-28)
+- Upgrade the six-sheet schematic, PCB and project-local libraries to KiCad 10.
+- Restore hierarchical instances, annotate the remaining power symbol and
+  retain the correct unit selection when opening the op-amp sheet standalone.
+- Synchronize all PCB pad nets, schematic paths, component fields and BOM
+  exclusions without changing the existing routed copper topology.
+- Update PCB silkscreen and schematic/PCB title blocks to revision 0.4.
+- Add project-local edge-mounted footprint variants: keep silkscreen inside
+  the PCB while retaining off-board mechanical graphics on the fabrication layer.
+  Silkscreen-edge checking is enabled, not suppressed.
+- Restore the existing project-local connector, potentiometer and inductor
+  STEP models with their original placement transforms.
+- Correct sheet numbering and improve crowded schematic reference/value fields.
+- Validate with KiCad 10 ERC and DRC including schematic parity: zero violations,
+  zero unconnected items and zero parity mismatches. Verify PDF, netlist,
+  Gerber, drill and assembled STEP exports and inspect schematic/PCB renders.
+- Retain the migration's 0.15 mm Default/Power netclass clearances. This is a CAD
+  compatibility revision; analog performance and host firmware still require
+  hardware validation.
+
 ## Initial Part Selection (2019-11-13)
 - DAC - 
 [MCP4728](https://au.element14.com/microchip/mcp4728-e-un/ic-dac-12bit-quad-10msop/dp/1800217)

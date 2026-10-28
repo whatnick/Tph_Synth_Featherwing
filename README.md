@@ -3,6 +3,32 @@
 This is a FeatherWing ideally used with Teensy 3.2/4.0 to drive a high-speed DAC with 
 filtering and signal conditioning using Opamps.
 
+## KiCad 10 design
+
+Revision **v0.4 (2026-10-28)** is maintained in
+`Tph_Synth_Featherwing\Tph_Synth_Featherwing.kicad_pro`. Open that project and
+its root schematic rather than treating the hierarchical sheets as separate
+projects. The revision is also printed on the PCB bottom silkscreen.
+
+The project-local symbol and footprint tables resolve the converted libraries,
+board-edge silkscreen variants and existing `3dmodels` assets. Keep these
+directories together with the project and install the standard KiCad 10
+symbol, footprint and 3D-model libraries.
+
+From the repository root, validate with KiCad 10's `kicad-cli` on `PATH`:
+
+```powershell
+kicad-cli sch erc .\Tph_Synth_Featherwing\Tph_Synth_Featherwing.kicad_sch --severity-all --exit-code-violations
+kicad-cli pcb drc .\Tph_Synth_Featherwing\Tph_Synth_Featherwing.kicad_pcb --severity-all --schematic-parity --exit-code-violations
+```
+
+Both checks pass with zero violations, unconnected items or schematic-parity
+mismatches. All 515 existing tracks/vias and component placement are preserved.
+The Default and Power netclasses use 0.15 mm clearance; silkscreen-edge checking
+is enabled. See [the v0.4 schematic](doc/v0.4/schematic.pdf) and
+[top](doc/v0.4/board-top.png)/[bottom](doc/v0.4/board-bottom.png) renders.
+These CAD checks do not replace hardware/firmware and analog-output testing.
+
 ## Features :
 - 50/60 Hz Frequency Selector ( Possibly just do it in software).
 - Pot driven voltage Setting by controlling inverting-Opamp gain.
