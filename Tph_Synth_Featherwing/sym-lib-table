@@ -1,5 +1,5 @@
 (sym_lib_table
-  (lib (name LM2663M)(type Legacy)(uri ${KIPRJMOD}/library/LM2663M.lib)(options "")(descr ""))
-  (lib (name adafruit_featherwing)(type Legacy)(uri ${KIPRJMOD}/library/adafruit_featherwing.lib)(options "")(descr ""))
-  (lib (name PAM2401SCADJ)(type Legacy)(uri ${KIPRJMOD}/library/PAM2401SCADJ.lib)(options "")(descr ""))
+  (lib (name LM2663M)(type KiCad)(uri ${KIPRJMOD}/library/LM2663M.kicad_sym)(options "")(descr ""))
+  (lib (name adafruit_featherwing)(type KiCad)(uri ${KIPRJMOD}/library/adafruit_featherwing.kicad_sym)(options "")(descr ""))
+  (lib (name PAM2401SCADJ)(type KiCad)(uri ${KIPRJMOD}/library/PAM2401SCADJ.kicad_sym)(options "")(descr ""))
 )
