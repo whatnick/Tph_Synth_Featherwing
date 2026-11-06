@@ -1613,15 +1613,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ADAFRUIT_FEATHERWING; adafruit_featherwing_HostOutlineOnFab; legacy MPN 3200"
 			(at 121.92 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "3200"
 			(at 121.92 85.09 0)
@@ -1726,6 +1721,48 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "External host"
+			(at 121.92 85.09 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=3200"
+			(at 121.92 85.09 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "3200"
+			(at 121.92 85.09 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Adafruit"
+			(at 121.92 85.09 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=3200"
+			(at 121.92 85.09 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Adafruit 3200 is an external Teensy 3.x-to-Feather adapter, not a component fitted at MS1. Exclude from PCB assembly purchasing and positions. Choose mating 12-pin and 16-pin headers and stacking height separately; Teensy is not included."
+			(at 121.92 85.09 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "EXTERNAL_HOST_NOT_FITTED"
+			(at 121.92 85.09 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol

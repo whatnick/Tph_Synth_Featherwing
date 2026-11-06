@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## Manufacturing preparation and issue #3 (2026-11-06)
+- Add aligned SDA, SCL, 3V3, GND, VUSB and VBAT labels at their actual Feather
+  header pads on both silkscreen layers, mirrored correctly on the back.
+- Enforce 0.15 mm silkscreen clearance instead of the former zero-clearance
+  threshold. Remove the eight exposed overlaps, retain visible test-pad
+  references and move U4's reference clear of the new 3V3 marking.
+- Preserve all routed copper, pad geometry and component placement.
+- Add schematic/PCB sourcing fields and a reproducible manufacturing exporter
+  with checked Gerbers, split drills, review BOM, SMT placements and hash manifest.
+- Keep assembly/purchasing on hold for the documented C12 package mismatch,
+  C1-C3 lifecycle review, R10 fit, header selection and remaining sourcing checks.
+
 ## v0.4 - KiCad 10 migration (2026-10-28)
 - Upgrade the six-sheet schematic, PCB and project-local libraries to KiCad 10.
 - Restore hierarchical instances, annotate the remaining power symbol and

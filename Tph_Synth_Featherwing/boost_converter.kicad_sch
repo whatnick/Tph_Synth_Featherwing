@@ -3203,15 +3203,10 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PAM2401SCADJ; MSOP-8_3x3mm_P0.65mm; legacy MPN PAM2401SCADJ"
 			(at 142.24 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "Field4" "Unavailable"
 			(at 142.24 82.55 0)
@@ -3317,6 +3312,48 @@
 				)
 			)
 		)
+
+		(property "Assembly" "SMT"
+			(at 142.24 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=PAM2401SCADJ"
+			(at 142.24 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "PAM2401SCADJ"
+			(at 142.24 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 142.24 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=PAM2401SCADJ"
+			(at 142.24 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+			(at 142.24 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+			(at 142.24 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
 	)
 	(symbol
 		(lib_id "Device:L")
@@ -3373,15 +3410,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.2uH/3A; L_Bourns-SRR1005_ProjectModel; legacy MPN SRR1005-2R2M"
 			(at 104.14 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "SRR1005-2R2M"
 			(at 104.14 68.58 0)
@@ -3408,6 +3440,48 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 104.14 68.58 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=SRR1005-2R2M"
+			(at 104.14 68.58 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "SRR1005-2R2M"
+			(at 104.14 68.58 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Bourns"
+			(at 104.14 68.58 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=SRR1005-2R2M"
+			(at 104.14 68.58 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+			(at 104.14 68.58 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+			(at 104.14 68.58 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -3465,15 +3539,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "22u; C_0805_2012Metric; legacy MPN C2012JB1V226M125AC"
 			(at 97.79 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "C2012JB1V226M125AC"
 			(at 97.79 72.39 0)
@@ -3500,6 +3569,48 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 97.79 72.39 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=C2012JB1V226M125AC"
+			(at 97.79 72.39 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "C2012JB1V226M125AC"
+			(at 97.79 72.39 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "TDK"
+			(at 97.79 72.39 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=C2012JB1V226M125AC"
+			(at 97.79 72.39 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Distributor search results flag this legacy MPN obsolete; confirm lifecycle through distributor API or manufacturer. A replacement must fit 0805 and meet 22 uF, voltage, dielectric, DC-bias and boost-converter stability requirements."
+			(at 97.79 72.39 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "HOLD_LIFECYCLE_REVIEW"
+			(at 97.79 72.39 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -3557,15 +3668,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100k; R_0603_1608Metric; legacy MPN RC0603FR-07100KL"
 			(at 165.1 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "RC0603FR-07100KL"
 			(at 165.1 83.82 0)
@@ -3592,6 +3698,48 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 165.1 83.82 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=RC0603FR-07100KL"
+			(at 165.1 83.82 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "RC0603FR-07100KL"
+			(at 165.1 83.82 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "YAGEO"
+			(at 165.1 83.82 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=RC0603FR-07100KL"
+			(at 165.1 83.82 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+			(at 165.1 83.82 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+			(at 165.1 83.82 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -3649,15 +3797,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "750k; R_0603_1608Metric; legacy MPN RC0603FR-07750KL"
 			(at 165.1 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "RC0603FR-07750KL"
 			(at 165.1 73.66 0)
@@ -3684,6 +3827,48 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 165.1 73.66 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=RC0603FR-07750KL"
+			(at 165.1 73.66 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "RC0603FR-07750KL"
+			(at 165.1 73.66 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "YAGEO"
+			(at 165.1 73.66 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=RC0603FR-07750KL"
+			(at 165.1 73.66 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+			(at 165.1 73.66 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+			(at 165.1 73.66 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -3741,15 +3926,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "22u; C_0805_2012Metric; legacy MPN C2012JB1V226M125AC"
 			(at 181.61 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "C2012JB1V226M125AC"
 			(at 181.61 73.66 0)
@@ -3776,6 +3956,48 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 181.61 73.66 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=C2012JB1V226M125AC"
+			(at 181.61 73.66 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "C2012JB1V226M125AC"
+			(at 181.61 73.66 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "TDK"
+			(at 181.61 73.66 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=C2012JB1V226M125AC"
+			(at 181.61 73.66 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Distributor search results flag this legacy MPN obsolete; confirm lifecycle through distributor API or manufacturer. A replacement must fit 0805 and meet 22 uF, voltage, dielectric, DC-bias and boost-converter stability requirements."
+			(at 181.61 73.66 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "HOLD_LIFECYCLE_REVIEW"
+			(at 181.61 73.66 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -3833,15 +4055,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "22u; C_0805_2012Metric; legacy MPN C2012JB1V226M125AC"
 			(at 175.26 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "C2012JB1V226M125AC"
 			(at 175.26 73.66 0)
@@ -3868,6 +4085,48 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 175.26 73.66 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=C2012JB1V226M125AC"
+			(at 175.26 73.66 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "C2012JB1V226M125AC"
+			(at 175.26 73.66 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "TDK"
+			(at 175.26 73.66 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=C2012JB1V226M125AC"
+			(at 175.26 73.66 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Distributor search results flag this legacy MPN obsolete; confirm lifecycle through distributor API or manufacturer. A replacement must fit 0805 and meet 22 uF, voltage, dielectric, DC-bias and boost-converter stability requirements."
+			(at 175.26 73.66 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "HOLD_LIFECYCLE_REVIEW"
+			(at 175.26 73.66 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -3925,15 +4184,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10k; R_0603_1608Metric; legacy MPN RT0603FRD0710KL"
 			(at 114.3 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "RT0603FRD0710KL"
 			(at 114.3 68.58 0)
@@ -3960,6 +4214,48 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 114.3 68.58 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=RT0603FRD0710KL"
+			(at 114.3 68.58 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "RT0603FRD0710KL"
+			(at 114.3 68.58 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "YAGEO"
+			(at 114.3 68.58 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=RT0603FRD0710KL"
+			(at 114.3 68.58 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+			(at 114.3 68.58 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+			(at 114.3 68.58 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -4246,15 +4542,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "D_Schottky; D_SMB; legacy MPN B330B-13-F"
 			(at 195.58 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "B330B-13-F"
 			(at 195.58 67.31 0)
@@ -4281,6 +4572,48 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 195.58 67.31 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=B330B-13-F"
+			(at 195.58 67.31 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "B330B-13-F"
+			(at 195.58 67.31 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 195.58 67.31 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=B330B-13-F"
+			(at 195.58 67.31 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+			(at 195.58 67.31 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+			(at 195.58 67.31 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -4505,15 +4838,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "D_Schottky; D_SMB; legacy MPN B330B-13-F"
 			(at 195.58 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "B330B-13-F"
 			(at 195.58 74.93 0)
@@ -4540,6 +4868,48 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 195.58 74.93 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=B330B-13-F"
+			(at 195.58 74.93 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "B330B-13-F"
+			(at 195.58 74.93 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 195.58 74.93 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=B330B-13-F"
+			(at 195.58 74.93 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+			(at 195.58 74.93 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+			(at 195.58 74.93 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 )

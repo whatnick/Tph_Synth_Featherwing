@@ -5,3 +5,7 @@
 # Manufacturer Gerber zips
 */gerbers/*.zip
 .vscode/settings.json
+
+# Local Python caches
+__pycache__/
+*.pyc

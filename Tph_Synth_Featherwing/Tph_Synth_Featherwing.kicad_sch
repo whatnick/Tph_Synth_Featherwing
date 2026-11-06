@@ -1422,15 +1422,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Conn_01x04; Molex_Nano-Fit_105314-xx04_2x02_P2.50mm_Horizontal_EdgeMounted; legacy MPN 105314-1204"
 			(at 254 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "105314-1204"
 			(at 254 77.47 0)
@@ -1463,6 +1458,48 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "THT"
+			(at 254 77.47 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=105314-1204"
+			(at 254 77.47 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "105314-1204"
+			(at 254 77.47 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Molex"
+			(at 254 77.47 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=105314-1204"
+			(at 254 77.47 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+			(at 254 77.47 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+			(at 254 77.47 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -1520,15 +1557,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "AudioJack3; Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal_EdgeMounted; legacy MPN SJ-3523-SMT-TR"
 			(at 252.73 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "SJ-3523-SMT-TR"
 			(at 252.73 107.95 0)
@@ -1558,6 +1590,48 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 252.73 107.95 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=SJ-3523-SMT-TR"
+			(at 252.73 107.95 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "SJ-3523-SMT-TR"
+			(at 252.73 107.95 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Same Sky"
+			(at 252.73 107.95 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=SJ-3523-SMT-TR"
+			(at 252.73 107.95 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+			(at 252.73 107.95 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+			(at 252.73 107.95 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol

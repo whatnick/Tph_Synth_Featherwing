@@ -5723,15 +5723,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Opamp_Quad_Generic; TSSOP-14_4.4x5mm_P0.65mm; legacy MPN LM324PWR"
 			(at 63.5 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "LM324PWR"
 			(at 63.5 33.02 0)
@@ -5795,6 +5790,48 @@
 				)
 			)
 		)
+
+		(property "Assembly" "SMT"
+			(at 63.5 33.02 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=LM324PWR"
+			(at 63.5 33.02 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "LM324PWR"
+			(at 63.5 33.02 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Texas Instruments"
+			(at 63.5 33.02 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=LM324PWR"
+			(at 63.5 33.02 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+			(at 63.5 33.02 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+			(at 63.5 33.02 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
 	)
 	(symbol
 		(lib_id "Device:Opamp_Quad")
@@ -5851,15 +5888,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Opamp_Quad_Generic; TSSOP-14_4.4x5mm_P0.65mm; legacy MPN LM324PWR"
 			(at 63.5 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "LM324PWR"
 			(at 63.5 62.23 0)
@@ -5923,6 +5955,48 @@
 				)
 			)
 		)
+
+		(property "Assembly" "SMT"
+			(at 63.5 62.23 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=LM324PWR"
+			(at 63.5 62.23 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "LM324PWR"
+			(at 63.5 62.23 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Texas Instruments"
+			(at 63.5 62.23 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=LM324PWR"
+			(at 63.5 62.23 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+			(at 63.5 62.23 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+			(at 63.5 62.23 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
 	)
 	(symbol
 		(lib_id "Device:Opamp_Quad")
@@ -5979,15 +6053,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Opamp_Quad_Generic; TSSOP-14_4.4x5mm_P0.65mm; legacy MPN LM324PWR"
 			(at 63.5 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "LM324PWR"
 			(at 63.5 87.63 0)
@@ -6051,6 +6120,48 @@
 				)
 			)
 		)
+
+		(property "Assembly" "SMT"
+			(at 63.5 87.63 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=LM324PWR"
+			(at 63.5 87.63 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "LM324PWR"
+			(at 63.5 87.63 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Texas Instruments"
+			(at 63.5 87.63 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=LM324PWR"
+			(at 63.5 87.63 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+			(at 63.5 87.63 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+			(at 63.5 87.63 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
 	)
 	(symbol
 		(lib_id "Device:Opamp_Quad")
@@ -6108,15 +6219,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Opamp_Quad_Generic; TSSOP-14_4.4x5mm_P0.65mm; legacy MPN LM324PWR"
 			(at 176.53 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "LM324PWR"
 			(at 176.53 38.1 0)
@@ -6180,6 +6286,48 @@
 				)
 			)
 		)
+
+		(property "Assembly" "SMT"
+			(at 176.53 38.1 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=LM324PWR"
+			(at 176.53 38.1 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "LM324PWR"
+			(at 176.53 38.1 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Texas Instruments"
+			(at 176.53 38.1 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=LM324PWR"
+			(at 176.53 38.1 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+			(at 176.53 38.1 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+			(at 176.53 38.1 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
 	)
 	(symbol
 		(lib_id "Device:Opamp_Quad")
@@ -6236,15 +6384,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Opamp_Quad_Generic; TSSOP-14_4.4x5mm_P0.65mm; legacy MPN LM324PWR"
 			(at 250.19 40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "LM324PWR"
 			(at 250.19 40.64 0)
@@ -6308,6 +6451,48 @@
 				)
 			)
 		)
+
+		(property "Assembly" "SMT"
+			(at 250.19 40.64 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=LM324PWR"
+			(at 250.19 40.64 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "LM324PWR"
+			(at 250.19 40.64 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Texas Instruments"
+			(at 250.19 40.64 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=LM324PWR"
+			(at 250.19 40.64 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+			(at 250.19 40.64 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+			(at 250.19 40.64 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -6362,15 +6547,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10k; R_0603_1608Metric; legacy MPN RT0603FRD0710KL"
 			(at 53.34 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "RT0603FRD0710KL"
 			(at 53.34 35.56 0)
@@ -6397,6 +6577,48 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 53.34 35.56 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=RT0603FRD0710KL"
+			(at 53.34 35.56 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "RT0603FRD0710KL"
+			(at 53.34 35.56 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "YAGEO"
+			(at 53.34 35.56 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=RT0603FRD0710KL"
+			(at 53.34 35.56 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+			(at 53.34 35.56 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+			(at 53.34 35.56 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -6452,15 +6674,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10k; R_0603_1608Metric; legacy MPN RT0603FRD0710KL"
 			(at 53.34 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "RT0603FRD0710KL"
 			(at 53.34 64.77 0)
@@ -6487,6 +6704,48 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 53.34 64.77 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=RT0603FRD0710KL"
+			(at 53.34 64.77 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "RT0603FRD0710KL"
+			(at 53.34 64.77 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "YAGEO"
+			(at 53.34 64.77 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=RT0603FRD0710KL"
+			(at 53.34 64.77 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+			(at 53.34 64.77 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+			(at 53.34 64.77 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -6542,15 +6801,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10k; R_0603_1608Metric; legacy MPN RT0603FRD0710KL"
 			(at 53.34 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "RT0603FRD0710KL"
 			(at 53.34 90.17 0)
@@ -6577,6 +6831,48 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 53.34 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=RT0603FRD0710KL"
+			(at 53.34 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "RT0603FRD0710KL"
+			(at 53.34 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "YAGEO"
+			(at 53.34 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=RT0603FRD0710KL"
+			(at 53.34 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+			(at 53.34 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+			(at 53.34 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -6632,15 +6928,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100k / 0.25%; R_0603_1608Metric; legacy MPN RT0603CRE07100KL"
 			(at 175.26 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "RT0603CRE07100KL"
 			(at 175.26 50.8 0)
@@ -6667,6 +6958,48 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 175.26 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=RT0603CRE07100KL"
+			(at 175.26 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "RT0603CRE07100KL"
+			(at 175.26 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "YAGEO"
+			(at 175.26 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=RT0603CRE07100KL"
+			(at 175.26 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+			(at 175.26 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+			(at 175.26 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -6724,15 +7057,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100k var; Potentiometer_Bourns_PTV09A-2_Single_Horizontal_EdgeMounted; legacy MPN PTV09A-2020F-B104"
 			(at 62.23 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "PTV09A-2020F-B104"
 			(at 62.23 41.91 0)
@@ -6759,6 +7087,48 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "THT"
+			(at 62.23 41.91 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=PTV09A-2020F-B104"
+			(at 62.23 41.91 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "PTV09A-2020F-B104"
+			(at 62.23 41.91 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Bourns"
+			(at 62.23 41.91 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=PTV09A-2020F-B104"
+			(at 62.23 41.91 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+			(at 62.23 41.91 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+			(at 62.23 41.91 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -6816,15 +7186,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100k var; Potentiometer_Bourns_PTV09A-2_Single_Horizontal_EdgeMounted; legacy MPN PTV09A-2020F-B104"
 			(at 62.23 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "PTV09A-2020F-B104"
 			(at 62.23 69.85 0)
@@ -6851,6 +7216,48 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "THT"
+			(at 62.23 69.85 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=PTV09A-2020F-B104"
+			(at 62.23 69.85 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "PTV09A-2020F-B104"
+			(at 62.23 69.85 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Bourns"
+			(at 62.23 69.85 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=PTV09A-2020F-B104"
+			(at 62.23 69.85 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+			(at 62.23 69.85 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+			(at 62.23 69.85 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -6908,15 +7315,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100k var; Potentiometer_Bourns_PTV09A-2_Single_Horizontal_EdgeMounted; legacy MPN PTV09A-2020F-B104"
 			(at 62.23 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "PTV09A-2020F-B104"
 			(at 62.23 96.52 0)
@@ -6943,6 +7345,48 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "THT"
+			(at 62.23 96.52 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=PTV09A-2020F-B104"
+			(at 62.23 96.52 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "PTV09A-2020F-B104"
+			(at 62.23 96.52 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Bourns"
+			(at 62.23 96.52 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=PTV09A-2020F-B104"
+			(at 62.23 96.52 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+			(at 62.23 96.52 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+			(at 62.23 96.52 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -7000,15 +7444,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2k Trim; Potentiometer_Bourns_3296W_Vertical; legacy MPN PV36W202C01B00"
 			(at 153.67 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "PV36W202C01B00"
 			(at 153.67 50.8 0)
@@ -7035,6 +7474,48 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "THT"
+			(at 153.67 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=PV36W202C01B00"
+			(at 153.67 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "PV36W202C01B00"
+			(at 153.67 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Bourns"
+			(at 153.67 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=PV36W202C01B00"
+			(at 153.67 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy PV36W202C01B00 on Bourns 3296W footprint; compare datasheet body, lead positions, pin numbering and adjustment access. PCB pin centers are 0, 2.54, 5.08 mm; pin 3 is unused."
+			(at 153.67 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "HOLD_MECHANICAL_REVIEW"
+			(at 153.67 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -7090,15 +7571,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100k / 0.25%; R_0603_1608Metric; legacy MPN RT0603CRE07100KL"
 			(at 175.26 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "RT0603CRE07100KL"
 			(at 175.26 29.21 0)
@@ -7125,6 +7601,48 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 175.26 29.21 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=RT0603CRE07100KL"
+			(at 175.26 29.21 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "RT0603CRE07100KL"
+			(at 175.26 29.21 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "YAGEO"
+			(at 175.26 29.21 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=RT0603CRE07100KL"
+			(at 175.26 29.21 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+			(at 175.26 29.21 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+			(at 175.26 29.21 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -7180,15 +7698,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100k / 0.25%; R_0603_1608Metric; legacy MPN RT0603CRE07100KL"
 			(at 160.02 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "RT0603CRE07100KL"
 			(at 160.02 29.21 0)
@@ -7215,6 +7728,48 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 160.02 29.21 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=RT0603CRE07100KL"
+			(at 160.02 29.21 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "RT0603CRE07100KL"
+			(at 160.02 29.21 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "YAGEO"
+			(at 160.02 29.21 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=RT0603CRE07100KL"
+			(at 160.02 29.21 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+			(at 160.02 29.21 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+			(at 160.02 29.21 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -7270,15 +7825,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5p; C_0603_1608Metric; legacy MPN GJM0335C1E5R0BB01D"
 			(at 175.26 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "GJM0335C1E5R0BB01D"
 			(at 175.26 31.75 0)
@@ -7305,6 +7855,48 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 175.26 31.75 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GJM0335C1E5R0BB01D"
+			(at 175.26 31.75 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "GJM0335C1E5R0BB01D"
+			(at 175.26 31.75 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Murata"
+			(at 175.26 31.75 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=GJM0335C1E5R0BB01D"
+			(at 175.26 31.75 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Assigned GJM0335C1E5R0BB01D is 0201 imperial / 0603 metric; PCB is 0603 imperial / 1608 metric. Select a verified 5 pF C0G replacement with matching tolerance, or redesign the footprint. Candidate for review only: GRM1885C1H5R0BA01D (0603 imperial). Do not order the current MPN for this PCB."
+			(at 175.26 31.75 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "HOLD_PACKAGE_MISMATCH"
+			(at 175.26 31.75 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -7360,15 +7952,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1k / 1%; R_0603_1608Metric; legacy MPN CRT0603-FY-1001ELF"
 			(at 187.96 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "CRT0603-FY-1001ELF"
 			(at 187.96 50.8 0)
@@ -7395,6 +7982,48 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 187.96 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=CRT0603-FY-1001ELF"
+			(at 187.96 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "CRT0603-FY-1001ELF"
+			(at 187.96 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Bourns"
+			(at 187.96 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=CRT0603-FY-1001ELF"
+			(at 187.96 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+			(at 187.96 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+			(at 187.96 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -7450,15 +8079,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100k / 0.25%; R_0603_1608Metric; legacy MPN RT0603CRE07100KL"
 			(at 162.56 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "RT0603CRE07100KL"
 			(at 162.56 50.8 0)
@@ -7485,6 +8109,48 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 162.56 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=RT0603CRE07100KL"
+			(at 162.56 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "RT0603CRE07100KL"
+			(at 162.56 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "YAGEO"
+			(at 162.56 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=RT0603CRE07100KL"
+			(at 162.56 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+			(at 162.56 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+			(at 162.56 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -7540,15 +8206,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10u; C_0805_2012Metric; legacy MPN GMK212BBJ106MG-T"
 			(at 48.26 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "GMK212BBJ106MG-T"
 			(at 48.26 90.17 0)
@@ -7575,6 +8236,48 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 48.26 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GMK212BBJ106MG-T"
+			(at 48.26 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "GMK212BBJ106MG-T"
+			(at 48.26 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 48.26 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=GMK212BBJ106MG-T"
+			(at 48.26 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+			(at 48.26 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+			(at 48.26 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -7630,15 +8333,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10u; C_0805_2012Metric; legacy MPN GMK212BBJ106MG-T"
 			(at 48.26 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "GMK212BBJ106MG-T"
 			(at 48.26 64.77 0)
@@ -7665,6 +8363,48 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 48.26 64.77 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GMK212BBJ106MG-T"
+			(at 48.26 64.77 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "GMK212BBJ106MG-T"
+			(at 48.26 64.77 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 48.26 64.77 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=GMK212BBJ106MG-T"
+			(at 48.26 64.77 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+			(at 48.26 64.77 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+			(at 48.26 64.77 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -7797,15 +8537,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10u; C_0805_2012Metric; legacy MPN GMK212BBJ106MG-T"
 			(at 48.26 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "GMK212BBJ106MG-T"
 			(at 48.26 35.56 0)
@@ -7832,6 +8567,48 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 48.26 35.56 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GMK212BBJ106MG-T"
+			(at 48.26 35.56 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "GMK212BBJ106MG-T"
+			(at 48.26 35.56 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 48.26 35.56 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=GMK212BBJ106MG-T"
+			(at 48.26 35.56 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+			(at 48.26 35.56 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+			(at 48.26 35.56 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -7889,15 +8666,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100k POT; Potentiometer_Bourns_PTV09A-2_Single_Horizontal_EdgeMounted; legacy MPN PTV09A-2020F-B104"
 			(at 146.05 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "PTV09A-2020F-B104"
 			(at 146.05 50.8 0)
@@ -7927,6 +8699,48 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "THT"
+			(at 146.05 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=PTV09A-2020F-B104"
+			(at 146.05 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "PTV09A-2020F-B104"
+			(at 146.05 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Bourns"
+			(at 146.05 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=PTV09A-2020F-B104"
+			(at 146.05 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+			(at 146.05 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+			(at 146.05 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -8059,15 +8873,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10u; C_0805_2012Metric; legacy MPN GMK212BBJ106MG-T"
 			(at 73.66 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "GMK212BBJ106MG-T"
 			(at 73.66 33.02 0)
@@ -8094,6 +8903,48 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 73.66 33.02 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GMK212BBJ106MG-T"
+			(at 73.66 33.02 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "GMK212BBJ106MG-T"
+			(at 73.66 33.02 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 73.66 33.02 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=GMK212BBJ106MG-T"
+			(at 73.66 33.02 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+			(at 73.66 33.02 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+			(at 73.66 33.02 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -8149,15 +9000,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10u; C_0805_2012Metric; legacy MPN GMK212BBJ106MG-T"
 			(at 73.66 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "GMK212BBJ106MG-T"
 			(at 73.66 62.23 0)
@@ -8184,6 +9030,48 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 73.66 62.23 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GMK212BBJ106MG-T"
+			(at 73.66 62.23 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "GMK212BBJ106MG-T"
+			(at 73.66 62.23 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 73.66 62.23 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=GMK212BBJ106MG-T"
+			(at 73.66 62.23 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+			(at 73.66 62.23 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+			(at 73.66 62.23 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -8239,15 +9127,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10u; C_0805_2012Metric; legacy MPN GMK212BBJ106MG-T"
 			(at 73.66 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "GMK212BBJ106MG-T"
 			(at 73.66 87.63 0)
@@ -8274,6 +9157,48 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 73.66 87.63 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GMK212BBJ106MG-T"
+			(at 73.66 87.63 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "GMK212BBJ106MG-T"
+			(at 73.66 87.63 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 73.66 87.63 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=GMK212BBJ106MG-T"
+			(at 73.66 87.63 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+			(at 73.66 87.63 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+			(at 73.66 87.63 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -8838,15 +9763,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10u; C_0805_2012Metric; legacy MPN GMK212BBJ106MG-T"
 			(at 146.05 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "GMK212BBJ106MG-T"
 			(at 146.05 41.91 0)
@@ -8873,6 +9793,48 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 146.05 41.91 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GMK212BBJ106MG-T"
+			(at 146.05 41.91 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "GMK212BBJ106MG-T"
+			(at 146.05 41.91 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 146.05 41.91 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=GMK212BBJ106MG-T"
+			(at 146.05 41.91 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+			(at 146.05 41.91 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+			(at 146.05 41.91 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol

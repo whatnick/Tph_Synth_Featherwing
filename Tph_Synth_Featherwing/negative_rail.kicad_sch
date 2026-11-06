@@ -3015,15 +3015,10 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LM2663M; SOIC-8_3.9x4.9mm_P1.27mm; legacy MPN LM2663MX/NOPB"
 			(at 139.7 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "Field4" "None"
 			(at 139.7 82.55 0)
@@ -3129,6 +3124,48 @@
 				)
 			)
 		)
+
+		(property "Assembly" "SMT"
+			(at 139.7 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=LM2663MX%2FNOPB"
+			(at 139.7 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "LM2663MX/NOPB"
+			(at 139.7 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Texas Instruments"
+			(at 139.7 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=LM2663MX%2FNOPB"
+			(at 139.7 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+			(at 139.7 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+			(at 139.7 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
@@ -3185,15 +3222,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10u; C_0805_2012Metric; legacy MPN GMK212BBJ106MG-T"
 			(at 111.76 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "GMK212BBJ106MG-T"
 			(at 111.76 81.28 0)
@@ -3220,6 +3252,48 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 111.76 81.28 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GMK212BBJ106MG-T"
+			(at 111.76 81.28 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "GMK212BBJ106MG-T"
+			(at 111.76 81.28 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 111.76 81.28 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=GMK212BBJ106MG-T"
+			(at 111.76 81.28 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+			(at 111.76 81.28 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+			(at 111.76 81.28 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -3277,15 +3351,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10u; C_0805_2012Metric; legacy MPN GMK212BBJ106MG-T"
 			(at 160.02 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "GMK212BBJ106MG-T"
 			(at 160.02 82.55 0)
@@ -3312,6 +3381,48 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 160.02 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GMK212BBJ106MG-T"
+			(at 160.02 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "GMK212BBJ106MG-T"
+			(at 160.02 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 160.02 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=GMK212BBJ106MG-T"
+			(at 160.02 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+			(at 160.02 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+			(at 160.02 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol

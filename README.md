@@ -29,6 +29,74 @@ is enabled. See [the v0.4 schematic](doc/v0.4/schematic.pdf) and
 [top](doc/v0.4/board-top.png)/[bottom](doc/v0.4/board-bottom.png) renders.
 These CAD checks do not replace hardware/firmware and analog-output testing.
 
+## Manufacturing preparation
+
+The current preparation is in `manufacturing\v0.4`. **Assembly and purchasing
+are on hold**, even though the CAD checks pass. Use the freshly generated
+fabrication ZIP there, not the historical `Tph_Synth_Featherwing\gerbers`,
+`bom` spreadsheet or iBOM. The archive has copper, mask, silkscreen, paste and
+outline Gerbers plus separate PTH/NPTH drills. The nominal outline is
+51 x 58.5 mm, two copper layers, 1.6 mm board thickness. Confirm material,
+copper weight, surface finish, quantity and panelization with the fabricator;
+none has been ordered.
+
+Generate a new package into an empty directory using KiCad's bundled Python:
+
+```powershell
+& 'C:\Program Files\KiCad\10.0\bin\python.exe' .\scripts\prepare_manufacture.py --output .\manufacturing\v0.4-new
+```
+
+The exporter requires zero ERC, DRC, unconnected and parity findings. It derives
+the BOM from schematic fields, checks SMT placements against that BOM and
+records input/output SHA-256 hashes in `manifest.json`. Regenerate into a new
+directory if the destination is already populated; it deliberately refuses to
+mix old and new exports. `release-status.json` records every sourcing review
+and release action. Positions are in millimetres using the absolute CAD origin
+for Gerbers, drills and placements; bottom X is not negated. Have the assembler
+verify rotations, polarity and panel tooling. THT parts are listed separately
+from the SMT position file.
+
+For [issue #3](https://github.com/whatnick/Tph_Synth_Featherwing/issues/3),
+SDA, SCL, 3V3, GND, VUSB and VBAT are labelled at the Feather header pads on
+both PCB sides. Back-side labels are mirrored for correct fabrication.
+Silkscreen checks enforce 0.15 mm clearance; test-pad references and the U4
+reference are positioned clear of other markings. Run the tests with KiCad's
+bundled Python to include the PCB pin-label and silkscreen-rule checks:
+
+```powershell
+& 'C:\Program Files\KiCad\10.0\bin\python.exe' -m unittest discover -s tests -v
+```
+
+Known release blockers:
+
+- **C12:** `GJM0335C1E5R0BB01D` is 0201 imperial (0603 metric), but the board
+  footprint is 0603 imperial (1608 metric). The legacy MPN is retained and
+  flagged, not silently substituted. Select a verified 5 pF C0G part matching
+  the required tolerance and footprint before ordering.
+- **C1-C3:** distributor search results flag `C2012JB1V226M125AC` as obsolete.
+  Confirm lifecycle and qualify an 0805 22 uF replacement, including voltage
+  rating, DC bias and converter stability.
+- **R10:** verify `PV36W202C01B00` body/lead geometry, pin numbering and adjustment
+  access against the Bourns 3296W footprint.
+- **Host interface:** Adafruit
+  [3200](https://www.adafruit.com/product/3200) is an external Teensy-to-Feather
+  adapter, not a component fitted at MS1. It is listed separately from the PCB
+  assembly BOM. Select mating 12-pin/16-pin headers and stacking height;
+  headers and the Teensy are not selected assembly line items.
+- All other legacy MPNs still require datasheet, stock, packaging, price and
+  lifecycle verification. Bench-test power rails, I2C/DAC, analog outputs and
+  the Howland current source before a production release.
+
+`Manufacturer`, `MPN`, `Description`, `DigiKey`, `Mouser`, `Assembly`,
+`SourcingStatus` and `SourcingNotes` live on the schematic symbols and are
+mirrored to the PCB for parity. Distributor fields are **search URLs**, not
+verified order codes or availability claims. This package does not use a
+distributor API or claim live availability. In Copilot CLI, `/mcp` manages
+additional MCP connections; an approved read-only integration could use the official
+[DigiKey developer API](https://developer.digikey.com/) and
+[Mouser Search API](https://www.mouser.com/api-search/). Keep API credentials
+outside the repository; no server or credential configuration is changed here.
+
 ## Features :
 - 50/60 Hz Frequency Selector ( Possibly just do it in software).
 - Pot driven voltage Setting by controlling inverting-Opamp gain.

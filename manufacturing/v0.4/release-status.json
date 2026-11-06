@@ -1,0 +1,370 @@
+{
+  "generated_utc": "2026-11-06T01:29:33.010473+00:00",
+  "kicad_version": "10.0.3",
+  "status": "FABRICATION_FILES_PREPARED_ASSEMBLY_ON_HOLD",
+  "cad_checks": {
+    "erc": 0,
+    "drc": 0,
+    "unconnected": 0,
+    "schematic_parity": 0
+  },
+  "board": {
+    "revision": "0.4",
+    "design_date": "2026-10-28",
+    "layers": 2,
+    "thickness_mm": 1.6,
+    "outline_width_mm": 51.0,
+    "outline_height_mm": 58.5,
+    "smallest_routed_track_mm": 0.25,
+    "smallest_via_drill_mm": 0.4,
+    "smallest_via_diameter_mm": 0.8,
+    "netclasses": [
+      {
+        "name": "Default",
+        "clearance": 0.15
+      },
+      {
+        "name": "Power",
+        "clearance": 0.15
+      }
+    ],
+    "order_settings_to_confirm": {
+      "material": "FR-4 proposed; confirm with fabricator",
+      "copper_weight": "Not specified by design; confirm stackup and current/thermal suitability",
+      "surface_finish": "Not specified by design; confirm finish and soldering process",
+      "soldermask_colour": "Green proposed; cosmetic selection not encoded in design",
+      "quantity": "Not specified; no order placed",
+      "panelization": "Individual board; assembler must define panel rails/fiducials if required"
+    }
+  },
+  "physical_component_count": 46,
+  "smt_placement_count": 40,
+  "tht_references": [
+    "J2",
+    "R7",
+    "R8",
+    "R9",
+    "R10",
+    "RV1"
+  ],
+  "external_host_references": [
+    "MS1"
+  ],
+  "pcb_feature_references": [
+    "LOGO1",
+    "JP1",
+    "TP6",
+    "TP7",
+    "TP1",
+    "TP2",
+    "JP2",
+    "TP3",
+    "TP4",
+    "TP5"
+  ],
+  "procurement_blockers": [
+    {
+      "references": "J1",
+      "mpn": "SJ-3523-SMT-TR",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "J2",
+      "mpn": "105314-1204",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "C1",
+      "mpn": "C2012JB1V226M125AC",
+      "status": "HOLD_LIFECYCLE_REVIEW",
+      "action": "Distributor search results flag this legacy MPN obsolete; confirm lifecycle through distributor API or manufacturer. A replacement must fit 0805 and meet 22 uF, voltage, dielectric, DC-bias and boost-converter stability requirements."
+    },
+    {
+      "references": "C2",
+      "mpn": "C2012JB1V226M125AC",
+      "status": "HOLD_LIFECYCLE_REVIEW",
+      "action": "Distributor search results flag this legacy MPN obsolete; confirm lifecycle through distributor API or manufacturer. A replacement must fit 0805 and meet 22 uF, voltage, dielectric, DC-bias and boost-converter stability requirements."
+    },
+    {
+      "references": "C3",
+      "mpn": "C2012JB1V226M125AC",
+      "status": "HOLD_LIFECYCLE_REVIEW",
+      "action": "Distributor search results flag this legacy MPN obsolete; confirm lifecycle through distributor API or manufacturer. A replacement must fit 0805 and meet 22 uF, voltage, dielectric, DC-bias and boost-converter stability requirements."
+    },
+    {
+      "references": "D1",
+      "mpn": "B330B-13-F",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "D2",
+      "mpn": "B330B-13-F",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "L1",
+      "mpn": "SRR1005-2R2M",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "R1",
+      "mpn": "RT0603FRD0710KL",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "R2",
+      "mpn": "RC0603FR-07750KL",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "R3",
+      "mpn": "RC0603FR-07100KL",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "U1",
+      "mpn": "PAM2401SCADJ",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "C13",
+      "mpn": "GCM188L81H104KA57D",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "C14",
+      "mpn": "GCM188L81H104KA57D",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "C15",
+      "mpn": "GCM188L81H104KA57D",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "C16",
+      "mpn": "GCM188L81H104KA57D",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "C17",
+      "mpn": "GCM188L81H104KA57D",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "J3",
+      "mpn": "SM04B-SRSS-TB(LF)(SN)",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "R16",
+      "mpn": "RC0603FR-072K2L",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "R17",
+      "mpn": "RC0603FR-072K2L",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "U4",
+      "mpn": "MCP4728-E/UN",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "C4",
+      "mpn": "GMK212BBJ106MG-T",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "C5",
+      "mpn": "GMK212BBJ106MG-T",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "U2",
+      "mpn": "LM2663MX/NOPB",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "C6",
+      "mpn": "GMK212BBJ106MG-T",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "C7",
+      "mpn": "GMK212BBJ106MG-T",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "C8",
+      "mpn": "GMK212BBJ106MG-T",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "C9",
+      "mpn": "GMK212BBJ106MG-T",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "C10",
+      "mpn": "GMK212BBJ106MG-T",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "C11",
+      "mpn": "GMK212BBJ106MG-T",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "C12",
+      "mpn": "GJM0335C1E5R0BB01D",
+      "status": "HOLD_PACKAGE_MISMATCH",
+      "action": "Assigned GJM0335C1E5R0BB01D is 0201 imperial / 0603 metric; PCB is 0603 imperial / 1608 metric. Select a verified 5 pF C0G replacement with matching tolerance, or redesign the footprint. Candidate for review only: GRM1885C1H5R0BA01D (0603 imperial). Do not order the current MPN for this PCB."
+    },
+    {
+      "references": "C18",
+      "mpn": "GMK212BBJ106MG-T",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "R4",
+      "mpn": "RT0603FRD0710KL",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "R5",
+      "mpn": "RT0603FRD0710KL",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "R6",
+      "mpn": "RT0603FRD0710KL",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "R7",
+      "mpn": "PTV09A-2020F-B104",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "R8",
+      "mpn": "PTV09A-2020F-B104",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "R9",
+      "mpn": "PTV09A-2020F-B104",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "R10",
+      "mpn": "PV36W202C01B00",
+      "status": "HOLD_MECHANICAL_REVIEW",
+      "action": "Legacy PV36W202C01B00 on Bourns 3296W footprint; compare datasheet body, lead positions, pin numbering and adjustment access. PCB pin centers are 0, 2.54, 5.08 mm; pin 3 is unused."
+    },
+    {
+      "references": "R11",
+      "mpn": "RT0603CRE07100KL",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "R12",
+      "mpn": "RT0603CRE07100KL",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "R13",
+      "mpn": "RT0603CRE07100KL",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "R14",
+      "mpn": "RT0603CRE07100KL",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "R15",
+      "mpn": "CRT0603-FY-1001ELF",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "RV1",
+      "mpn": "PTV09A-2020F-B104",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    },
+    {
+      "references": "U3",
+      "mpn": "LM324PWR",
+      "status": "REVIEW_LEGACY_MPN",
+      "action": "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+    }
+  ],
+  "live_distributor_stock_pricing_packaging": "NOT_VERIFIED",
+  "additional_release_actions": [
+    "Select mating 12-pin/16-pin Feather headers and verify stacking height and host clearance.",
+    "Confirm C12 package correction and C1-C3 lifecycle/replacement before a purchasing BOM is released.",
+    "Check R10 mechanical fit and pin mapping against its exact manufacturer drawing.",
+    "Confirm material, copper weight, finish, quantity and panelization with fabricator/assembler.",
+    "Have assembler confirm SMT rotations, polarity, tooling and the absolute-origin position-file convention.",
+    "Bench-test power rails, I2C/DAC, analog outputs and Howland current source before production."
+  ],
+  "coordinate_convention": "Absolute CAD origin for Gerber/drill/positions; mm; KiCad Cartesian position CSV; bottom X not negated. Back assembly drawing is mirrored for viewing.",
+  "fabrication_archive": {
+    "filename": "Tph_Synth_Featherwing-v0.4-fabrication.zip",
+    "members": [
+      "Tph_Synth_Featherwing-B_Cu.gbl",
+      "Tph_Synth_Featherwing-B_Mask.gbs",
+      "Tph_Synth_Featherwing-B_Paste.gbp",
+      "Tph_Synth_Featherwing-B_Silkscreen.gbo",
+      "Tph_Synth_Featherwing-Edge_Cuts.gm1",
+      "Tph_Synth_Featherwing-F_Cu.gtl",
+      "Tph_Synth_Featherwing-F_Mask.gts",
+      "Tph_Synth_Featherwing-F_Paste.gtp",
+      "Tph_Synth_Featherwing-F_Silkscreen.gto",
+      "Tph_Synth_Featherwing-job.gbrjob",
+      "Tph_Synth_Featherwing-NPTH.drl",
+      "Tph_Synth_Featherwing-PTH.drl"
+    ]
+  }
+}
