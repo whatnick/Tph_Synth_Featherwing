@@ -1,0 +1,64 @@
+{
+  "endpoint": "https://pcbparts.dev/mcp",
+  "tool": "jlc_get_part",
+  "response": {
+    "lcsc": "C440198",
+    "model": "GRM21BR61H106KE43L",
+    "manufacturer": "Murata Electronics",
+    "package": "0805",
+    "stock": 1065869,
+    "price": 0.1296,
+    "library_type": "basic",
+    "preferred": false,
+    "category": "Capacitors",
+    "subcategory": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+    "subcategory_id": 2929,
+    "mounting_type": "smd",
+    "pcba_type": "economic",
+    "specs": {
+      "Voltage Rating": "50V",
+      "Tolerance": "±10%",
+      "Capacitance": "10uF",
+      "Temperature Coefficient": "X5R"
+    },
+    "specs_note": "Capacitance is the nominal value at 0 V. Class II dielectrics (X5R, X7R, Y5V) lose capacitance under DC bias, more in small cases, often half or more near the rated voltage; the maker's DC-bias curve (Murata SimSurfing, Samsung, TDK, KEMET K-SIM) gives the effective value at your voltage.",
+    "min_order": 1,
+    "reel_qty": 3000,
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041759_Murata-Electronics-GRM21BR61H106KE43L_C440198.pdf",
+    "datasheet_pdf": "https://pcbparts.dev/mcp/datasheet/C440198",
+    "lcsc_url": "https://www.lcsc.com/product-detail/multilayer-ceramic-capacitors-mlcc-smd-smt_murata-electronics-grm21br61h106ke43l_C440198.html",
+    "prices": [
+      {
+        "qty": "1+",
+        "price": 0.1296
+      },
+      {
+        "qty": "50+",
+        "price": 0.1139
+      },
+      {
+        "qty": "150+",
+        "price": 0.1057
+      },
+      {
+        "qty": "500+",
+        "price": 0.099
+      },
+      {
+        "qty": "3000+",
+        "price": 0.0946
+      },
+      {
+        "qty": "6000+",
+        "price": 0.0929
+      }
+    ],
+    "has_easyeda_footprint": true,
+    "easyeda_symbol_uuid": "4b1517ca98054367880835568538cc59",
+    "easyeda_footprint_uuid": "2ee8eb13a0124a108e622ce40c0c25a8"
+  },
+  "checked_utc": "2026-11-07T06:22:19.3552065Z",
+  "arguments": {
+    "lcsc": "C440198"
+  }
+}

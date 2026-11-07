@@ -1,0 +1,246 @@
+{
+  "R7": {
+    "lead_fit_at_board_midplane": [
+      {
+        "pin": "1",
+        "center_error_mm": 0.003827,
+        "conservative_midplane_hole_margin_mm": 0.071441,
+        "lead_section_mm": [
+          0.3,
+          0.8
+        ]
+      },
+      {
+        "pin": "2",
+        "center_error_mm": 0.003827,
+        "conservative_midplane_hole_margin_mm": 0.071441,
+        "lead_section_mm": [
+          0.3,
+          0.8
+        ]
+      },
+      {
+        "pin": "3",
+        "center_error_mm": 0.003827,
+        "conservative_midplane_hole_margin_mm": 0.071441,
+        "lead_section_mm": [
+          0.3,
+          0.8
+        ]
+      },
+      {
+        "pin": "MP",
+        "center_error_mm": 0.3,
+        "conservative_midplane_hole_margin_mm": 0.053414,
+        "lead_section_mm": [
+          2.0,
+          0.3
+        ]
+      },
+      {
+        "pin": "MP",
+        "center_error_mm": 0.3,
+        "conservative_midplane_hole_margin_mm": 0.053414,
+        "lead_section_mm": [
+          2.0,
+          0.3
+        ]
+      }
+    ],
+    "model_board_intersection_mm3": [
+      0.3311690357304304,
+      0.0
+    ],
+    "model_bounds_mm": [
+      84.8,
+      -93.73284271247626,
+      -2.7626910282618793,
+      95.4,
+      -83.26715728752376,
+      16.595000000000002
+    ]
+  },
+  "R8": {
+    "lead_fit_at_board_midplane": [
+      {
+        "pin": "1",
+        "center_error_mm": 0.003827,
+        "conservative_midplane_hole_margin_mm": 0.071441,
+        "lead_section_mm": [
+          0.8,
+          0.3
+        ]
+      },
+      {
+        "pin": "2",
+        "center_error_mm": 0.003827,
+        "conservative_midplane_hole_margin_mm": 0.071441,
+        "lead_section_mm": [
+          0.8,
+          0.3
+        ]
+      },
+      {
+        "pin": "3",
+        "center_error_mm": 0.003827,
+        "conservative_midplane_hole_margin_mm": 0.071441,
+        "lead_section_mm": [
+          0.8,
+          0.3
+        ]
+      },
+      {
+        "pin": "MP",
+        "center_error_mm": 0.3,
+        "conservative_midplane_hole_margin_mm": 0.053414,
+        "lead_section_mm": [
+          0.3,
+          2.0
+        ]
+      },
+      {
+        "pin": "MP",
+        "center_error_mm": 0.3,
+        "conservative_midplane_hole_margin_mm": 0.053414,
+        "lead_section_mm": [
+          0.3,
+          2.0
+        ]
+      }
+    ],
+    "model_board_intersection_mm3": [
+      0.33116903809189496,
+      0.0
+    ],
+    "model_bounds_mm": [
+      101.51715728752374,
+      -86.4,
+      -2.7626910282618793,
+      111.98284271247624,
+      -75.8,
+      16.595000000000002
+    ]
+  },
+  "R9": {
+    "lead_fit_at_board_midplane": [
+      {
+        "pin": "1",
+        "center_error_mm": 0.003827,
+        "conservative_midplane_hole_margin_mm": 0.071441,
+        "lead_section_mm": [
+          0.3,
+          0.8
+        ]
+      },
+      {
+        "pin": "2",
+        "center_error_mm": 0.003827,
+        "conservative_midplane_hole_margin_mm": 0.071441,
+        "lead_section_mm": [
+          0.3,
+          0.8
+        ]
+      },
+      {
+        "pin": "3",
+        "center_error_mm": 0.003827,
+        "conservative_midplane_hole_margin_mm": 0.071441,
+        "lead_section_mm": [
+          0.3,
+          0.8
+        ]
+      },
+      {
+        "pin": "MP",
+        "center_error_mm": 0.3,
+        "conservative_midplane_hole_margin_mm": 0.053414,
+        "lead_section_mm": [
+          2.0,
+          0.3
+        ]
+      },
+      {
+        "pin": "MP",
+        "center_error_mm": 0.3,
+        "conservative_midplane_hole_margin_mm": 0.053414,
+        "lead_section_mm": [
+          2.0,
+          0.3
+        ]
+      }
+    ],
+    "model_board_intersection_mm3": [
+      0.33116903572977,
+      0.0
+    ],
+    "model_bounds_mm": [
+      84.8,
+      -109.73284271247626,
+      -2.7626910282618793,
+      95.4,
+      -99.26715728752376,
+      16.595000000000002
+    ]
+  },
+  "RV1": {
+    "lead_fit_at_board_midplane": [
+      {
+        "pin": "1",
+        "center_error_mm": 0.003827,
+        "conservative_midplane_hole_margin_mm": 0.071441,
+        "lead_section_mm": [
+          0.8,
+          0.3
+        ]
+      },
+      {
+        "pin": "2",
+        "center_error_mm": 0.003827,
+        "conservative_midplane_hole_margin_mm": 0.071441,
+        "lead_section_mm": [
+          0.8,
+          0.3
+        ]
+      },
+      {
+        "pin": "3",
+        "center_error_mm": 0.003827,
+        "conservative_midplane_hole_margin_mm": 0.071441,
+        "lead_section_mm": [
+          0.8,
+          0.3
+        ]
+      },
+      {
+        "pin": "MP",
+        "center_error_mm": 0.3,
+        "conservative_midplane_hole_margin_mm": 0.053414,
+        "lead_section_mm": [
+          0.3,
+          2.0
+        ]
+      },
+      {
+        "pin": "MP",
+        "center_error_mm": 0.3,
+        "conservative_midplane_hole_margin_mm": 0.053414,
+        "lead_section_mm": [
+          0.3,
+          2.0
+        ]
+      }
+    ],
+    "model_board_intersection_mm3": [
+      0.3311690380967199,
+      0.0
+    ],
+    "model_bounds_mm": [
+      121.76715728752374,
+      -86.4,
+      -2.7626910282618793,
+      132.2328427124762,
+      -75.8,
+      16.595000000000002
+    ]
+  }
+}

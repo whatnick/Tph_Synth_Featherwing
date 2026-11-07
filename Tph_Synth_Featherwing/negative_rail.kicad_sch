@@ -3015,15 +3015,10 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LM2663M; SOIC-8_3.9x4.9mm_P1.27mm; legacy MPN LM2663MX/NOPB"
 			(at 139.7 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "Field4" "None"
 			(at 139.7 82.55 0)
@@ -3129,6 +3124,66 @@
 				)
 			)
 		)
+
+		(property "Assembly" "SMT"
+			(at 139.7 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=LM2663MX%2FNOPB"
+			(at 139.7 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "LM2663MX/NOPB"
+			(at 139.7 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Texas Instruments"
+			(at 139.7 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=LM2663MX%2FNOPB"
+			(at 139.7 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 926-LM2663MX/NOPB; stock 5149; packaging MouseReel; standard pack 2500; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+			(at 139.7 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
+			(at 139.7 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 139.7 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 139.7 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "926-LM2663MX/NOPB"
+			(at 139.7 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
@@ -3185,17 +3240,12 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10uF +/-10% 50V X5R MLCC; 0805 (2012 metric)"
 			(at 111.76 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
-		(property "manf#" "GMK212BBJ106MG-T"
+		(property "manf#" "GRM21BR61H106KE43L"
 			(at 111.76 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3221,7 +3271,73 @@
 				)
 			)
 		)
-	)
+
+		(property "Assembly" "SMT"
+			(at 111.76 81.28 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GRM21BR61H106KE43L"
+			(at 111.76 81.28 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "GRM21BR61H106KE43L"
+			(at 111.76 81.28 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Murata"
+			(at 111.76 81.28 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=GRM21BR61H106KE43L"
+			(at 111.76 81.28 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "User-approved breakout substitution 2026-11-07: GMK212BBJ106MG-T -> GRM21BR61H106KE43L. C4 is the 5V LM2663 flying capacitor; C5 bypasses -5V. Remaining parts AC-couple analog paths on the intended +/-5V design; conservative rail-to-rail envelope is 10V, below 50V. Keep manufacturer-application caveat visible: DigiKey lists Mobile Devices Only; the Murata reference sheet obtained through MCP is headed General Purpose. User accepts use for this breakout, not unrestricted production qualification. Validate effective capacitance, charge-pump performance and analog transfer; confirm packaging and height. LCSC C440198; Active per DigiKey. Stock/packing must be rechecked before order."
+			(at 111.76 81.28 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION"
+			(at 111.76 81.28 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" "490-18663-1-ND"
+			(at 111.76 81.28 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 111.76 81.28 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "81-GRM21BR61H106KE3L"
+			(at 111.76 81.28 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "LCSCOrderCode" "C440198"
+			(at 111.76 81.28 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
 		(at 160.02 82.55 180)
@@ -3277,17 +3393,12 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10uF +/-10% 50V X5R MLCC; 0805 (2012 metric)"
 			(at 160.02 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
-		(property "manf#" "GMK212BBJ106MG-T"
+		(property "manf#" "GRM21BR61H106KE43L"
 			(at 160.02 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3313,7 +3424,73 @@
 				)
 			)
 		)
-	)
+
+		(property "Assembly" "SMT"
+			(at 160.02 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GRM21BR61H106KE43L"
+			(at 160.02 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "GRM21BR61H106KE43L"
+			(at 160.02 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Murata"
+			(at 160.02 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=GRM21BR61H106KE43L"
+			(at 160.02 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "User-approved breakout substitution 2026-11-07: GMK212BBJ106MG-T -> GRM21BR61H106KE43L. C4 is the 5V LM2663 flying capacitor; C5 bypasses -5V. Remaining parts AC-couple analog paths on the intended +/-5V design; conservative rail-to-rail envelope is 10V, below 50V. Keep manufacturer-application caveat visible: DigiKey lists Mobile Devices Only; the Murata reference sheet obtained through MCP is headed General Purpose. User accepts use for this breakout, not unrestricted production qualification. Validate effective capacitance, charge-pump performance and analog transfer; confirm packaging and height. LCSC C440198; Active per DigiKey. Stock/packing must be rechecked before order."
+			(at 160.02 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION"
+			(at 160.02 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" "490-18663-1-ND"
+			(at 160.02 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 160.02 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "81-GRM21BR61H106KE3L"
+			(at 160.02 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "LCSCOrderCode" "C440198"
+			(at 160.02 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+)
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 119.38 90.17 90)

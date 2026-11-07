@@ -1,0 +1,71 @@
+{
+  "response": {
+    "results": [
+      {
+        "source": "mouser",
+        "part_number": "603-CC603BRNPO9BN5R0",
+        "mfr_part_number": "CC0603BRNPO9BN5R0",
+        "manufacturer": "YAGEO",
+        "description": "Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 5pF C0G 0603 Tol  0.1pF",
+        "category": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+        "stock": 2442,
+        "price": 0.22,
+        "price_breaks": [
+          {
+            "qty": 1,
+            "price": 0.22,
+            "currency": "USD"
+          },
+          {
+            "qty": 10,
+            "price": 0.126,
+            "currency": "USD"
+          },
+          {
+            "qty": 50,
+            "price": 0.09,
+            "currency": "USD"
+          },
+          {
+            "qty": 100,
+            "price": 0.078,
+            "currency": "USD"
+          },
+          {
+            "qty": 500,
+            "price": 0.059,
+            "currency": "USD"
+          },
+          {
+            "qty": 4000,
+            "price": 0.045,
+            "currency": "USD"
+          },
+          {
+            "qty": 8000,
+            "price": 0.04,
+            "currency": "USD"
+          }
+        ],
+        "datasheet_url": "https://www.mouser.com/datasheet/3/508/1/upy-np0x7r_mv_100-to-630v.pdf",
+        "product_url": "https://www.mouser.ca/en/ProductDetail/YAGEO/CC0603BRNPO9BN5R0?qs=57cj7OiSijmfc3UnQSoE6A%3D%3D",
+        "rohs": "RoHS Compliant",
+        "lifecycle": null,
+        "parameters": {
+          "Packaging": "MouseReel",
+          "Standard Pack Qty": "4000"
+        },
+        "min_qty": 1,
+        "unit_weight_g": 0.0063,
+        "currency": "USD"
+      }
+    ],
+    "total": 1
+  },
+  "endpoint": "https://pcbparts.dev/mcp",
+  "checked_utc": "2026-11-07T06:22:04.0368015Z",
+  "tool": "mouser_get_part",
+  "arguments": {
+    "part_number": "CC0603BRNPO9BN5R0"
+  }
+}

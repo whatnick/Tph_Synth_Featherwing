@@ -1,0 +1,55 @@
+{
+  "checked_date": "2026-11-07",
+  "service": "https://pcbparts.dev/mcp",
+  "evidence_kind": "Selected fields transcribed from pcbparts MCP tool responses; not raw distributor responses.",
+  "tools": ["mouser_get_part", "digikey_get_part", "jlc_search"],
+  "release_status": "ASSEMBLY_PURCHASING_ON_HOLD",
+  "limitations": [
+    "Stock and USD single-unit prices are a dated observation, not a quotation, reservation or landed cost.",
+    "Mouser lifecycle null means no status was supplied; it does not establish manufacturer Active status.",
+    "Mouser matches require both exact MPN and the intended manufacturer; unrelated same-MPN results were rejected.",
+    "No substitutions are applied. Datasheet electrical suitability, DC bias, converter stability, mechanical/pin fit and hardware validation remain required.",
+    "MCP responses omit some datasheets and package specifications. Stock alone does not qualify a BOM line.",
+    "MCP service uses shared distributor quotas. All 21 unique fitted MPNs were checked in three Mouser batches; DigiKey was used only for four targeted blocker/candidate checks.",
+    "DigiKey errors and unavailable parts are retained as failures, not treated as compatible alternatives.",
+    "No board quantity, header height, fabrication settings or approved assembly packaging has been specified."
+  ],
+  "mouser": [
+    {"mpn":"B330B-13-F","manufacturer":"Diodes Incorporated","order_code":"621-B330B-F","stock":8608,"unit_price_usd":0.79,"lifecycle":null,"packaging":"MouseReel","standard_pack_qty":3000,"description":"Schottky diode 30V 3A","datasheet_url":""},
+    {"mpn":"C2012JB1V226M125AC","manufacturer":"TDK","order_code":"810-C2012JB1V226M12C","stock":0,"unit_price_usd":null,"lifecycle":"Obsolete","packaging":"MouseReel","standard_pack_qty":2000,"description":"0805 35V 22uF 20% JB","datasheet_url":""},
+    {"mpn":"CRT0603-FY-1001ELF","manufacturer":"Bourns","order_code":"652-CRT0603FY1001ELF","stock":26600,"unit_price_usd":0.10,"lifecycle":null,"packaging":"MouseReel","standard_pack_qty":5000,"description":"Precision thin-film chip resistor","datasheet_url":"https://www.mouser.com/datasheet/3/40/1/CRT.pdf"},
+    {"mpn":"GCM188L81H104KA57D","manufacturer":"Murata Electronics","order_code":"81-GCM188L81H104KA7D","stock":543652,"unit_price_usd":0.14,"lifecycle":null,"packaging":"MouseReel","standard_pack_qty":4000,"description":"0.1uF 50V 10% 0603 X8L AEC-Q200","datasheet_url":""},
+    {"mpn":"GJM0335C1E5R0BB01D","manufacturer":"Murata Electronics","order_code":"81-GJM0335C1E5R0BB01","stock":224122,"unit_price_usd":0.11,"lifecycle":null,"packaging":"MouseReel","standard_pack_qty":15000,"description":"5pF 25V +/-0.1pF 0201 C0G; WRONG PACKAGE FOR C12","datasheet_url":"https://www.mouser.com/datasheet/3/76/2/GJM0335C1E5R0BB01_01A.pdf"},
+    {"mpn":"GMK212BBJ106MG-T","manufacturer":"TAIYO YUDEN","order_code":"963-GMK212BBJ106MG-T","stock":0,"unit_price_usd":0.52,"lifecycle":null,"packaging":"MouseReel","standard_pack_qty":3000,"description":"10uF 35V +/-20% X5R 0805","datasheet_url":""},
+    {"mpn":"LM2663MX/NOPB","manufacturer":"Texas Instruments","order_code":"926-LM2663MX/NOPB","stock":5149,"unit_price_usd":2.57,"lifecycle":null,"packaging":"MouseReel","standard_pack_qty":2500,"description":"Switched capacitor voltage converter","datasheet_url":""},
+    {"mpn":"LM324PWR","manufacturer":"Texas Instruments","order_code":"595-LM324PWR","stock":2174,"unit_price_usd":0.33,"lifecycle":null,"packaging":"MouseReel","standard_pack_qty":2000,"description":"Quad general-purpose op amp","datasheet_url":""},
+    {"mpn":"MCP4728-E/UN","manufacturer":"Microchip Technology","order_code":"579-MCP4728-E/UN","stock":55259,"unit_price_usd":2.50,"lifecycle":null,"packaging":"Tube","standard_pack_qty":100,"description":"Quad 12-bit nonvolatile I2C DAC","datasheet_url":"https://www.mouser.com/datasheet/3/282/1/22187E.pdf"},
+    {"mpn":"PAM2401SCADJ","manufacturer":"Diodes Incorporated","order_code":"621-PAM2401SCADJ","stock":15084,"unit_price_usd":0.70,"lifecycle":null,"packaging":"MouseReel","standard_pack_qty":2500,"description":"Step-up converter","datasheet_url":"https://www.mouser.com/datasheet/3/175/1/PAM2401.pdf"},
+    {"mpn":"RC0603FR-07100KL","manufacturer":"YAGEO","order_code":"603-RC0603FR-07100KL","stock":3108107,"unit_price_usd":0.10,"lifecycle":null,"packaging":"MouseReel","standard_pack_qty":5000,"description":"0603 100kOhm 1% 0.1W","datasheet_url":"https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"},
+    {"mpn":"RC0603FR-072K2L","manufacturer":"YAGEO","order_code":"603-RC0603FR-072K2L","stock":930470,"unit_price_usd":0.10,"lifecycle":null,"packaging":"MouseReel","standard_pack_qty":5000,"description":"0603 2.2kOhm 1% 0.1W","datasheet_url":"https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"},
+    {"mpn":"RC0603FR-07750KL","manufacturer":"YAGEO","order_code":"603-RC0603FR-07750KL","stock":57589,"unit_price_usd":0.11,"lifecycle":null,"packaging":"MouseReel","standard_pack_qty":5000,"description":"0603 750kOhm 1% 0.1W","datasheet_url":"https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"},
+    {"mpn":"RT0603CRE07100KL","manufacturer":"YAGEO","order_code":"603-RT0603CRE07100KL","stock":163,"unit_price_usd":0.47,"lifecycle":null,"packaging":"MouseReel","standard_pack_qty":5000,"description":"100kOhm 0.25% 50ppm/C 0.1W","datasheet_url":"https://www.mouser.com/datasheet/3/203/1/PYU_RT_1_TO_0_01_ROHS_L.pdf"},
+    {"mpn":"RT0603FRD0710KL","manufacturer":"YAGEO","order_code":"603-RT0603FRD0710KL","stock":673,"unit_price_usd":0.10,"lifecycle":null,"packaging":"MouseReel","standard_pack_qty":5000,"description":"10kOhm 1% 25ppm/C 0.1W","datasheet_url":"https://www.mouser.com/datasheet/3/203/1/PYU_RT_1_TO_0_01_ROHS_L.pdf"},
+    {"mpn":"SJ-3523-SMT-TR","manufacturer":"Same Sky","order_code":"490-SJ-3523-SMT-TR","stock":60861,"unit_price_usd":0.88,"lifecycle":null,"packaging":"MouseReel","standard_pack_qty":1000,"description":"Audio jack","datasheet_url":"https://www.mouser.com/datasheet/3/6118/1/sj_352x_smt.pdf"},
+    {"mpn":"SM04B-SRSS-TB(LF)(SN)","manufacturer":"JST Commercial","order_code":"306-SM04BSRSSTBLFSN","stock":79867,"unit_price_usd":0.51,"lifecycle":null,"packaging":"MouseReel","standard_pack_qty":3000,"description":"Side-entry SMT header","datasheet_url":"https://www.mouser.com/datasheet/3/1070/1/eSR_SZ.pdf"},
+    {"mpn":"SRR1005-2R2M","manufacturer":"Bourns","order_code":"652-SRR1005-2R2M","stock":820,"unit_price_usd":0.92,"lifecycle":null,"packaging":"MouseReel","standard_pack_qty":600,"description":"2.2uH 20% power inductor","datasheet_url":"https://www.mouser.com/datasheet/3/40/1/SRR1005.pdf"},
+    {"mpn":"105314-1204","manufacturer":"Molex","order_code":"538-105314-1204","stock":18435,"unit_price_usd":1.60,"lifecycle":null,"packaging":"Tray","standard_pack_qty":1,"description":"Nano-Fit right-angle TH dual-row 4-position 2.5mm header","datasheet_url":""},
+    {"mpn":"PTV09A-2020F-B104","manufacturer":"Bourns","order_code":"652-PTV09A-2020FB104","stock":213,"unit_price_usd":0.89,"lifecycle":null,"packaging":"Tray","standard_pack_qty":100,"description":"9mm panel potentiometer","datasheet_url":"https://www.mouser.com/datasheet/3/40/1/ptv09.pdf"},
+    {"mpn":"PV36W202C01B00","manufacturer":"Bourns","order_code":"81-PV36W202C01B00","stock":2466,"unit_price_usd":1.94,"lifecycle":null,"packaging":"Tube","standard_pack_qty":50,"description":"2kOhm 10mm square 25-turn trimmer; footprint fit UNVERIFIED","datasheet_url":"https://www.mouser.com/datasheet/3/40/1/pv36.pdf"}
+  ],
+  "digikey": [
+    {"mpn":"C2012JB1V226M125AC","manufacturer":"TDK","order_code":"445-11527-2-ND","stock":0,"lifecycle":"Obsolete","packaging":"Tape & Reel (TR)","datasheet_url":"https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"},
+    {"mpn":"GMK212BBJ106MG-T","manufacturer":"Taiyo Yuden","order_code":"587-4894-1-ND","stock":0,"lifecycle":"Active","unit_price_usd":0.52,"packaging":"Cut Tape (CT)","other_packaging":[{"order_code":"587-4894-2-ND","packaging":"Tape & Reel (TR)","min_qty":3000,"unit_price_usd":0.14303},{"order_code":"587-4894-6-ND","packaging":"Digi-Reel","min_qty":1,"unit_price_usd":0.52,"reel_fee_usd":7.0}],"datasheet_url":"https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2260/GMK212BBJ106MG-T_SS.pdf"},
+    {"mpn":"CC0603BRNPO9BN5R0","manufacturer":"YAGEO","order_code":"13-CC0603BRNPO9BN5R0CT-ND","stock":4466,"lifecycle":"Active","unit_price_usd":0.22,"packaging":"Cut Tape (CT)","parameters":{"Capacitance":"5pF","Tolerance":"+/-0.1pF","Voltage":"50V","Dielectric":"C0G/NP0","Package":"0603 (1608 Metric)","Body":"1.60 x 0.80mm","MaxThickness":"0.90mm","Temperature":"-55 to 125C"},"other_packaging":[{"order_code":"13-CC0603BRNPO9BN5R0TR-ND","packaging":"Tape & Reel (TR)","min_qty":4000,"unit_price_usd":0.04436},{"order_code":"13-CC0603BRNPO9BN5R0DKR-ND","packaging":"Digi-Reel","min_qty":1,"unit_price_usd":0.22,"reel_fee_usd":7.0}],"datasheet_url":"https://yageogroup.com/download/specsheet/CC0603BRNPO9BN5R0"}
+  ],
+  "candidates_not_applied": [
+    {"references":"C12","mpn":"CC0603BRNPO9BN5R0","manufacturer":"YAGEO","status":"SPEC_MATCH_CANDIDATE_NOT_QUALIFIED","jlc_lcsc":"C519109","jlc_data_as_of":"2026-11-06T19:48:46Z","mouser_order_code":"603-CC603BRNPO9BN5R0","mouser_stock":2442,"mouser_unit_price_usd":0.22,"mouser_packaging":"MouseReel","mouser_standard_pack_qty":4000,"mouser_lifecycle":null,"reason":"5pF +/-0.1pF C0G 50V 0603 fits nominal package and electrical ratings; qualify compensation behavior and manufacturer land pattern before substitution."},
+    {"references":"C12","mpn":"GRM1885C1H5R0BA01D","manufacturer":"Murata Electronics","status":"REJECTED_NRND_FOR_NEW_DESIGN","mouser_order_code":"81-GRM1885C1H5R0BA1D","mouser_stock":24074,"mouser_lifecycle":"Not Recommended for New Designs","reason":"Earlier candidate is NRND according to Mouser; prefer a qualified active candidate."},
+    {"references":"C1,C2,C3","mpn":"C2012X5R1V226MT000E","manufacturer":"TDK","status":"NOT_ORDERABLE_AT_CHECKED_DISTRIBUTORS","jlc_lcsc":"C338080","jlc_data_as_of":"2026-11-06T19:48:46Z","jlc_stock":56013,"mouser_order_code":"N/A","mouser_stock":0,"digikey_error":"Part not found: C2012X5R1V226MT000E","reason":"JLC snapshot lists 22uF 35V X5R 0805, but Mouser has no order code and DigiKey lookup failed. Not a qualified replacement; JB-to-X5R changes need temperature/DC-bias/stability review."}
+  ],
+  "rejected_mouser_matches": [
+    {"mpn":"LM324PWR","manufacturer":"ROHM Semiconductor","order_code":"755-LM324PWR","lifecycle":"Obsolete","reason":"Wrong manufacturer; BOM specifies Texas Instruments."},
+    {"mpn":"GMK212BBJ106MG-T","manufacturer":"FCL Components","order_code":"N/A","reason":"Wrong manufacturer and no orderable code."},
+    {"mpn":"PV36W202C01B00","manufacturer":"Murata Electronics","order_code":"N/A","reason":"Legacy manufacturer listing; selected Bourns match has an order code. Neither establishes footprint fit."}
+  ]
+}

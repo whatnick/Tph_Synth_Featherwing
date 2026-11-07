@@ -1,0 +1,85 @@
+{
+  "tool": "digikey_get_part",
+  "endpoint": "https://pcbparts.dev/mcp",
+  "arguments": {
+    "product_number": "C2012X5R1V226M125AC"
+  },
+  "checked_utc": "2026-11-07T06:21:31.2270696Z",
+  "response": {
+    "results": [
+      {
+        "source": "digikey",
+        "part_number": "445-14428-1-ND",
+        "mfr_part_number": "C2012X5R1V226M125AC",
+        "manufacturer": "TDK",
+        "description": "CAP CER 22UF 35V X5R 0805",
+        "category": "Capacitors",
+        "stock": 0,
+        "price": 0.52,
+        "price_breaks": [
+          {
+            "qty": 1,
+            "price": 0.52
+          },
+          {
+            "qty": 10,
+            "price": 0.314
+          },
+          {
+            "qty": 50,
+            "price": 0.2344
+          },
+          {
+            "qty": 100,
+            "price": 0.21
+          },
+          {
+            "qty": 500,
+            "price": 0.16878
+          }
+        ],
+        "datasheet_url": "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf",
+        "product_url": "https://www.digikey.com/en/products/detail/tdk/C2012X5R1V226M125AC/3951664",
+        "rohs": "ROHS3 Compliant",
+        "lifecycle": "Active",
+        "parameters": {
+          "Capacitance": "22 µF",
+          "Tolerance": "±20%",
+          "Voltage - Rated": "35V",
+          "Temperature Coefficient": "X5R",
+          "Operating Temperature": "-55°C ~ 85°C",
+          "Features": "Low ESL",
+          "Ratings": "-",
+          "Applications": "General Purpose",
+          "Failure Rate": "-",
+          "Mounting Type": "Surface Mount, MLCC",
+          "Package / Case": "0805 (2012 Metric)",
+          "Size / Dimension": "0.079\" L x 0.049\" W (2.00mm x 1.25mm)",
+          "Height - Seated (Max)": "-",
+          "Thickness (Max)": "0.057\" (1.45mm)",
+          "Lead Spacing": "-",
+          "Lead Style": "-"
+        },
+        "min_qty": 1,
+        "currency": "USD",
+        "packaging": "Cut Tape (CT)",
+        "other_packaging": [
+          {
+            "part_number": "445-14428-2-ND",
+            "packaging": "Tape & Reel (TR)",
+            "min_qty": 2000,
+            "price": 0.13499
+          },
+          {
+            "part_number": "445-14428-6-ND",
+            "packaging": "Digi-Reel®",
+            "min_qty": 1,
+            "price": 0.52,
+            "reel_fee": 7.0
+          }
+        ]
+      }
+    ],
+    "total": 1
+  }
+}

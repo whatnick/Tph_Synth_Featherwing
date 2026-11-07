@@ -5723,15 +5723,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Opamp_Quad_Generic; TSSOP-14_4.4x5mm_P0.65mm; legacy MPN LM324PWR"
 			(at 63.5 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "LM324PWR"
 			(at 63.5 33.02 0)
@@ -5795,6 +5790,66 @@
 				)
 			)
 		)
+
+		(property "Assembly" "SMT"
+			(at 63.5 33.02 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=LM324PWR"
+			(at 63.5 33.02 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "LM324PWR"
+			(at 63.5 33.02 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Texas Instruments"
+			(at 63.5 33.02 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=LM324PWR"
+			(at 63.5 33.02 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 595-LM324PWR; stock 2174; packaging MouseReel; standard pack 2000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+			(at 63.5 33.02 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
+			(at 63.5 33.02 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 63.5 33.02 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 63.5 33.02 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "595-LM324PWR"
+			(at 63.5 33.02 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
 	)
 	(symbol
 		(lib_id "Device:Opamp_Quad")
@@ -5851,15 +5906,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Opamp_Quad_Generic; TSSOP-14_4.4x5mm_P0.65mm; legacy MPN LM324PWR"
 			(at 63.5 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "LM324PWR"
 			(at 63.5 62.23 0)
@@ -5923,6 +5973,66 @@
 				)
 			)
 		)
+
+		(property "Assembly" "SMT"
+			(at 63.5 62.23 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=LM324PWR"
+			(at 63.5 62.23 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "LM324PWR"
+			(at 63.5 62.23 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Texas Instruments"
+			(at 63.5 62.23 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=LM324PWR"
+			(at 63.5 62.23 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 595-LM324PWR; stock 2174; packaging MouseReel; standard pack 2000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+			(at 63.5 62.23 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
+			(at 63.5 62.23 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 63.5 62.23 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 63.5 62.23 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "595-LM324PWR"
+			(at 63.5 62.23 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
 	)
 	(symbol
 		(lib_id "Device:Opamp_Quad")
@@ -5979,15 +6089,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Opamp_Quad_Generic; TSSOP-14_4.4x5mm_P0.65mm; legacy MPN LM324PWR"
 			(at 63.5 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "LM324PWR"
 			(at 63.5 87.63 0)
@@ -6051,6 +6156,66 @@
 				)
 			)
 		)
+
+		(property "Assembly" "SMT"
+			(at 63.5 87.63 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=LM324PWR"
+			(at 63.5 87.63 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "LM324PWR"
+			(at 63.5 87.63 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Texas Instruments"
+			(at 63.5 87.63 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=LM324PWR"
+			(at 63.5 87.63 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 595-LM324PWR; stock 2174; packaging MouseReel; standard pack 2000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+			(at 63.5 87.63 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
+			(at 63.5 87.63 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 63.5 87.63 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 63.5 87.63 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "595-LM324PWR"
+			(at 63.5 87.63 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
 	)
 	(symbol
 		(lib_id "Device:Opamp_Quad")
@@ -6108,15 +6273,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Opamp_Quad_Generic; TSSOP-14_4.4x5mm_P0.65mm; legacy MPN LM324PWR"
 			(at 176.53 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "LM324PWR"
 			(at 176.53 38.1 0)
@@ -6180,6 +6340,66 @@
 				)
 			)
 		)
+
+		(property "Assembly" "SMT"
+			(at 176.53 38.1 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=LM324PWR"
+			(at 176.53 38.1 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "LM324PWR"
+			(at 176.53 38.1 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Texas Instruments"
+			(at 176.53 38.1 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=LM324PWR"
+			(at 176.53 38.1 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 595-LM324PWR; stock 2174; packaging MouseReel; standard pack 2000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+			(at 176.53 38.1 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
+			(at 176.53 38.1 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 176.53 38.1 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 176.53 38.1 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "595-LM324PWR"
+			(at 176.53 38.1 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
 	)
 	(symbol
 		(lib_id "Device:Opamp_Quad")
@@ -6236,15 +6456,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Opamp_Quad_Generic; TSSOP-14_4.4x5mm_P0.65mm; legacy MPN LM324PWR"
 			(at 250.19 40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "LM324PWR"
 			(at 250.19 40.64 0)
@@ -6308,6 +6523,66 @@
 				)
 			)
 		)
+
+		(property "Assembly" "SMT"
+			(at 250.19 40.64 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=LM324PWR"
+			(at 250.19 40.64 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "LM324PWR"
+			(at 250.19 40.64 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Texas Instruments"
+			(at 250.19 40.64 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=LM324PWR"
+			(at 250.19 40.64 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 595-LM324PWR; stock 2174; packaging MouseReel; standard pack 2000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+			(at 250.19 40.64 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
+			(at 250.19 40.64 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 250.19 40.64 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 250.19 40.64 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "595-LM324PWR"
+			(at 250.19 40.64 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -6362,15 +6637,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10k; R_0603_1608Metric; legacy MPN RT0603FRD0710KL"
 			(at 53.34 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "RT0603FRD0710KL"
 			(at 53.34 35.56 0)
@@ -6397,6 +6667,66 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 53.34 35.56 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=RT0603FRD0710KL"
+			(at 53.34 35.56 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "RT0603FRD0710KL"
+			(at 53.34 35.56 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "YAGEO"
+			(at 53.34 35.56 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=RT0603FRD0710KL"
+			(at 53.34 35.56 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 603-RT0603FRD0710KL; stock 673; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+			(at 53.34 35.56 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
+			(at 53.34 35.56 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 53.34 35.56 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 53.34 35.56 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "603-RT0603FRD0710KL"
+			(at 53.34 35.56 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -6452,15 +6782,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10k; R_0603_1608Metric; legacy MPN RT0603FRD0710KL"
 			(at 53.34 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "RT0603FRD0710KL"
 			(at 53.34 64.77 0)
@@ -6487,6 +6812,66 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 53.34 64.77 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=RT0603FRD0710KL"
+			(at 53.34 64.77 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "RT0603FRD0710KL"
+			(at 53.34 64.77 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "YAGEO"
+			(at 53.34 64.77 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=RT0603FRD0710KL"
+			(at 53.34 64.77 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 603-RT0603FRD0710KL; stock 673; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+			(at 53.34 64.77 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
+			(at 53.34 64.77 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 53.34 64.77 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 53.34 64.77 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "603-RT0603FRD0710KL"
+			(at 53.34 64.77 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -6542,15 +6927,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10k; R_0603_1608Metric; legacy MPN RT0603FRD0710KL"
 			(at 53.34 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "RT0603FRD0710KL"
 			(at 53.34 90.17 0)
@@ -6577,6 +6957,66 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 53.34 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=RT0603FRD0710KL"
+			(at 53.34 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "RT0603FRD0710KL"
+			(at 53.34 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "YAGEO"
+			(at 53.34 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=RT0603FRD0710KL"
+			(at 53.34 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 603-RT0603FRD0710KL; stock 673; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+			(at 53.34 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
+			(at 53.34 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 53.34 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 53.34 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "603-RT0603FRD0710KL"
+			(at 53.34 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -6632,15 +7072,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100k / 0.25%; R_0603_1608Metric; legacy MPN RT0603CRE07100KL"
 			(at 175.26 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "RT0603CRE07100KL"
 			(at 175.26 50.8 0)
@@ -6667,6 +7102,66 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 175.26 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=RT0603CRE07100KL"
+			(at 175.26 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "RT0603CRE07100KL"
+			(at 175.26 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "YAGEO"
+			(at 175.26 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=RT0603CRE07100KL"
+			(at 175.26 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 603-RT0603CRE07100KL; stock 163; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved. Only 163 units observed; four per board, so at most 40 boards before spares. Preserve 0.25% tolerance and 50ppm/C."
+			(at 175.26 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
+			(at 175.26 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 175.26 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 175.26 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "603-RT0603CRE07100KL"
+			(at 175.26 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -6724,15 +7219,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100k var; Potentiometer_Bourns_PTV09A-2_Single_Horizontal_EdgeMounted; legacy MPN PTV09A-2020F-B104"
 			(at 62.23 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "PTV09A-2020F-B104"
 			(at 62.23 41.91 0)
@@ -6759,6 +7249,66 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "THT"
+			(at 62.23 41.91 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=PTV09A-2020F-B104"
+			(at 62.23 41.91 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "PTV09A-2020F-B104"
+			(at 62.23 41.91 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Bourns"
+			(at 62.23 41.91 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=PTV09A-2020F-B104"
+			(at 62.23 41.91 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 652-PTV09A-2020FB104; stock 213; packaging Tray; standard pack 100; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+			(at 62.23 41.91 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
+			(at 62.23 41.91 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 62.23 41.91 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 62.23 41.91 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "652-PTV09A-2020FB104"
+			(at 62.23 41.91 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -6816,15 +7366,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100k var; Potentiometer_Bourns_PTV09A-2_Single_Horizontal_EdgeMounted; legacy MPN PTV09A-2020F-B104"
 			(at 62.23 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "PTV09A-2020F-B104"
 			(at 62.23 69.85 0)
@@ -6851,6 +7396,66 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "THT"
+			(at 62.23 69.85 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=PTV09A-2020F-B104"
+			(at 62.23 69.85 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "PTV09A-2020F-B104"
+			(at 62.23 69.85 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Bourns"
+			(at 62.23 69.85 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=PTV09A-2020F-B104"
+			(at 62.23 69.85 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 652-PTV09A-2020FB104; stock 213; packaging Tray; standard pack 100; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+			(at 62.23 69.85 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
+			(at 62.23 69.85 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 62.23 69.85 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 62.23 69.85 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "652-PTV09A-2020FB104"
+			(at 62.23 69.85 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -6908,15 +7513,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100k var; Potentiometer_Bourns_PTV09A-2_Single_Horizontal_EdgeMounted; legacy MPN PTV09A-2020F-B104"
 			(at 62.23 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "PTV09A-2020F-B104"
 			(at 62.23 96.52 0)
@@ -6943,6 +7543,66 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "THT"
+			(at 62.23 96.52 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=PTV09A-2020F-B104"
+			(at 62.23 96.52 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "PTV09A-2020F-B104"
+			(at 62.23 96.52 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Bourns"
+			(at 62.23 96.52 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=PTV09A-2020F-B104"
+			(at 62.23 96.52 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 652-PTV09A-2020FB104; stock 213; packaging Tray; standard pack 100; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+			(at 62.23 96.52 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
+			(at 62.23 96.52 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 62.23 96.52 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 62.23 96.52 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "652-PTV09A-2020FB104"
+			(at 62.23 96.52 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -7000,15 +7660,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2k Trim; Potentiometer_Bourns_3296W_Vertical; legacy MPN PV36W202C01B00"
 			(at 153.67 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "PV36W202C01B00"
 			(at 153.67 50.8 0)
@@ -7035,6 +7690,66 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "THT"
+			(at 153.67 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=PV36W202C01B00"
+			(at 153.67 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "PV36W202C01B00"
+			(at 153.67 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Bourns"
+			(at 153.67 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=PV36W202C01B00"
+			(at 153.67 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 81-PV36W202C01B00; stock 2466; packaging Tube; standard pack 50; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved. Exact PV36W body/lead geometry, pin order and adjustment access must match Bourns 3296W footprint; 2.54mm lead pitch alone is not qualification."
+			(at 153.67 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "HOLD_MECHANICAL_REVIEW"
+			(at 153.67 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 153.67 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 153.67 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "81-PV36W202C01B00"
+			(at 153.67 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -7090,15 +7805,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100k / 0.25%; R_0603_1608Metric; legacy MPN RT0603CRE07100KL"
 			(at 175.26 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "RT0603CRE07100KL"
 			(at 175.26 29.21 0)
@@ -7125,6 +7835,66 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 175.26 29.21 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=RT0603CRE07100KL"
+			(at 175.26 29.21 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "RT0603CRE07100KL"
+			(at 175.26 29.21 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "YAGEO"
+			(at 175.26 29.21 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=RT0603CRE07100KL"
+			(at 175.26 29.21 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 603-RT0603CRE07100KL; stock 163; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved. Only 163 units observed; four per board, so at most 40 boards before spares. Preserve 0.25% tolerance and 50ppm/C."
+			(at 175.26 29.21 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
+			(at 175.26 29.21 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 175.26 29.21 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 175.26 29.21 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "603-RT0603CRE07100KL"
+			(at 175.26 29.21 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -7180,15 +7950,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100k / 0.25%; R_0603_1608Metric; legacy MPN RT0603CRE07100KL"
 			(at 160.02 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "RT0603CRE07100KL"
 			(at 160.02 29.21 0)
@@ -7215,6 +7980,66 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 160.02 29.21 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=RT0603CRE07100KL"
+			(at 160.02 29.21 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "RT0603CRE07100KL"
+			(at 160.02 29.21 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "YAGEO"
+			(at 160.02 29.21 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=RT0603CRE07100KL"
+			(at 160.02 29.21 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 603-RT0603CRE07100KL; stock 163; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved. Only 163 units observed; four per board, so at most 40 boards before spares. Preserve 0.25% tolerance and 50ppm/C."
+			(at 160.02 29.21 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
+			(at 160.02 29.21 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 160.02 29.21 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 160.02 29.21 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "603-RT0603CRE07100KL"
+			(at 160.02 29.21 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -7270,17 +8095,12 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5pF +/-0.1pF 50V C0G/NP0 MLCC; 0603 (1608 metric)"
 			(at 175.26 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
-		(property "manf#" "GJM0335C1E5R0BB01D"
+		(property "manf#" "CC0603BRNPO9BN5R0"
 			(at 175.26 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -7306,7 +8126,73 @@
 				)
 			)
 		)
-	)
+
+		(property "Assembly" "SMT"
+			(at 175.26 31.75 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=CC0603BRNPO9BN5R0"
+			(at 175.26 31.75 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "CC0603BRNPO9BN5R0"
+			(at 175.26 31.75 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "YAGEO"
+			(at 175.26 31.75 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=CC0603BRNPO9BN5R0"
+			(at 175.26 31.75 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "User-approved breakout substitution 2026-11-07: GJM0335C1E5R0BB01D -> CC0603BRNPO9BN5R0. 5pF compensation capacitor in the +/-5V op-amp/current-source path; 50V exceeds the intended rail-to-rail envelope. Retains 5pF, +/-0.1pF and C0G behavior while correcting the nominal package from legacy 0201 to actual PCB 0603. Validate compensation/stability on hardware. LCSC C519109; Active per earlier DigiKey lookup. Stock/packing must be rechecked before order."
+			(at 175.26 31.75 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION"
+			(at 175.26 31.75 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" "13-CC0603BRNPO9BN5R0CT-ND"
+			(at 175.26 31.75 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 175.26 31.75 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "603-CC603BRNPO9BN5R0"
+			(at 175.26 31.75 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "LCSCOrderCode" "C519109"
+			(at 175.26 31.75 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+)
 	(symbol
 		(lib_id "Device:R_Small")
 		(at 187.96 50.8 270)
@@ -7360,15 +8246,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1k / 1%; R_0603_1608Metric; legacy MPN CRT0603-FY-1001ELF"
 			(at 187.96 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "CRT0603-FY-1001ELF"
 			(at 187.96 50.8 0)
@@ -7395,6 +8276,66 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 187.96 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=CRT0603-FY-1001ELF"
+			(at 187.96 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "CRT0603-FY-1001ELF"
+			(at 187.96 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Bourns"
+			(at 187.96 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=CRT0603-FY-1001ELF"
+			(at 187.96 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 652-CRT0603FY1001ELF; stock 26600; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+			(at 187.96 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
+			(at 187.96 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 187.96 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 187.96 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "652-CRT0603FY1001ELF"
+			(at 187.96 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -7450,15 +8391,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100k / 0.25%; R_0603_1608Metric; legacy MPN RT0603CRE07100KL"
 			(at 162.56 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "RT0603CRE07100KL"
 			(at 162.56 50.8 0)
@@ -7485,6 +8421,66 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 162.56 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=RT0603CRE07100KL"
+			(at 162.56 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "RT0603CRE07100KL"
+			(at 162.56 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "YAGEO"
+			(at 162.56 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=RT0603CRE07100KL"
+			(at 162.56 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 603-RT0603CRE07100KL; stock 163; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved. Only 163 units observed; four per board, so at most 40 boards before spares. Preserve 0.25% tolerance and 50ppm/C."
+			(at 162.56 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
+			(at 162.56 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 162.56 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 162.56 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "603-RT0603CRE07100KL"
+			(at 162.56 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -7540,17 +8536,12 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10uF +/-10% 50V X5R MLCC; 0805 (2012 metric)"
 			(at 48.26 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
-		(property "manf#" "GMK212BBJ106MG-T"
+		(property "manf#" "GRM21BR61H106KE43L"
 			(at 48.26 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -7576,7 +8567,73 @@
 				)
 			)
 		)
-	)
+
+		(property "Assembly" "SMT"
+			(at 48.26 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GRM21BR61H106KE43L"
+			(at 48.26 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "GRM21BR61H106KE43L"
+			(at 48.26 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Murata"
+			(at 48.26 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=GRM21BR61H106KE43L"
+			(at 48.26 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "User-approved breakout substitution 2026-11-07: GMK212BBJ106MG-T -> GRM21BR61H106KE43L. C4 is the 5V LM2663 flying capacitor; C5 bypasses -5V. Remaining parts AC-couple analog paths on the intended +/-5V design; conservative rail-to-rail envelope is 10V, below 50V. Keep manufacturer-application caveat visible: DigiKey lists Mobile Devices Only; the Murata reference sheet obtained through MCP is headed General Purpose. User accepts use for this breakout, not unrestricted production qualification. Validate effective capacitance, charge-pump performance and analog transfer; confirm packaging and height. LCSC C440198; Active per DigiKey. Stock/packing must be rechecked before order."
+			(at 48.26 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION"
+			(at 48.26 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" "490-18663-1-ND"
+			(at 48.26 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 48.26 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "81-GRM21BR61H106KE3L"
+			(at 48.26 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "LCSCOrderCode" "C440198"
+			(at 48.26 90.17 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+)
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 48.26 64.77 270)
@@ -7630,17 +8687,12 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10uF +/-10% 50V X5R MLCC; 0805 (2012 metric)"
 			(at 48.26 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
-		(property "manf#" "GMK212BBJ106MG-T"
+		(property "manf#" "GRM21BR61H106KE43L"
 			(at 48.26 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -7666,7 +8718,73 @@
 				)
 			)
 		)
-	)
+
+		(property "Assembly" "SMT"
+			(at 48.26 64.77 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GRM21BR61H106KE43L"
+			(at 48.26 64.77 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "GRM21BR61H106KE43L"
+			(at 48.26 64.77 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Murata"
+			(at 48.26 64.77 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=GRM21BR61H106KE43L"
+			(at 48.26 64.77 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "User-approved breakout substitution 2026-11-07: GMK212BBJ106MG-T -> GRM21BR61H106KE43L. C4 is the 5V LM2663 flying capacitor; C5 bypasses -5V. Remaining parts AC-couple analog paths on the intended +/-5V design; conservative rail-to-rail envelope is 10V, below 50V. Keep manufacturer-application caveat visible: DigiKey lists Mobile Devices Only; the Murata reference sheet obtained through MCP is headed General Purpose. User accepts use for this breakout, not unrestricted production qualification. Validate effective capacitance, charge-pump performance and analog transfer; confirm packaging and height. LCSC C440198; Active per DigiKey. Stock/packing must be rechecked before order."
+			(at 48.26 64.77 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION"
+			(at 48.26 64.77 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" "490-18663-1-ND"
+			(at 48.26 64.77 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 48.26 64.77 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "81-GRM21BR61H106KE3L"
+			(at 48.26 64.77 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "LCSCOrderCode" "C440198"
+			(at 48.26 64.77 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+)
 	(symbol
 		(lib_id "power:GND")
 		(at 154.94 29.21 0)
@@ -7797,17 +8915,12 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10uF +/-10% 50V X5R MLCC; 0805 (2012 metric)"
 			(at 48.26 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
-		(property "manf#" "GMK212BBJ106MG-T"
+		(property "manf#" "GRM21BR61H106KE43L"
 			(at 48.26 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -7833,7 +8946,73 @@
 				)
 			)
 		)
-	)
+
+		(property "Assembly" "SMT"
+			(at 48.26 35.56 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GRM21BR61H106KE43L"
+			(at 48.26 35.56 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "GRM21BR61H106KE43L"
+			(at 48.26 35.56 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Murata"
+			(at 48.26 35.56 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=GRM21BR61H106KE43L"
+			(at 48.26 35.56 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "User-approved breakout substitution 2026-11-07: GMK212BBJ106MG-T -> GRM21BR61H106KE43L. C4 is the 5V LM2663 flying capacitor; C5 bypasses -5V. Remaining parts AC-couple analog paths on the intended +/-5V design; conservative rail-to-rail envelope is 10V, below 50V. Keep manufacturer-application caveat visible: DigiKey lists Mobile Devices Only; the Murata reference sheet obtained through MCP is headed General Purpose. User accepts use for this breakout, not unrestricted production qualification. Validate effective capacitance, charge-pump performance and analog transfer; confirm packaging and height. LCSC C440198; Active per DigiKey. Stock/packing must be rechecked before order."
+			(at 48.26 35.56 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION"
+			(at 48.26 35.56 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" "490-18663-1-ND"
+			(at 48.26 35.56 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 48.26 35.56 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "81-GRM21BR61H106KE3L"
+			(at 48.26 35.56 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "LCSCOrderCode" "C440198"
+			(at 48.26 35.56 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 146.05 50.8 0)
@@ -7889,15 +9068,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100k POT; Potentiometer_Bourns_PTV09A-2_Single_Horizontal_EdgeMounted; legacy MPN PTV09A-2020F-B104"
 			(at 146.05 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "PTV09A-2020F-B104"
 			(at 146.05 50.8 0)
@@ -7927,6 +9101,66 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "THT"
+			(at 146.05 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=PTV09A-2020F-B104"
+			(at 146.05 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "PTV09A-2020F-B104"
+			(at 146.05 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Bourns"
+			(at 146.05 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=PTV09A-2020F-B104"
+			(at 146.05 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 652-PTV09A-2020FB104; stock 213; packaging Tray; standard pack 100; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+			(at 146.05 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
+			(at 146.05 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 146.05 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 146.05 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "652-PTV09A-2020FB104"
+			(at 146.05 50.8 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -8059,17 +9293,12 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10uF +/-10% 50V X5R MLCC; 0805 (2012 metric)"
 			(at 73.66 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
-		(property "manf#" "GMK212BBJ106MG-T"
+		(property "manf#" "GRM21BR61H106KE43L"
 			(at 73.66 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -8095,7 +9324,73 @@
 				)
 			)
 		)
-	)
+
+		(property "Assembly" "SMT"
+			(at 73.66 33.02 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GRM21BR61H106KE43L"
+			(at 73.66 33.02 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "GRM21BR61H106KE43L"
+			(at 73.66 33.02 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Murata"
+			(at 73.66 33.02 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=GRM21BR61H106KE43L"
+			(at 73.66 33.02 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "User-approved breakout substitution 2026-11-07: GMK212BBJ106MG-T -> GRM21BR61H106KE43L. C4 is the 5V LM2663 flying capacitor; C5 bypasses -5V. Remaining parts AC-couple analog paths on the intended +/-5V design; conservative rail-to-rail envelope is 10V, below 50V. Keep manufacturer-application caveat visible: DigiKey lists Mobile Devices Only; the Murata reference sheet obtained through MCP is headed General Purpose. User accepts use for this breakout, not unrestricted production qualification. Validate effective capacitance, charge-pump performance and analog transfer; confirm packaging and height. LCSC C440198; Active per DigiKey. Stock/packing must be rechecked before order."
+			(at 73.66 33.02 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION"
+			(at 73.66 33.02 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" "490-18663-1-ND"
+			(at 73.66 33.02 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 73.66 33.02 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "81-GRM21BR61H106KE3L"
+			(at 73.66 33.02 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "LCSCOrderCode" "C440198"
+			(at 73.66 33.02 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+)
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 73.66 62.23 270)
@@ -8149,17 +9444,12 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10uF +/-10% 50V X5R MLCC; 0805 (2012 metric)"
 			(at 73.66 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
-		(property "manf#" "GMK212BBJ106MG-T"
+		(property "manf#" "GRM21BR61H106KE43L"
 			(at 73.66 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -8185,7 +9475,73 @@
 				)
 			)
 		)
-	)
+
+		(property "Assembly" "SMT"
+			(at 73.66 62.23 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GRM21BR61H106KE43L"
+			(at 73.66 62.23 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "GRM21BR61H106KE43L"
+			(at 73.66 62.23 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Murata"
+			(at 73.66 62.23 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=GRM21BR61H106KE43L"
+			(at 73.66 62.23 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "User-approved breakout substitution 2026-11-07: GMK212BBJ106MG-T -> GRM21BR61H106KE43L. C4 is the 5V LM2663 flying capacitor; C5 bypasses -5V. Remaining parts AC-couple analog paths on the intended +/-5V design; conservative rail-to-rail envelope is 10V, below 50V. Keep manufacturer-application caveat visible: DigiKey lists Mobile Devices Only; the Murata reference sheet obtained through MCP is headed General Purpose. User accepts use for this breakout, not unrestricted production qualification. Validate effective capacitance, charge-pump performance and analog transfer; confirm packaging and height. LCSC C440198; Active per DigiKey. Stock/packing must be rechecked before order."
+			(at 73.66 62.23 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION"
+			(at 73.66 62.23 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" "490-18663-1-ND"
+			(at 73.66 62.23 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 73.66 62.23 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "81-GRM21BR61H106KE3L"
+			(at 73.66 62.23 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "LCSCOrderCode" "C440198"
+			(at 73.66 62.23 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+)
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 73.66 87.63 270)
@@ -8239,17 +9595,12 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10uF +/-10% 50V X5R MLCC; 0805 (2012 metric)"
 			(at 73.66 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
-		(property "manf#" "GMK212BBJ106MG-T"
+		(property "manf#" "GRM21BR61H106KE43L"
 			(at 73.66 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -8275,7 +9626,73 @@
 				)
 			)
 		)
-	)
+
+		(property "Assembly" "SMT"
+			(at 73.66 87.63 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GRM21BR61H106KE43L"
+			(at 73.66 87.63 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "GRM21BR61H106KE43L"
+			(at 73.66 87.63 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Murata"
+			(at 73.66 87.63 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=GRM21BR61H106KE43L"
+			(at 73.66 87.63 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "User-approved breakout substitution 2026-11-07: GMK212BBJ106MG-T -> GRM21BR61H106KE43L. C4 is the 5V LM2663 flying capacitor; C5 bypasses -5V. Remaining parts AC-couple analog paths on the intended +/-5V design; conservative rail-to-rail envelope is 10V, below 50V. Keep manufacturer-application caveat visible: DigiKey lists Mobile Devices Only; the Murata reference sheet obtained through MCP is headed General Purpose. User accepts use for this breakout, not unrestricted production qualification. Validate effective capacitance, charge-pump performance and analog transfer; confirm packaging and height. LCSC C440198; Active per DigiKey. Stock/packing must be rechecked before order."
+			(at 73.66 87.63 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION"
+			(at 73.66 87.63 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" "490-18663-1-ND"
+			(at 73.66 87.63 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 73.66 87.63 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "81-GRM21BR61H106KE3L"
+			(at 73.66 87.63 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "LCSCOrderCode" "C440198"
+			(at 73.66 87.63 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+)
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 168.91 50.8 180)
@@ -8838,17 +10255,12 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10uF +/-10% 50V X5R MLCC; 0805 (2012 metric)"
 			(at 146.05 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
-		(property "manf#" "GMK212BBJ106MG-T"
+		(property "manf#" "GRM21BR61H106KE43L"
 			(at 146.05 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -8874,7 +10286,73 @@
 				)
 			)
 		)
-	)
+
+		(property "Assembly" "SMT"
+			(at 146.05 41.91 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GRM21BR61H106KE43L"
+			(at 146.05 41.91 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "GRM21BR61H106KE43L"
+			(at 146.05 41.91 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Murata"
+			(at 146.05 41.91 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=GRM21BR61H106KE43L"
+			(at 146.05 41.91 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "User-approved breakout substitution 2026-11-07: GMK212BBJ106MG-T -> GRM21BR61H106KE43L. C4 is the 5V LM2663 flying capacitor; C5 bypasses -5V. Remaining parts AC-couple analog paths on the intended +/-5V design; conservative rail-to-rail envelope is 10V, below 50V. Keep manufacturer-application caveat visible: DigiKey lists Mobile Devices Only; the Murata reference sheet obtained through MCP is headed General Purpose. User accepts use for this breakout, not unrestricted production qualification. Validate effective capacitance, charge-pump performance and analog transfer; confirm packaging and height. LCSC C440198; Active per DigiKey. Stock/packing must be rechecked before order."
+			(at 146.05 41.91 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION"
+			(at 146.05 41.91 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" "490-18663-1-ND"
+			(at 146.05 41.91 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 146.05 41.91 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "81-GRM21BR61H106KE3L"
+			(at 146.05 41.91 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "LCSCOrderCode" "C440198"
+			(at 146.05 41.91 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
 		(at 139.7 40.64 90)

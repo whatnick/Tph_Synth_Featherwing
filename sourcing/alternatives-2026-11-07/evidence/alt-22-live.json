@@ -1,0 +1,64 @@
+{
+  "arguments": {
+    "lcsc": "C338080"
+  },
+  "checked_utc": "2026-11-07T06:21:45.1509315Z",
+  "tool": "jlc_get_part",
+  "endpoint": "https://pcbparts.dev/mcp",
+  "response": {
+    "lcsc": "C338080",
+    "model": "C2012X5R1V226MT000E",
+    "manufacturer": "TDK",
+    "package": "0805",
+    "stock": 56013,
+    "price": 0.3193,
+    "library_type": "extended",
+    "preferred": false,
+    "category": "Capacitors",
+    "subcategory": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+    "subcategory_id": 2929,
+    "mounting_type": "smd",
+    "pcba_type": "economic",
+    "specs": {
+      "Voltage Rating": "35V",
+      "Tolerance": "±20%",
+      "Capacitance": "22uF",
+      "Temperature Coefficient": "X5R"
+    },
+    "specs_note": "Capacitance is the nominal value at 0 V. Class II dielectrics (X5R, X7R, Y5V) lose capacitance under DC bias, more in small cases, often half or more near the rated voltage; the maker's DC-bias curve (Murata SimSurfing, Samsung, TDK, KEMET K-SIM) gives the effective value at your voltage.",
+    "min_order": 1,
+    "reel_qty": 2000,
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_TDK-C2012X5R1V226MT000E_C338080.pdf",
+    "datasheet_pdf": "https://pcbparts.dev/mcp/datasheet/C338080",
+    "lcsc_url": "https://www.lcsc.com/product-detail/multilayer-ceramic-capacitors-mlcc-smd-smt_tdk-c2012x5r1v226mt000e_C338080.html",
+    "prices": [
+      {
+        "qty": "1+",
+        "price": 0.3193
+      },
+      {
+        "qty": "100+",
+        "price": 0.2495
+      },
+      {
+        "qty": "300+",
+        "price": 0.2154
+      },
+      {
+        "qty": "2000+",
+        "price": 0.1852
+      },
+      {
+        "qty": "4000+",
+        "price": 0.1768
+      },
+      {
+        "qty": "10000+",
+        "price": 0.1718
+      }
+    ],
+    "has_easyeda_footprint": true,
+    "easyeda_symbol_uuid": "64224fe867fb41599650de8ea687d773",
+    "easyeda_footprint_uuid": "2ee8eb13a0124a108e622ce40c0c25a8"
+  }
+}

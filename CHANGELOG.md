@@ -1,5 +1,54 @@
 # CHANGELOG
 
+## Potentiometer mechanical review (2026-11-07)
+- Verify PV36W inline pitch and pin order from supplied doc/pv36.pdf.
+  Flag 0.8 mm PCB drills versus 0.9 mm manufacturer recommendation.
+- Correct four panel-pot family STEP X offsets 3.5 to 3.1 mm and matching
+  project-local footprint offset without changing pads/routing/placement.
+- Measure all 20 modeled lead/tab sections through the board; document
+  residual mounting-feature intersections and unavailable exact PV36W model.
+- Add populated-STEP Blender turntable (doc/v0.4/board-turntable.mp4) and
+  scripts/render_turntable.py; refresh top/bottom renders.
+
+## Feather header assembly policy (2026-11-07)
+- Leave Feather host 12-pin/16-pin headers DNP at manufacture, excluding them
+  from factory purchasing; users fit stacking headers as required afterward.
+- Remove factory header selection from manufacturing blockers. J2/J3 remain
+  fitted. R10 PV36W-to-3296W fit remains unverified, not a confirmed mismatch.
+
+## Approved breakout capacitor substitutions (2026-11-07)
+- Apply user-approved TDK C2012X5R1V226MT000E (22 uF, 35 V, 0805) at C1-C3,
+  Murata GRM21BR61H106KE43L (10 uF, 50 V, 0805) at C4-C11/C18, and YAGEO
+  CC0603BRNPO9BN5R0 (5 pF, 50 V, 0603) at C12.
+- Preserve capacitance, footprint, component placement and routing; no voltage
+  rating reduced. Synchronize standard MPN and legacy manf# fields.
+- Record LCSC sourcing for TDK, exact distributor codes and approved-breakout
+  status. Production release still requires DC-bias, stability and hardware
+  validation, R10 fit and header/stacking decisions.
+
+## Live distributor sourcing review (2026-11-07)
+- Use the connected pcbparts MCP for all 21 unique fitted MPNs in Mouser
+  batches and targeted DigiKey checks. Record dated evidence and exact
+  manufacturer/order-code fields on all 46 fitted schematic/PCB components.
+- Confirm C1-C3 obsolete at both distributors and flag C4-C11/C18 zero stock
+  at both. Keep C12's package and R10's mechanical holds; no MPNs substituted.
+- Record active YAGEO C12 qualification candidate and reject the earlier
+  NRND Murata candidate. Exclude unrelated same-MPN manufacturer matches.
+- Regenerate the source-derived review BOM and manufacturing package with
+  dated evidence and source/output hashes; assembly/purchasing remains on hold.
+
+## Manufacturing preparation and issue #3 (2026-11-06)
+- Add aligned SDA, SCL, 3V3, GND, VUSB and VBAT labels at their actual Feather
+  header pads on both silkscreen layers, mirrored correctly on the back.
+- Enforce 0.15 mm silkscreen clearance instead of the former zero-clearance
+  threshold. Remove the eight exposed overlaps, retain visible test-pad
+  references and move U4's reference clear of the new 3V3 marking.
+- Preserve all routed copper, pad geometry and component placement.
+- Add schematic/PCB sourcing fields and a reproducible manufacturing exporter
+  with checked Gerbers, split drills, review BOM, SMT placements and hash manifest.
+- Keep assembly/purchasing on hold for the documented C12 package mismatch,
+  C1-C3 lifecycle review, R10 fit, header selection and remaining sourcing checks.
+
 ## v0.4 - KiCad 10 migration (2026-10-28)
 - Upgrade the six-sheet schematic, PCB and project-local libraries to KiCad 10.
 - Restore hierarchical instances, annotate the remaining power symbol and

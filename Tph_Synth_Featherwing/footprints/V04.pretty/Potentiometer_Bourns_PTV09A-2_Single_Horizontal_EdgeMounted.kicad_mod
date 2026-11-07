@@ -300,7 +300,7 @@
 
 
 	(model "${KIPRJMOD}/3dmodels/ptv09a-2x20f-xxxx.stp"
-      (offset (xyz 3.5 2.5 9.5))
+      (offset (xyz 3.1 2.5 9.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 -180 -90))
     )

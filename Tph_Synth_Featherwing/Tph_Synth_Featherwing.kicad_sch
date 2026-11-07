@@ -1422,15 +1422,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Conn_01x04; Molex_Nano-Fit_105314-xx04_2x02_P2.50mm_Horizontal_EdgeMounted; legacy MPN 105314-1204"
 			(at 254 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "105314-1204"
 			(at 254 77.47 0)
@@ -1463,6 +1458,66 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "THT"
+			(at 254 77.47 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=105314-1204"
+			(at 254 77.47 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "105314-1204"
+			(at 254 77.47 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Molex"
+			(at 254 77.47 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=105314-1204"
+			(at 254 77.47 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 538-105314-1204; stock 18435; packaging Tray; standard pack 1; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+			(at 254 77.47 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
+			(at 254 77.47 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 254 77.47 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 254 77.47 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "538-105314-1204"
+			(at 254 77.47 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -1520,15 +1575,10 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "AudioJack3; Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal_EdgeMounted; legacy MPN SJ-3523-SMT-TR"
 			(at 252.73 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "manf#" "SJ-3523-SMT-TR"
 			(at 252.73 107.95 0)
@@ -1558,6 +1608,66 @@
 						(unit 1)
 				)
 			)
+		)
+
+		(property "Assembly" "SMT"
+			(at 252.73 107.95 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=SJ-3523-SMT-TR"
+			(at 252.73 107.95 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MPN" "SJ-3523-SMT-TR"
+			(at 252.73 107.95 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Manufacturer" "Same Sky"
+			(at 252.73 107.95 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "Mouser" "https://www.mouser.com/c/?q=SJ-3523-SMT-TR"
+			(at 252.73 107.95 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 490-SJ-3523-SMT-TR; stock 60861; packaging MouseReel; standard pack 1000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+			(at 252.73 107.95 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
+			(at 252.73 107.95 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 252.73 107.95 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 252.73 107.95 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "490-SJ-3523-SMT-TR"
+			(at 252.73 107.95 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol

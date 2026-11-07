@@ -1,0 +1,57 @@
+{
+  "review_date": "2026-11-07",
+  "scope": "All five potentiometers; two BOM MPNs",
+  "status": "PARTIAL_MECHANICAL_VERIFICATION_NOT_PRODUCTION_FIT_CERTIFICATION",
+  "panel_pots": {
+    "references": ["R7", "R8", "R9", "RV1"],
+    "mpn": "PTV09A-2020F-B104",
+    "model": "Tph_Synth_Featherwing/3dmodels/ptv09a-2x20f-xxxx.stp",
+    "provenance": "STEP FILE_NAME identifies PTV09A-2X20F-XXXX, Bourns Inc., 2016-03-23, Pro/ENGINEER. A manufacturer family model, not exact full-MPN certification.",
+    "model_validity": "FreeCAD 0.19/OpenCASCADE reads two valid solids.",
+    "model_offset_change_mm": {"before":[3.5,2.5,9.5],"after":[3.1,2.5,9.5]},
+    "rotation_degrees": [0,-180,-90],
+    "scale": [1,1,1],
+    "geometry_method": "KiCad 10 STEP export of each actual placement plus board; FreeCAD sections of modeled leads at PCB z=0.8mm.",
+    "signal_leads": {
+      "count_per_part": 3,
+      "section_mm": [0.3,0.8],
+      "finished_hole_nominal_diameter_mm": 1.0,
+      "lead_center_error_after_alignment_mm": 0.003827,
+      "conservative_radial_margin_at_midplane_mm": 0.071441
+    },
+    "mounting_tabs": {
+      "count_per_part": 2,
+      "section_mm": [2.0,0.3],
+      "finished_hole_nominal_diameter_mm": 2.3,
+      "tab_center_offset_from_hole_mm": 0.3,
+      "conservative_radial_margin_at_midplane_mm": 0.053414
+    },
+    "remaining_issue": "Despite all 20 lead/tab sections lying within nominal holes at board midplane, each modeled pot has approximately 0.331169mm3 intersection with the exported board, near mounting features. This is not zero-collision certification; verify seating and hole tolerance with a physical sample or exact current drawing.",
+    "exact_mpn_search": "SamacSys CSE exact-MPN search returned zero results. DigiKey/SnapEDA/Bourns download pages were inaccessible (403) or timed out."
+  },
+  "r10": {
+    "mpn": "PV36W202C01B00",
+    "footprint": "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical",
+    "current_3d_model": "KiCad 3296W model is a proxy, NOT exact PV36W geometry; left unchanged rather than relabelled as verified.",
+    "manufacturer_drawing": "doc/pv36.pdf",
+    "drawing_revision": "10/23",
+    "dimensional_pages": [1,2,3],
+    "order_code_verified": "PV36 W 202 C01 B00 = top-adjust inline, 2kOhm, standard, tube of 50",
+    "body_nominal_mm": {"long_dimension":9.53,"short_dimension":4.83,"height_dimension":10.03},
+    "body_width_tolerance_mm": 0.13,
+    "lead_diameter_mm": 0.51,
+    "lead_diameter_tolerance_mm": 0.03,
+    "lead_pitch_mm": 2.54,
+    "pin_order": "Top-view recommended PCB layout has 3,2,1 left-to-right. PCB relative positions 3=-5.08mm, 2=-2.54mm, 1=0mm agree.",
+    "wiper_pin": "2",
+    "connected_pins": ["1","2"],
+    "unused_pin": "3",
+    "recommended_hole_diameter_mm": 0.9,
+    "actual_hole_diameter_mm": 0.8,
+    "nominal_radial_clearance_at_max_lead_mm": 0.13,
+    "remaining_issue": "Inline pitch and pin mapping verified. Actual 0.8mm holes differ from Bourns recommended 0.9mm; nominal 0.54mm maximum leads fit, but finished-hole/lead positional tolerances and assembly insertion must be checked. Exact PV36W model unavailable; body/seating/nearby-component and tool-access clearance are not certified by the 3296W proxy."
+  },
+  "preserved": "No footprints/pads/drills/routed copper/placement or MPN choices changed. Only four panel-pot model offsets and their matching project-local footprint model offset changed.",
+  "manufacturing_release": "Assembly remains on hold for documented insertion/seating checks and hardware validation. Header rows remain factory DNP.",
+  "evidence_files": "sourcing/pot-fit-2026-11-07"
+}

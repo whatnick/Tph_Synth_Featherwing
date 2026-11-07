@@ -1,0 +1,64 @@
+{
+  "endpoint": "https://pcbparts.dev/mcp",
+  "tool": "jlc_get_part",
+  "response": {
+    "lcsc": "C2932476",
+    "model": "CL21A106KBYQNNE",
+    "manufacturer": "Samsung Electro-Mechanics",
+    "package": "0805",
+    "stock": 568902,
+    "price": 0.1327,
+    "library_type": "extended",
+    "preferred": false,
+    "category": "Capacitors",
+    "subcategory": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+    "subcategory_id": 2929,
+    "mounting_type": "smd",
+    "pcba_type": "economic",
+    "specs": {
+      "Voltage Rating": "50V",
+      "Tolerance": "±10%",
+      "Capacitance": "10uF",
+      "Temperature Coefficient": "X5R"
+    },
+    "specs_note": "Capacitance is the nominal value at 0 V. Class II dielectrics (X5R, X7R, Y5V) lose capacitance under DC bias, more in small cases, often half or more near the rated voltage; the maker's DC-bias curve (Murata SimSurfing, Samsung, TDK, KEMET K-SIM) gives the effective value at your voltage.",
+    "min_order": 1,
+    "reel_qty": 2000,
+    "datasheet": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121530_Samsung-Electro-Mechanics-CL21A106KBYQNNE_C2932476.pdf",
+    "datasheet_pdf": "https://pcbparts.dev/mcp/datasheet/C2932476",
+    "lcsc_url": "https://www.lcsc.com/product-detail/multilayer-ceramic-capacitors-mlcc-smd-smt_samsung-electro-mechanics-cl21a106kbyqnne_C2932476.html",
+    "prices": [
+      {
+        "qty": "1+",
+        "price": 0.1327
+      },
+      {
+        "qty": "50+",
+        "price": 0.107
+      },
+      {
+        "qty": "150+",
+        "price": 0.0938
+      },
+      {
+        "qty": "500+",
+        "price": 0.0828
+      },
+      {
+        "qty": "2000+",
+        "price": 0.079
+      },
+      {
+        "qty": "4000+",
+        "price": 0.0766
+      }
+    ],
+    "has_easyeda_footprint": true,
+    "easyeda_symbol_uuid": "823006ccb39c41348118057067a9697f",
+    "easyeda_footprint_uuid": "2ee8eb13a0124a108e622ce40c0c25a8"
+  },
+  "checked_utc": "2026-11-07T06:22:21.8259306Z",
+  "arguments": {
+    "lcsc": "C2932476"
+  }
+}

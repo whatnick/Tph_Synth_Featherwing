@@ -1,0 +1,376 @@
+{
+  "generated_utc": "2026-11-07T07:54:08.422818+00:00",
+  "kicad_version": "10.0.3",
+  "status": "FABRICATION_FILES_PREPARED_ASSEMBLY_ON_HOLD",
+  "cad_checks": {
+    "erc": 0,
+    "drc": 0,
+    "unconnected": 0,
+    "schematic_parity": 0
+  },
+  "board": {
+    "revision": "0.4",
+    "design_date": "2026-10-28",
+    "layers": 2,
+    "thickness_mm": 1.6,
+    "outline_width_mm": 51.0,
+    "outline_height_mm": 58.5,
+    "smallest_routed_track_mm": 0.25,
+    "smallest_via_drill_mm": 0.4,
+    "smallest_via_diameter_mm": 0.8,
+    "netclasses": [
+      {
+        "name": "Default",
+        "clearance": 0.15
+      },
+      {
+        "name": "Power",
+        "clearance": 0.15
+      }
+    ],
+    "order_settings_to_confirm": {
+      "material": "FR-4 proposed; confirm with fabricator",
+      "copper_weight": "Not specified by design; confirm stackup and current/thermal suitability",
+      "surface_finish": "Not specified by design; confirm finish and soldering process",
+      "soldermask_colour": "Green proposed; cosmetic selection not encoded in design",
+      "quantity": "Not specified; no order placed",
+      "panelization": "Individual board; assembler must define panel rails/fiducials if required"
+    }
+  },
+  "physical_component_count": 46,
+  "smt_placement_count": 40,
+  "tht_references": [
+    "J2",
+    "R7",
+    "R8",
+    "R9",
+    "R10",
+    "RV1"
+  ],
+  "external_host_references": [
+    "MS1"
+  ],
+  "pcb_feature_references": [
+    "LOGO1",
+    "JP1",
+    "TP6",
+    "TP7",
+    "TP1",
+    "TP2",
+    "JP2",
+    "TP3",
+    "TP4",
+    "TP5"
+  ],
+  "feather_header_assembly_policy": {
+    "factory_population": "DNP",
+    "purchasing_bom": "Excluded; no factory header MPN required.",
+    "user_installation": "Fit compatible Feather stacking headers after manufacture as required.",
+    "scope": "Feather host 12-pin/16-pin rows only; J2 and J3 remain fitted BOM components."
+  },
+  "procurement_blockers": [
+    {
+      "references": "J1",
+      "mpn": "SJ-3523-SMT-TR",
+      "status": "REVIEW_DATASHEET_AND_FIT",
+      "action": "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 490-SJ-3523-SMT-TR; stock 60861; packaging MouseReel; standard pack 1000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+    },
+    {
+      "references": "J2",
+      "mpn": "105314-1204",
+      "status": "REVIEW_DATASHEET_AND_FIT",
+      "action": "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 538-105314-1204; stock 18435; packaging Tray; standard pack 1; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+    },
+    {
+      "references": "C1",
+      "mpn": "C2012X5R1V226MT000E",
+      "status": "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION",
+      "action": "User-approved breakout substitution 2026-11-07: C2012JB1V226M125AC -> C2012X5R1V226MT000E. C1 is VBAT-to-GND; C2/C3 are BOOST_5V-to-GND. Intended battery/5V rails are below the unchanged 35V rating. JB-to-X5R change accepted for this breakout; effective capacitance versus bias/temperature and boost startup/ripple/stability remain bench-validation requirements. LCSC C338080; Manufacturer lifecycle not independently verified. Stock/packing must be rechecked before order."
+    },
+    {
+      "references": "C2",
+      "mpn": "C2012X5R1V226MT000E",
+      "status": "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION",
+      "action": "User-approved breakout substitution 2026-11-07: C2012JB1V226M125AC -> C2012X5R1V226MT000E. C1 is VBAT-to-GND; C2/C3 are BOOST_5V-to-GND. Intended battery/5V rails are below the unchanged 35V rating. JB-to-X5R change accepted for this breakout; effective capacitance versus bias/temperature and boost startup/ripple/stability remain bench-validation requirements. LCSC C338080; Manufacturer lifecycle not independently verified. Stock/packing must be rechecked before order."
+    },
+    {
+      "references": "C3",
+      "mpn": "C2012X5R1V226MT000E",
+      "status": "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION",
+      "action": "User-approved breakout substitution 2026-11-07: C2012JB1V226M125AC -> C2012X5R1V226MT000E. C1 is VBAT-to-GND; C2/C3 are BOOST_5V-to-GND. Intended battery/5V rails are below the unchanged 35V rating. JB-to-X5R change accepted for this breakout; effective capacitance versus bias/temperature and boost startup/ripple/stability remain bench-validation requirements. LCSC C338080; Manufacturer lifecycle not independently verified. Stock/packing must be rechecked before order."
+    },
+    {
+      "references": "D1",
+      "mpn": "B330B-13-F",
+      "status": "REVIEW_DATASHEET_AND_FIT",
+      "action": "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 621-B330B-F; stock 8608; packaging MouseReel; standard pack 3000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+    },
+    {
+      "references": "D2",
+      "mpn": "B330B-13-F",
+      "status": "REVIEW_DATASHEET_AND_FIT",
+      "action": "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 621-B330B-F; stock 8608; packaging MouseReel; standard pack 3000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+    },
+    {
+      "references": "L1",
+      "mpn": "SRR1005-2R2M",
+      "status": "REVIEW_DATASHEET_AND_FIT",
+      "action": "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 652-SRR1005-2R2M; stock 820; packaging MouseReel; standard pack 600; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+    },
+    {
+      "references": "R1",
+      "mpn": "RT0603FRD0710KL",
+      "status": "REVIEW_DATASHEET_AND_FIT",
+      "action": "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 603-RT0603FRD0710KL; stock 673; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+    },
+    {
+      "references": "R2",
+      "mpn": "RC0603FR-07750KL",
+      "status": "REVIEW_DATASHEET_AND_FIT",
+      "action": "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 603-RC0603FR-07750KL; stock 57589; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+    },
+    {
+      "references": "R3",
+      "mpn": "RC0603FR-07100KL",
+      "status": "REVIEW_DATASHEET_AND_FIT",
+      "action": "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 603-RC0603FR-07100KL; stock 3108107; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+    },
+    {
+      "references": "U1",
+      "mpn": "PAM2401SCADJ",
+      "status": "REVIEW_DATASHEET_AND_FIT",
+      "action": "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 621-PAM2401SCADJ; stock 15084; packaging MouseReel; standard pack 2500; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+    },
+    {
+      "references": "C13",
+      "mpn": "GCM188L81H104KA57D",
+      "status": "REVIEW_DATASHEET_AND_FIT",
+      "action": "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 81-GCM188L81H104KA7D; stock 543652; packaging MouseReel; standard pack 4000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+    },
+    {
+      "references": "C14",
+      "mpn": "GCM188L81H104KA57D",
+      "status": "REVIEW_DATASHEET_AND_FIT",
+      "action": "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 81-GCM188L81H104KA7D; stock 543652; packaging MouseReel; standard pack 4000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+    },
+    {
+      "references": "C15",
+      "mpn": "GCM188L81H104KA57D",
+      "status": "REVIEW_DATASHEET_AND_FIT",
+      "action": "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 81-GCM188L81H104KA7D; stock 543652; packaging MouseReel; standard pack 4000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+    },
+    {
+      "references": "C16",
+      "mpn": "GCM188L81H104KA57D",
+      "status": "REVIEW_DATASHEET_AND_FIT",
+      "action": "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 81-GCM188L81H104KA7D; stock 543652; packaging MouseReel; standard pack 4000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+    },
+    {
+      "references": "C17",
+      "mpn": "GCM188L81H104KA57D",
+      "status": "REVIEW_DATASHEET_AND_FIT",
+      "action": "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 81-GCM188L81H104KA7D; stock 543652; packaging MouseReel; standard pack 4000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+    },
+    {
+      "references": "J3",
+      "mpn": "SM04B-SRSS-TB(LF)(SN)",
+      "status": "REVIEW_DATASHEET_AND_FIT",
+      "action": "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 306-SM04BSRSSTBLFSN; stock 79867; packaging MouseReel; standard pack 3000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+    },
+    {
+      "references": "R16",
+      "mpn": "RC0603FR-072K2L",
+      "status": "REVIEW_DATASHEET_AND_FIT",
+      "action": "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 603-RC0603FR-072K2L; stock 930470; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+    },
+    {
+      "references": "R17",
+      "mpn": "RC0603FR-072K2L",
+      "status": "REVIEW_DATASHEET_AND_FIT",
+      "action": "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 603-RC0603FR-072K2L; stock 930470; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+    },
+    {
+      "references": "U4",
+      "mpn": "MCP4728-E/UN",
+      "status": "REVIEW_DATASHEET_AND_FIT",
+      "action": "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 579-MCP4728-E/UN; stock 55259; packaging Tube; standard pack 100; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved. Tube packaging is not a reel; confirm assembler accepts it or qualify the manufacturer's tape-and-reel ordering suffix without changing the device."
+    },
+    {
+      "references": "C4",
+      "mpn": "GRM21BR61H106KE43L",
+      "status": "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION",
+      "action": "User-approved breakout substitution 2026-11-07: GMK212BBJ106MG-T -> GRM21BR61H106KE43L. C4 is the 5V LM2663 flying capacitor; C5 bypasses -5V. Remaining parts AC-couple analog paths on the intended +/-5V design; conservative rail-to-rail envelope is 10V, below 50V. Keep manufacturer-application caveat visible: DigiKey lists Mobile Devices Only; the Murata reference sheet obtained through MCP is headed General Purpose. User accepts use for this breakout, not unrestricted production qualification. Validate effective capacitance, charge-pump performance and analog transfer; confirm packaging and height. LCSC C440198; Active per DigiKey. Stock/packing must be rechecked before order."
+    },
+    {
+      "references": "C5",
+      "mpn": "GRM21BR61H106KE43L",
+      "status": "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION",
+      "action": "User-approved breakout substitution 2026-11-07: GMK212BBJ106MG-T -> GRM21BR61H106KE43L. C4 is the 5V LM2663 flying capacitor; C5 bypasses -5V. Remaining parts AC-couple analog paths on the intended +/-5V design; conservative rail-to-rail envelope is 10V, below 50V. Keep manufacturer-application caveat visible: DigiKey lists Mobile Devices Only; the Murata reference sheet obtained through MCP is headed General Purpose. User accepts use for this breakout, not unrestricted production qualification. Validate effective capacitance, charge-pump performance and analog transfer; confirm packaging and height. LCSC C440198; Active per DigiKey. Stock/packing must be rechecked before order."
+    },
+    {
+      "references": "U2",
+      "mpn": "LM2663MX/NOPB",
+      "status": "REVIEW_DATASHEET_AND_FIT",
+      "action": "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 926-LM2663MX/NOPB; stock 5149; packaging MouseReel; standard pack 2500; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+    },
+    {
+      "references": "C6",
+      "mpn": "GRM21BR61H106KE43L",
+      "status": "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION",
+      "action": "User-approved breakout substitution 2026-11-07: GMK212BBJ106MG-T -> GRM21BR61H106KE43L. C4 is the 5V LM2663 flying capacitor; C5 bypasses -5V. Remaining parts AC-couple analog paths on the intended +/-5V design; conservative rail-to-rail envelope is 10V, below 50V. Keep manufacturer-application caveat visible: DigiKey lists Mobile Devices Only; the Murata reference sheet obtained through MCP is headed General Purpose. User accepts use for this breakout, not unrestricted production qualification. Validate effective capacitance, charge-pump performance and analog transfer; confirm packaging and height. LCSC C440198; Active per DigiKey. Stock/packing must be rechecked before order."
+    },
+    {
+      "references": "C7",
+      "mpn": "GRM21BR61H106KE43L",
+      "status": "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION",
+      "action": "User-approved breakout substitution 2026-11-07: GMK212BBJ106MG-T -> GRM21BR61H106KE43L. C4 is the 5V LM2663 flying capacitor; C5 bypasses -5V. Remaining parts AC-couple analog paths on the intended +/-5V design; conservative rail-to-rail envelope is 10V, below 50V. Keep manufacturer-application caveat visible: DigiKey lists Mobile Devices Only; the Murata reference sheet obtained through MCP is headed General Purpose. User accepts use for this breakout, not unrestricted production qualification. Validate effective capacitance, charge-pump performance and analog transfer; confirm packaging and height. LCSC C440198; Active per DigiKey. Stock/packing must be rechecked before order."
+    },
+    {
+      "references": "C8",
+      "mpn": "GRM21BR61H106KE43L",
+      "status": "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION",
+      "action": "User-approved breakout substitution 2026-11-07: GMK212BBJ106MG-T -> GRM21BR61H106KE43L. C4 is the 5V LM2663 flying capacitor; C5 bypasses -5V. Remaining parts AC-couple analog paths on the intended +/-5V design; conservative rail-to-rail envelope is 10V, below 50V. Keep manufacturer-application caveat visible: DigiKey lists Mobile Devices Only; the Murata reference sheet obtained through MCP is headed General Purpose. User accepts use for this breakout, not unrestricted production qualification. Validate effective capacitance, charge-pump performance and analog transfer; confirm packaging and height. LCSC C440198; Active per DigiKey. Stock/packing must be rechecked before order."
+    },
+    {
+      "references": "C9",
+      "mpn": "GRM21BR61H106KE43L",
+      "status": "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION",
+      "action": "User-approved breakout substitution 2026-11-07: GMK212BBJ106MG-T -> GRM21BR61H106KE43L. C4 is the 5V LM2663 flying capacitor; C5 bypasses -5V. Remaining parts AC-couple analog paths on the intended +/-5V design; conservative rail-to-rail envelope is 10V, below 50V. Keep manufacturer-application caveat visible: DigiKey lists Mobile Devices Only; the Murata reference sheet obtained through MCP is headed General Purpose. User accepts use for this breakout, not unrestricted production qualification. Validate effective capacitance, charge-pump performance and analog transfer; confirm packaging and height. LCSC C440198; Active per DigiKey. Stock/packing must be rechecked before order."
+    },
+    {
+      "references": "C10",
+      "mpn": "GRM21BR61H106KE43L",
+      "status": "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION",
+      "action": "User-approved breakout substitution 2026-11-07: GMK212BBJ106MG-T -> GRM21BR61H106KE43L. C4 is the 5V LM2663 flying capacitor; C5 bypasses -5V. Remaining parts AC-couple analog paths on the intended +/-5V design; conservative rail-to-rail envelope is 10V, below 50V. Keep manufacturer-application caveat visible: DigiKey lists Mobile Devices Only; the Murata reference sheet obtained through MCP is headed General Purpose. User accepts use for this breakout, not unrestricted production qualification. Validate effective capacitance, charge-pump performance and analog transfer; confirm packaging and height. LCSC C440198; Active per DigiKey. Stock/packing must be rechecked before order."
+    },
+    {
+      "references": "C11",
+      "mpn": "GRM21BR61H106KE43L",
+      "status": "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION",
+      "action": "User-approved breakout substitution 2026-11-07: GMK212BBJ106MG-T -> GRM21BR61H106KE43L. C4 is the 5V LM2663 flying capacitor; C5 bypasses -5V. Remaining parts AC-couple analog paths on the intended +/-5V design; conservative rail-to-rail envelope is 10V, below 50V. Keep manufacturer-application caveat visible: DigiKey lists Mobile Devices Only; the Murata reference sheet obtained through MCP is headed General Purpose. User accepts use for this breakout, not unrestricted production qualification. Validate effective capacitance, charge-pump performance and analog transfer; confirm packaging and height. LCSC C440198; Active per DigiKey. Stock/packing must be rechecked before order."
+    },
+    {
+      "references": "C12",
+      "mpn": "CC0603BRNPO9BN5R0",
+      "status": "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION",
+      "action": "User-approved breakout substitution 2026-11-07: GJM0335C1E5R0BB01D -> CC0603BRNPO9BN5R0. 5pF compensation capacitor in the +/-5V op-amp/current-source path; 50V exceeds the intended rail-to-rail envelope. Retains 5pF, +/-0.1pF and C0G behavior while correcting the nominal package from legacy 0201 to actual PCB 0603. Validate compensation/stability on hardware. LCSC C519109; Active per earlier DigiKey lookup. Stock/packing must be rechecked before order."
+    },
+    {
+      "references": "C18",
+      "mpn": "GRM21BR61H106KE43L",
+      "status": "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION",
+      "action": "User-approved breakout substitution 2026-11-07: GMK212BBJ106MG-T -> GRM21BR61H106KE43L. C4 is the 5V LM2663 flying capacitor; C5 bypasses -5V. Remaining parts AC-couple analog paths on the intended +/-5V design; conservative rail-to-rail envelope is 10V, below 50V. Keep manufacturer-application caveat visible: DigiKey lists Mobile Devices Only; the Murata reference sheet obtained through MCP is headed General Purpose. User accepts use for this breakout, not unrestricted production qualification. Validate effective capacitance, charge-pump performance and analog transfer; confirm packaging and height. LCSC C440198; Active per DigiKey. Stock/packing must be rechecked before order."
+    },
+    {
+      "references": "R4",
+      "mpn": "RT0603FRD0710KL",
+      "status": "REVIEW_DATASHEET_AND_FIT",
+      "action": "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 603-RT0603FRD0710KL; stock 673; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+    },
+    {
+      "references": "R5",
+      "mpn": "RT0603FRD0710KL",
+      "status": "REVIEW_DATASHEET_AND_FIT",
+      "action": "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 603-RT0603FRD0710KL; stock 673; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+    },
+    {
+      "references": "R6",
+      "mpn": "RT0603FRD0710KL",
+      "status": "REVIEW_DATASHEET_AND_FIT",
+      "action": "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 603-RT0603FRD0710KL; stock 673; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+    },
+    {
+      "references": "R7",
+      "mpn": "PTV09A-2020F-B104",
+      "status": "REVIEW_DATASHEET_AND_FIT",
+      "action": "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 652-PTV09A-2020FB104; stock 213; packaging Tray; standard pack 100; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+    },
+    {
+      "references": "R8",
+      "mpn": "PTV09A-2020F-B104",
+      "status": "REVIEW_DATASHEET_AND_FIT",
+      "action": "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 652-PTV09A-2020FB104; stock 213; packaging Tray; standard pack 100; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+    },
+    {
+      "references": "R9",
+      "mpn": "PTV09A-2020F-B104",
+      "status": "REVIEW_DATASHEET_AND_FIT",
+      "action": "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 652-PTV09A-2020FB104; stock 213; packaging Tray; standard pack 100; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+    },
+    {
+      "references": "R10",
+      "mpn": "PV36W202C01B00",
+      "status": "HOLD_MECHANICAL_REVIEW",
+      "action": "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 81-PV36W202C01B00; stock 2466; packaging Tube; standard pack 50; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved. Exact PV36W body/lead geometry, pin order and adjustment access must match Bourns 3296W footprint; 2.54mm lead pitch alone is not qualification."
+    },
+    {
+      "references": "R11",
+      "mpn": "RT0603CRE07100KL",
+      "status": "REVIEW_DATASHEET_AND_FIT",
+      "action": "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 603-RT0603CRE07100KL; stock 163; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved. Only 163 units observed; four per board, so at most 40 boards before spares. Preserve 0.25% tolerance and 50ppm/C."
+    },
+    {
+      "references": "R12",
+      "mpn": "RT0603CRE07100KL",
+      "status": "REVIEW_DATASHEET_AND_FIT",
+      "action": "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 603-RT0603CRE07100KL; stock 163; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved. Only 163 units observed; four per board, so at most 40 boards before spares. Preserve 0.25% tolerance and 50ppm/C."
+    },
+    {
+      "references": "R13",
+      "mpn": "RT0603CRE07100KL",
+      "status": "REVIEW_DATASHEET_AND_FIT",
+      "action": "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 603-RT0603CRE07100KL; stock 163; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved. Only 163 units observed; four per board, so at most 40 boards before spares. Preserve 0.25% tolerance and 50ppm/C."
+    },
+    {
+      "references": "R14",
+      "mpn": "RT0603CRE07100KL",
+      "status": "REVIEW_DATASHEET_AND_FIT",
+      "action": "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 603-RT0603CRE07100KL; stock 163; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved. Only 163 units observed; four per board, so at most 40 boards before spares. Preserve 0.25% tolerance and 50ppm/C."
+    },
+    {
+      "references": "R15",
+      "mpn": "CRT0603-FY-1001ELF",
+      "status": "REVIEW_DATASHEET_AND_FIT",
+      "action": "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 652-CRT0603FY1001ELF; stock 26600; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+    },
+    {
+      "references": "RV1",
+      "mpn": "PTV09A-2020F-B104",
+      "status": "REVIEW_DATASHEET_AND_FIT",
+      "action": "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 652-PTV09A-2020FB104; stock 213; packaging Tray; standard pack 100; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+    },
+    {
+      "references": "U3",
+      "mpn": "LM324PWR",
+      "status": "REVIEW_DATASHEET_AND_FIT",
+      "action": "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 595-LM324PWR; stock 2174; packaging MouseReel; standard pack 2000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
+    }
+  ],
+  "live_distributor_stock_pricing_packaging": "See dated distributor-review JSON in assembly; observations are not purchasing approval.",
+  "additional_release_actions": [
+    "Validate approved capacitor replacements under operating bias/temperature, including boost and charge-pump stability and analog compensation.",
+    "PV36W pitch/pin mapping verified: check R10 0.8mm drills versus recommended 0.9mm and exact body/tool clearance; proxy STEP is not certification.",
+    "Check panel-pot physical seating: aligned family STEP lead sections fit at board midplane but small mounting-feature/board intersections remain.",
+    "Confirm material, copper weight, finish, quantity and panelization with fabricator/assembler.",
+    "Have assembler confirm SMT rotations, polarity, tooling and the absolute-origin position-file convention.",
+    "Bench-test power rails, I2C/DAC, analog outputs and Howland current source before production."
+  ],
+  "coordinate_convention": "Absolute CAD origin for Gerber/drill/positions; mm; KiCad Cartesian position CSV; bottom X not negated. Back assembly drawing is mirrored for viewing.",
+  "fabrication_archive": {
+    "filename": "Tph_Synth_Featherwing-v0.4-fabrication.zip",
+    "members": [
+      "Tph_Synth_Featherwing-B_Cu.gbl",
+      "Tph_Synth_Featherwing-B_Mask.gbs",
+      "Tph_Synth_Featherwing-B_Paste.gbp",
+      "Tph_Synth_Featherwing-B_Silkscreen.gbo",
+      "Tph_Synth_Featherwing-Edge_Cuts.gm1",
+      "Tph_Synth_Featherwing-F_Cu.gtl",
+      "Tph_Synth_Featherwing-F_Mask.gts",
+      "Tph_Synth_Featherwing-F_Paste.gtp",
+      "Tph_Synth_Featherwing-F_Silkscreen.gto",
+      "Tph_Synth_Featherwing-job.gbrjob",
+      "Tph_Synth_Featherwing-NPTH.drl",
+      "Tph_Synth_Featherwing-PTH.drl"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "tool": "cse_search",
+  "arguments": {
+    "query": "PV36W202C01B00",
+    "limit": 2
+  },
+  "response": {
+    "results": [],
+    "total": 0
+  },
+  "checked_utc": "2026-11-07T07:46:00.0402985Z",
+  "endpoint": "https://pcbparts.dev/mcp"
+}
