@@ -1,0 +1,177 @@
+{
+  "checked_utc": "2026-11-07T06:20:49.9619899Z",
+  "endpoint": "https://pcbparts.dev/mcp",
+  "response": {
+    "results": [
+      {
+        "lcsc": "C6119901",
+        "model": "CGA0805X5R226M350MT",
+        "manufacturer": "HRE",
+        "package": "0805",
+        "stock": 695597,
+        "price": 0.1689,
+        "library_type": "extended",
+        "preferred": false,
+        "category": "Capacitors",
+        "subcategory": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+        "subcategory_id": 2929,
+        "mounting_type": "smd",
+        "specs": {
+          "Voltage Rating": "35V",
+          "Tolerance": "±20%",
+          "Capacitance": "22uF",
+          "Temperature Coefficient": "X5R"
+        },
+        "pcba_type": "economic"
+      },
+      {
+        "lcsc": "C22367832",
+        "model": "HGC0805R5226M350NSLJ",
+        "manufacturer": "Chinocera",
+        "package": "0805",
+        "stock": 140603,
+        "price": 0.1806,
+        "library_type": "extended",
+        "preferred": false,
+        "category": "Capacitors",
+        "subcategory": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+        "subcategory_id": 2929,
+        "mounting_type": "smd",
+        "specs": {
+          "Voltage Rating": "35V",
+          "Tolerance": "±20%",
+          "Capacitance": "22uF",
+          "Temperature Coefficient": "X5R"
+        },
+        "pcba_type": "economic"
+      },
+      {
+        "lcsc": "C338080",
+        "model": "C2012X5R1V226MT000E",
+        "manufacturer": "TDK",
+        "package": "0805",
+        "stock": 56013,
+        "price": 0.3196,
+        "library_type": "extended",
+        "preferred": false,
+        "category": "Capacitors",
+        "subcategory": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+        "subcategory_id": 2929,
+        "mounting_type": "smd",
+        "specs": {
+          "Voltage Rating": "35V",
+          "Tolerance": "±20%",
+          "Capacitance": "22uF",
+          "Temperature Coefficient": "X5R"
+        },
+        "pcba_type": "economic"
+      },
+      {
+        "lcsc": "C49010155",
+        "model": "FCC0805X226M350FT",
+        "manufacturer": "FOJAN",
+        "package": "0805",
+        "stock": 46327,
+        "price": 0.2323,
+        "library_type": "extended",
+        "preferred": false,
+        "category": "Capacitors",
+        "subcategory": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+        "subcategory_id": 2929,
+        "mounting_type": "smd",
+        "specs": {
+          "Operating Temperature": "-55℃~+85℃",
+          "Voltage Rating": "35V",
+          "Tolerance": "±20%",
+          "Capacitance": "22uF",
+          "Temperature Coefficient": "X5R"
+        },
+        "pcba_type": "economic"
+      }
+    ],
+    "total": 4,
+    "page_info": {
+      "limit": 10,
+      "offset": 0,
+      "returned": 4
+    },
+    "filters_applied": {
+      "query": null,
+      "subcategory_id": 2929,
+      "subcategory_name": "multilayer ceramic capacitors mlcc - smd/smt",
+      "subcategory_resolved": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+      "subcategory_ids": null,
+      "category_id": null,
+      "category_name": null,
+      "category_resolved": null,
+      "spec_filters": [
+        {
+          "name": "Capacitance",
+          "op": "=",
+          "value": "22uF"
+        },
+        {
+          "name": "Voltage Rating",
+          "op": ">=",
+          "value": "35V"
+        }
+      ],
+      "library_type": null,
+      "prefer_no_fee": true,
+      "min_stock": 10,
+      "package": "0805",
+      "packages": null,
+      "manufacturer": null,
+      "match_all_terms": true
+    },
+    "library_type_counts": {
+      "basic": 0,
+      "preferred": 0,
+      "extended": 4
+    },
+    "no_fee_available": false,
+    "parsed": {
+      "original_query": "22uF 35V capacitor",
+      "detected": {
+        "component_type": "capacitor",
+        "subcategory": "multilayer ceramic capacitors mlcc - smd/smt",
+        "values": [
+          {
+            "raw": "22uF",
+            "type": "capacitance",
+            "normalized": "22uF"
+          },
+          {
+            "raw": "35V",
+            "type": "voltage",
+            "normalized": "35V"
+          }
+        ]
+      },
+      "subcategory": "multilayer ceramic capacitors mlcc - smd/smt",
+      "package": null,
+      "mounting_type": null,
+      "spec_filters": [
+        {
+          "name": "Capacitance",
+          "op": "=",
+          "value": "22uF"
+        },
+        {
+          "name": "Voltage Rating",
+          "op": ">=",
+          "value": "35V"
+        }
+      ],
+      "remaining_text": ""
+    },
+    "data_as_of": "2026-11-06T19:48:46Z"
+  },
+  "arguments": {
+    "query": "22uF 35V capacitor",
+    "package": "0805",
+    "strict": true,
+    "limit": 10
+  },
+  "tool": "jlc_search"
+}

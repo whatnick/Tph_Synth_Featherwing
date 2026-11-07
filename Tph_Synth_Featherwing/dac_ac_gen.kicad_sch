@@ -20871,13 +20871,31 @@
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 579-MCP4728-E/UN; stock 55259; packaging Tube; standard pack 100; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved. Tube packaging is not a reel; confirm assembler accepts it or qualify the manufacturer's tape-and-reel ordering suffix without changing the device."
 			(at 104.14 85.09 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
+			(at 104.14 85.09 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 104.14 85.09 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 104.14 85.09 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "579-MCP4728-E/UN"
 			(at 104.14 85.09 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -20998,13 +21016,31 @@
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 81-GCM188L81H104KA7D; stock 543652; packaging MouseReel; standard pack 4000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 111.76 77.47 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
+			(at 111.76 77.47 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 111.76 77.47 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 111.76 77.47 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "81-GCM188L81H104KA7D"
 			(at 111.76 77.47 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -21282,13 +21318,31 @@
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 603-RC0603FR-072K2L; stock 930470; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 78.74 80.01 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
+			(at 78.74 80.01 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 78.74 80.01 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 78.74 80.01 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "603-RC0603FR-072K2L"
 			(at 78.74 80.01 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -21411,13 +21465,31 @@
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 603-RC0603FR-072K2L; stock 930470; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 71.12 80.01 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
+			(at 71.12 80.01 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 71.12 80.01 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 71.12 80.01 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "603-RC0603FR-072K2L"
 			(at 71.12 80.01 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -21718,13 +21790,31 @@
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 81-GCM188L81H104KA7D; stock 543652; packaging MouseReel; standard pack 4000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 119.38 96.52 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
+			(at 119.38 96.52 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 119.38 96.52 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 119.38 96.52 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "81-GCM188L81H104KA7D"
 			(at 119.38 96.52 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -21847,13 +21937,31 @@
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 81-GCM188L81H104KA7D; stock 543652; packaging MouseReel; standard pack 4000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 123.19 96.52 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
+			(at 123.19 96.52 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 123.19 96.52 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 123.19 96.52 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "81-GCM188L81H104KA7D"
 			(at 123.19 96.52 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -21976,13 +22084,31 @@
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 81-GCM188L81H104KA7D; stock 543652; packaging MouseReel; standard pack 4000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 127 96.52 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
+			(at 127 96.52 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 127 96.52 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 127 96.52 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "81-GCM188L81H104KA7D"
 			(at 127 96.52 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -22105,13 +22231,31 @@
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 81-GCM188L81H104KA7D; stock 543652; packaging MouseReel; standard pack 4000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 130.81 96.52 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
+			(at 130.81 96.52 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 130.81 96.52 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 130.81 96.52 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "81-GCM188L81H104KA7D"
 			(at 130.81 96.52 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -22552,13 +22696,31 @@
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 306-SM04BSRSSTBLFSN; stock 79867; packaging MouseReel; standard pack 3000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 175.26 77.47 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
+			(at 175.26 77.47 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 175.26 77.47 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 175.26 77.47 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "306-SM04BSRSSTBLFSN"
 			(at 175.26 77.47 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))

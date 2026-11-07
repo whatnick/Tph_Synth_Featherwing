@@ -1,0 +1,165 @@
+{
+  "arguments": {
+    "query": "5pF 50V C0G capacitor",
+    "package": "0603",
+    "strict": true,
+    "limit": 2
+  },
+  "checked_utc": "2026-11-07T06:21:52.0396624Z",
+  "tool": "jlc_search",
+  "endpoint": "https://pcbparts.dev/mcp",
+  "response": {
+    "results": [
+      {
+        "lcsc": "C519109",
+        "model": "CC0603BRNPO9BN5R0",
+        "manufacturer": "YAGEO",
+        "package": "0603",
+        "stock": 78148,
+        "price": 0.008,
+        "library_type": "extended",
+        "preferred": false,
+        "category": "Capacitors",
+        "subcategory": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+        "subcategory_id": 2929,
+        "mounting_type": "smd",
+        "specs": {
+          "Voltage Rating": "50V",
+          "Capacitance": "5pF",
+          "Temperature Coefficient": "NP0"
+        },
+        "pcba_type": "economic"
+      },
+      {
+        "lcsc": "C1673",
+        "model": "0603CG5R0C500NT",
+        "manufacturer": "FH (Guangdong Fenghua Advanced Tech)",
+        "package": "0603",
+        "stock": 72090,
+        "price": 0.0056,
+        "library_type": "extended",
+        "preferred": false,
+        "category": "Capacitors",
+        "subcategory": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+        "subcategory_id": 2929,
+        "mounting_type": "smd",
+        "specs": {
+          "Voltage Rating": "50V",
+          "Capacitance": "5pF",
+          "Temperature Coefficient": "C0G"
+        },
+        "pcba_type": "economic"
+      }
+    ],
+    "total": 22,
+    "page_info": {
+      "limit": 2,
+      "offset": 0,
+      "returned": 2
+    },
+    "filters_applied": {
+      "query": null,
+      "subcategory_id": 2929,
+      "subcategory_name": "multilayer ceramic capacitors mlcc - smd/smt",
+      "subcategory_resolved": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+      "subcategory_ids": null,
+      "category_id": null,
+      "category_name": null,
+      "category_resolved": null,
+      "spec_filters": [
+        {
+          "name": "Capacitance",
+          "op": "=",
+          "value": "5pF"
+        },
+        {
+          "name": "Voltage Rating",
+          "op": ">=",
+          "value": "50V"
+        },
+        {
+          "name": "Temperature Coefficient",
+          "op": "=",
+          "value": "C0G"
+        },
+        {
+          "name": "Temperature Coefficient",
+          "op": "=",
+          "value": "NP0"
+        },
+        {
+          "name": "Temperature Coefficient",
+          "op": "=",
+          "value": "COG"
+        }
+      ],
+      "library_type": null,
+      "prefer_no_fee": true,
+      "min_stock": 10,
+      "package": "0603",
+      "packages": null,
+      "manufacturer": null,
+      "match_all_terms": true
+    },
+    "library_type_counts": {
+      "basic": 0,
+      "preferred": 0,
+      "extended": 22
+    },
+    "no_fee_available": false,
+    "parsed": {
+      "original_query": "5pF 50V C0G capacitor",
+      "detected": {
+        "component_type": "capacitor",
+        "subcategory": "multilayer ceramic capacitors mlcc - smd/smt",
+        "values": [
+          {
+            "raw": "5pF",
+            "type": "capacitance",
+            "normalized": "5pF"
+          },
+          {
+            "raw": "50V",
+            "type": "voltage",
+            "normalized": "50V"
+          }
+        ],
+        "semantic": [
+          "c0g"
+        ]
+      },
+      "subcategory": "multilayer ceramic capacitors mlcc - smd/smt",
+      "package": null,
+      "mounting_type": null,
+      "spec_filters": [
+        {
+          "name": "Capacitance",
+          "op": "=",
+          "value": "5pF"
+        },
+        {
+          "name": "Voltage Rating",
+          "op": ">=",
+          "value": "50V"
+        },
+        {
+          "name": "Temperature Coefficient",
+          "op": "=",
+          "value": "C0G"
+        },
+        {
+          "name": "Temperature Coefficient",
+          "op": "=",
+          "value": "NP0"
+        },
+        {
+          "name": "Temperature Coefficient",
+          "op": "=",
+          "value": "COG"
+        }
+      ],
+      "remaining_text": ""
+    },
+    "data_as_of": "2026-11-06T19:48:46Z"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "response": {
+    "results": [],
+    "total": 0
+  },
+  "tool": "cse_search",
+  "checked_utc": "2026-11-07T07:46:00.0505295Z",
+  "arguments": {
+    "query": "PTV09A-2020F-B104",
+    "limit": 2
+  },
+  "endpoint": "https://pcbparts.dev/mcp"
+}

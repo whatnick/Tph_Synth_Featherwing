@@ -3343,13 +3343,31 @@
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 621-PAM2401SCADJ; stock 15084; packaging MouseReel; standard pack 2500; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 142.24 82.55 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
+			(at 142.24 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 142.24 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 142.24 82.55 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "621-PAM2401SCADJ"
 			(at 142.24 82.55 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -3472,13 +3490,31 @@
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 652-SRR1005-2R2M; stock 820; packaging MouseReel; standard pack 600; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 104.14 68.58 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
+			(at 104.14 68.58 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 104.14 68.58 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 104.14 68.58 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "652-SRR1005-2R2M"
 			(at 104.14 68.58 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -3539,12 +3575,12 @@
 				)
 			)
 		)
-		(property "Description" "22u; C_0805_2012Metric; legacy MPN C2012JB1V226M125AC"
+		(property "Description" "22uF +/-20% 35V X5R MLCC; 0805 (2012 metric)"
 			(at 97.79 72.39 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "manf#" "C2012JB1V226M125AC"
+		(property "manf#" "C2012X5R1V226MT000E"
 			(at 97.79 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -3577,13 +3613,13 @@
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "DigiKey" "https://www.digikey.com/en/products?keywords=C2012JB1V226M125AC"
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=C2012X5R1V226MT000E"
 			(at 97.79 72.39 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "MPN" "C2012JB1V226M125AC"
+		(property "MPN" "C2012X5R1V226MT000E"
 			(at 97.79 72.39 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -3595,24 +3631,48 @@
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "Mouser" "https://www.mouser.com/c/?q=C2012JB1V226M125AC"
+		(property "Mouser" "https://www.mouser.com/c/?q=C2012X5R1V226MT000E"
 			(at 97.79 72.39 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingNotes" "Distributor search results flag this legacy MPN obsolete; confirm lifecycle through distributor API or manufacturer. A replacement must fit 0805 and meet 22 uF, voltage, dielectric, DC-bias and boost-converter stability requirements."
+		(property "SourcingNotes" "User-approved breakout substitution 2026-11-07: C2012JB1V226M125AC -> C2012X5R1V226MT000E. C1 is VBAT-to-GND; C2/C3 are BOOST_5V-to-GND. Intended battery/5V rails are below the unchanged 35V rating. JB-to-X5R change accepted for this breakout; effective capacitance versus bias/temperature and boost startup/ripple/stability remain bench-validation requirements. LCSC C338080; Manufacturer lifecycle not independently verified. Stock/packing must be rechecked before order."
 			(at 97.79 72.39 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingStatus" "HOLD_LIFECYCLE_REVIEW"
+		(property "SourcingStatus" "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION"
 			(at 97.79 72.39 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
-	)
+
+		(property "DigiKeyOrderCode" ""
+			(at 97.79 72.39 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 97.79 72.39 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" ""
+			(at 97.79 72.39 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "LCSCOrderCode" "C338080"
+			(at 97.79 72.39 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+)
 	(symbol
 		(lib_id "Device:R_Small")
 		(at 165.1 83.82 0)
@@ -3730,13 +3790,31 @@
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 603-RC0603FR-07100KL; stock 3108107; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 165.1 83.82 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
+			(at 165.1 83.82 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 165.1 83.82 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 165.1 83.82 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "603-RC0603FR-07100KL"
 			(at 165.1 83.82 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -3859,13 +3937,31 @@
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 603-RC0603FR-07750KL; stock 57589; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 165.1 73.66 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
+			(at 165.1 73.66 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 165.1 73.66 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 165.1 73.66 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "603-RC0603FR-07750KL"
 			(at 165.1 73.66 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -3926,12 +4022,12 @@
 				)
 			)
 		)
-		(property "Description" "22u; C_0805_2012Metric; legacy MPN C2012JB1V226M125AC"
+		(property "Description" "22uF +/-20% 35V X5R MLCC; 0805 (2012 metric)"
 			(at 181.61 73.66 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "manf#" "C2012JB1V226M125AC"
+		(property "manf#" "C2012X5R1V226MT000E"
 			(at 181.61 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -3964,13 +4060,13 @@
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "DigiKey" "https://www.digikey.com/en/products?keywords=C2012JB1V226M125AC"
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=C2012X5R1V226MT000E"
 			(at 181.61 73.66 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "MPN" "C2012JB1V226M125AC"
+		(property "MPN" "C2012X5R1V226MT000E"
 			(at 181.61 73.66 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -3982,24 +4078,48 @@
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "Mouser" "https://www.mouser.com/c/?q=C2012JB1V226M125AC"
+		(property "Mouser" "https://www.mouser.com/c/?q=C2012X5R1V226MT000E"
 			(at 181.61 73.66 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingNotes" "Distributor search results flag this legacy MPN obsolete; confirm lifecycle through distributor API or manufacturer. A replacement must fit 0805 and meet 22 uF, voltage, dielectric, DC-bias and boost-converter stability requirements."
+		(property "SourcingNotes" "User-approved breakout substitution 2026-11-07: C2012JB1V226M125AC -> C2012X5R1V226MT000E. C1 is VBAT-to-GND; C2/C3 are BOOST_5V-to-GND. Intended battery/5V rails are below the unchanged 35V rating. JB-to-X5R change accepted for this breakout; effective capacitance versus bias/temperature and boost startup/ripple/stability remain bench-validation requirements. LCSC C338080; Manufacturer lifecycle not independently verified. Stock/packing must be rechecked before order."
 			(at 181.61 73.66 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingStatus" "HOLD_LIFECYCLE_REVIEW"
+		(property "SourcingStatus" "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION"
 			(at 181.61 73.66 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
-	)
+
+		(property "DigiKeyOrderCode" ""
+			(at 181.61 73.66 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 181.61 73.66 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" ""
+			(at 181.61 73.66 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "LCSCOrderCode" "C338080"
+			(at 181.61 73.66 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+)
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 175.26 73.66 0)
@@ -4055,12 +4175,12 @@
 				)
 			)
 		)
-		(property "Description" "22u; C_0805_2012Metric; legacy MPN C2012JB1V226M125AC"
+		(property "Description" "22uF +/-20% 35V X5R MLCC; 0805 (2012 metric)"
 			(at 175.26 73.66 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "manf#" "C2012JB1V226M125AC"
+		(property "manf#" "C2012X5R1V226MT000E"
 			(at 175.26 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -4093,13 +4213,13 @@
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "DigiKey" "https://www.digikey.com/en/products?keywords=C2012JB1V226M125AC"
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=C2012X5R1V226MT000E"
 			(at 175.26 73.66 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "MPN" "C2012JB1V226M125AC"
+		(property "MPN" "C2012X5R1V226MT000E"
 			(at 175.26 73.66 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -4111,24 +4231,48 @@
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "Mouser" "https://www.mouser.com/c/?q=C2012JB1V226M125AC"
+		(property "Mouser" "https://www.mouser.com/c/?q=C2012X5R1V226MT000E"
 			(at 175.26 73.66 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingNotes" "Distributor search results flag this legacy MPN obsolete; confirm lifecycle through distributor API or manufacturer. A replacement must fit 0805 and meet 22 uF, voltage, dielectric, DC-bias and boost-converter stability requirements."
+		(property "SourcingNotes" "User-approved breakout substitution 2026-11-07: C2012JB1V226M125AC -> C2012X5R1V226MT000E. C1 is VBAT-to-GND; C2/C3 are BOOST_5V-to-GND. Intended battery/5V rails are below the unchanged 35V rating. JB-to-X5R change accepted for this breakout; effective capacitance versus bias/temperature and boost startup/ripple/stability remain bench-validation requirements. LCSC C338080; Manufacturer lifecycle not independently verified. Stock/packing must be rechecked before order."
 			(at 175.26 73.66 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingStatus" "HOLD_LIFECYCLE_REVIEW"
+		(property "SourcingStatus" "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION"
 			(at 175.26 73.66 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
-	)
+
+		(property "DigiKeyOrderCode" ""
+			(at 175.26 73.66 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 175.26 73.66 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" ""
+			(at 175.26 73.66 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "LCSCOrderCode" "C338080"
+			(at 175.26 73.66 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+)
 	(symbol
 		(lib_id "Device:R_Small")
 		(at 114.3 68.58 0)
@@ -4246,13 +4390,31 @@
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 603-RT0603FRD0710KL; stock 673; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 114.3 68.58 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
+			(at 114.3 68.58 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 114.3 68.58 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 114.3 68.58 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "603-RT0603FRD0710KL"
 			(at 114.3 68.58 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -4604,13 +4766,31 @@
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 621-B330B-F; stock 8608; packaging MouseReel; standard pack 3000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 195.58 67.31 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
+			(at 195.58 67.31 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 195.58 67.31 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 195.58 67.31 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "621-B330B-F"
 			(at 195.58 67.31 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -4900,13 +5080,31 @@
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 621-B330B-F; stock 8608; packaging MouseReel; standard pack 3000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 195.58 74.93 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
 
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
+			(at 195.58 74.93 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DigiKeyOrderCode" ""
+			(at 195.58 74.93 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "DistributorChecked" "2026-11-07"
+			(at 195.58 74.93 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+
+		(property "MouserOrderCode" "621-B330B-F"
 			(at 195.58 74.93 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))

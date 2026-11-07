@@ -1,0 +1,85 @@
+{
+  "response": {
+    "results": [
+      {
+        "source": "digikey",
+        "part_number": "1276-CL21A106KBYQNNECT-ND",
+        "mfr_part_number": "CL21A106KBYQNNE",
+        "manufacturer": "Samsung Electro-Mechanics",
+        "description": "CAP CER 10UF 50V X5R 0805",
+        "category": "Capacitors",
+        "stock": 0,
+        "price": 0.58,
+        "price_breaks": [
+          {
+            "qty": 1,
+            "price": 0.58
+          },
+          {
+            "qty": 10,
+            "price": 0.358
+          },
+          {
+            "qty": 50,
+            "price": 0.2694
+          },
+          {
+            "qty": 100,
+            "price": 0.2422
+          },
+          {
+            "qty": 500,
+            "price": 0.19634
+          }
+        ],
+        "datasheet_url": "//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7059/CL21A106KBYQNN_20250604.pdf",
+        "product_url": "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A106KBYQNNE/16572745",
+        "rohs": "ROHS3 Compliant",
+        "lifecycle": "Active",
+        "parameters": {
+          "Capacitance": "10 µF",
+          "Tolerance": "±10%",
+          "Voltage - Rated": "50V",
+          "Temperature Coefficient": "X5R",
+          "Operating Temperature": "-55°C ~ 85°C",
+          "Features": "-",
+          "Ratings": "-",
+          "Applications": "General Purpose",
+          "Failure Rate": "-",
+          "Mounting Type": "Surface Mount, MLCC",
+          "Package / Case": "0805 (2012 Metric)",
+          "Size / Dimension": "0.079\" L x 0.049\" W (2.00mm x 1.25mm)",
+          "Height - Seated (Max)": "-",
+          "Thickness (Max)": "0.057\" (1.45mm)",
+          "Lead Spacing": "-",
+          "Lead Style": "-"
+        },
+        "min_qty": 1,
+        "currency": "USD",
+        "packaging": "Cut Tape (CT)",
+        "other_packaging": [
+          {
+            "part_number": "1276-CL21A106KBYQNNETR-ND",
+            "packaging": "Tape & Reel (TR)",
+            "min_qty": 2000,
+            "price": 0.1705
+          },
+          {
+            "part_number": "1276-CL21A106KBYQNNEDKR-ND",
+            "packaging": "Digi-Reel®",
+            "min_qty": 1,
+            "price": 0.58,
+            "reel_fee": 7.0
+          }
+        ]
+      }
+    ],
+    "total": 1
+  },
+  "endpoint": "https://pcbparts.dev/mcp",
+  "checked_utc": "2026-11-07T06:22:02.3178892Z",
+  "tool": "digikey_get_part",
+  "arguments": {
+    "product_number": "CL21A106KBYQNNE"
+  }
+}

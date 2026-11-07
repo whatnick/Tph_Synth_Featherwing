@@ -771,7 +771,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -783,11 +783,47 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 603-RT0603FRD0710KL; stock 673; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "320bc599-fff3-4da8-b2d7-789b48b5c199")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "603-RT0603FRD0710KL"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "952efbcd-b0f6-4b13-893e-7eb143f74a7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9676c38-6c47-4bff-92c3-5442d021e0a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e722f5d8-5f41-48f0-a7a8-343d4855167a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1014,7 +1050,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1026,11 +1062,47 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 81-GCM188L81H104KA7D; stock 543652; packaging MouseReel; standard pack 4000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f814c409-1a6d-4b6d-a97c-25a780412649")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "81-GCM188L81H104KA7D"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2b51e77-61c4-4e9f-b9fd-15e7b336da65")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df5d02f9-876b-4ffc-a198-6210e0733603")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75753163-c4f6-4da3-bdf7-b2721c7acd13")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1162,7 +1234,7 @@
 				)
 			)
 		)
-		(property "Description" "10u; C_0805_2012Metric; legacy MPN GMK212BBJ106MG-T"
+		(property "Description" "10uF +/-10% 50V X5R MLCC; 0805 (2012 metric)"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -1185,7 +1257,7 @@
 				)
 			)
 		)
-		(property "manf#" "GMK212BBJ106MG-T"
+		(property "manf#" "GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1197,7 +1269,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Taiyo Yuden"
+		(property "Manufacturer" "Murata"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1209,7 +1281,7 @@
 				)
 			)
 		)
-		(property "MPN" "GMK212BBJ106MG-T"
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1221,7 +1293,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GMK212BBJ106MG-T"
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1233,7 +1305,7 @@
 				)
 			)
 		)
-		(property "Mouser" "https://www.mouser.com/c/?q=GMK212BBJ106MG-T"
+		(property "Mouser" "https://www.mouser.com/c/?q=GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1257,7 +1329,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1269,11 +1341,59 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "User-approved breakout substitution 2026-11-07: GMK212BBJ106MG-T -> GRM21BR61H106KE43L. C4 is the 5V LM2663 flying capacitor; C5 bypasses -5V. Remaining parts AC-couple analog paths on the intended +/-5V design; conservative rail-to-rail envelope is 10V, below 50V. Keep manufacturer-application caveat visible: DigiKey lists Mobile Devices Only; the Murata reference sheet obtained through MCP is headed General Purpose. User accepts use for this breakout, not unrestricted production qualification. Validate effective capacitance, charge-pump performance and analog transfer; confirm packaging and height. LCSC C440198; Active per DigiKey. Stock/packing must be rechecked before order."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ad1503f7-8d04-4b66-bc85-8ee32b54419b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "81-GRM21BR61H106KE3L"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c93b3025-a465-4f01-930b-c6a7786d0750")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" "490-18663-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92cee1a4-cc08-4fa2-8dd1-e61103498107")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ba7037b-e949-4c91-8aca-56951d77e76f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSCOrderCode" "C440198"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7147abf7-beb9-48e7-b1ca-143c55317a4f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1405,7 +1525,7 @@
 				)
 			)
 		)
-		(property "Description" "10u; C_0805_2012Metric; legacy MPN GMK212BBJ106MG-T"
+		(property "Description" "10uF +/-10% 50V X5R MLCC; 0805 (2012 metric)"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -1428,7 +1548,7 @@
 				)
 			)
 		)
-		(property "manf#" "GMK212BBJ106MG-T"
+		(property "manf#" "GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1440,7 +1560,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Taiyo Yuden"
+		(property "Manufacturer" "Murata"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1452,7 +1572,7 @@
 				)
 			)
 		)
-		(property "MPN" "GMK212BBJ106MG-T"
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1464,7 +1584,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GMK212BBJ106MG-T"
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1476,7 +1596,7 @@
 				)
 			)
 		)
-		(property "Mouser" "https://www.mouser.com/c/?q=GMK212BBJ106MG-T"
+		(property "Mouser" "https://www.mouser.com/c/?q=GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1500,7 +1620,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1512,11 +1632,59 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "User-approved breakout substitution 2026-11-07: GMK212BBJ106MG-T -> GRM21BR61H106KE43L. C4 is the 5V LM2663 flying capacitor; C5 bypasses -5V. Remaining parts AC-couple analog paths on the intended +/-5V design; conservative rail-to-rail envelope is 10V, below 50V. Keep manufacturer-application caveat visible: DigiKey lists Mobile Devices Only; the Murata reference sheet obtained through MCP is headed General Purpose. User accepts use for this breakout, not unrestricted production qualification. Validate effective capacitance, charge-pump performance and analog transfer; confirm packaging and height. LCSC C440198; Active per DigiKey. Stock/packing must be rechecked before order."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3664d84b-1bc5-4783-9d5f-3f08a37df4a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "81-GRM21BR61H106KE3L"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a81f5249-0ed2-4709-b695-e680a942a279")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" "490-18663-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e20d1ade-ab46-48e2-9dd9-8443796e4e4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a66d2e95-ef87-440b-9a6c-4e96bbe6dc5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSCOrderCode" "C440198"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af2effab-475f-45a2-9817-196161edf16b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1743,7 +1911,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1755,11 +1923,47 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 538-105314-1204; stock 18435; packaging Tray; standard pack 1; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a93186b6-9f96-49c8-8bc3-e2a7ee263de9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "538-105314-1204"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d85210d-6cd1-45b5-9d9b-06406dcf8ade")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c5d75e0-6271-4c4f-ad05-ad7f749badfd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8df97782-d7aa-4ce7-ab61-501cc0a3285d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2154,7 +2358,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2166,11 +2370,47 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 621-PAM2401SCADJ; stock 15084; packaging MouseReel; standard pack 2500; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f0043744-bd89-457c-b768-7f43ab8655a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "621-PAM2401SCADJ"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "225ac782-41ec-4039-a928-12bd2cdf2a76")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd318609-a63e-48bf-938f-65d2a62de39c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f35f1c60-98b8-4607-8d50-abf7a469b8bb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2607,7 +2847,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2619,11 +2859,47 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 603-RT0603FRD0710KL; stock 673; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8cd09e05-ce5e-4ff1-be2b-74d76d7e573e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "603-RT0603FRD0710KL"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7817510a-feef-40f9-a558-114e7ccaf53a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1cc2c30c-b65c-4fbf-95f6-c167600c86ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b39cac2f-3244-440b-84f5-a61aedf013f7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2842,7 +3118,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2854,11 +3130,47 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 490-SJ-3523-SMT-TR; stock 60861; packaging MouseReel; standard pack 1000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "de4b433c-35f2-4ace-b8b9-232f5370a113")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "490-SJ-3523-SMT-TR"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "668708a1-dfb4-444a-ac15-f604f6631d22")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48fedc63-872a-46f3-a689-44bb41e778a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb2cf5d3-2d1e-444e-9ca6-3480726728ed")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3372,7 +3684,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3384,11 +3696,47 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 926-LM2663MX/NOPB; stock 5149; packaging MouseReel; standard pack 2500; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d2d3fef9-0bc1-412e-ab5d-e8ba3222eaa4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "926-LM2663MX/NOPB"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b521dec-7fc8-45f6-a631-a3e40cde7ae6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eab1e404-4f44-4436-a041-4f2d56204f60")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce00c287-bd4d-45c6-8ffe-d47d259d76eb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3825,7 +4173,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3837,11 +4185,47 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 603-RT0603CRE07100KL; stock 163; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved. Only 163 units observed; four per board, so at most 40 boards before spares. Preserve 0.25% tolerance and 50ppm/C."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0212f249-2169-4ade-9302-6f1685eee5b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "603-RT0603CRE07100KL"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a356995-edd1-4477-b99d-d2bc8c84d5df")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc352200-f17d-46bf-97da-339e54f69434")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eae493e3-39aa-4d99-99df-2e8d67bf4a7a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4068,7 +4452,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4080,11 +4464,47 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 81-GCM188L81H104KA7D; stock 543652; packaging MouseReel; standard pack 4000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6fc1b051-27a5-461a-ba92-465b6d8b5564")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "81-GCM188L81H104KA7D"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8487d8b0-894d-440d-8673-4f4fedefd825")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0829d7b5-102b-4ee0-962c-4213d9975fad")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d39cd518-7764-4bb5-927d-0cecd550e956")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4311,7 +4731,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4323,11 +4743,47 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 579-MCP4728-E/UN; stock 55259; packaging Tube; standard pack 100; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved. Tube packaging is not a reel; confirm assembler accepts it or qualify the manufacturer's tape-and-reel ordering suffix without changing the device."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "753ab53a-613c-45d2-947c-90d926aa30ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "579-MCP4728-E/UN"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b1bdc90-2c3e-4709-9934-c2db58815473")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f1bbac0-79d3-41b5-9e54-c19bdf762e66")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2b765ba-442f-461d-a29f-d6ce21468e2a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4780,7 +5236,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4792,11 +5248,47 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 81-GCM188L81H104KA7D; stock 543652; packaging MouseReel; standard pack 4000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4c3bf9ed-d810-48d6-8457-de5f53c3d399")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "81-GCM188L81H104KA7D"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4e4d44b-5b8f-4445-bd6f-e51069b32652")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ab3e169-d0fb-4758-8388-dbf7358f862d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a845de77-c9a6-4b54-b7bf-72f15b80f42c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5023,7 +5515,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5035,11 +5527,47 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 603-RC0603FR-07100KL; stock 3108107; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "82210541-4eec-40ec-a49b-9f5d5b9a9744")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "603-RC0603FR-07100KL"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0553ae2-8c9d-49c1-8f4b-fd11d9e55d74")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c65222f-1997-428e-8e37-44ce1df6e5b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ac80eed-404c-4c28-9a4b-8264ea1c9619")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5266,7 +5794,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5278,11 +5806,47 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 652-PTV09A-2020FB104; stock 213; packaging Tray; standard pack 100; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cf317c11-6a3e-425f-9166-f0d4926558dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "652-PTV09A-2020FB104"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3fa3994-6567-41ea-b8b5-d549c8f7208c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "046669d9-ac8f-44b3-bb57-bcb605f9fd0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "635dfaf6-a4d9-45cd-9517-d9bf29e075bd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5513,7 +6077,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/ptv09a-2x20f-xxxx.stp"
 			(offset
-				(xyz 3.5 2.5 9.5)
+				(xyz 3.1 2.5 9.5)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -5657,7 +6221,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5669,11 +6233,47 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 652-PTV09A-2020FB104; stock 213; packaging Tray; standard pack 100; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ceef8f4c-9f90-42f3-bea2-ed42ac31d62e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "652-PTV09A-2020FB104"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c339c5d7-8043-4a21-bed3-9d53fba4d55a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b624449a-09f0-42d8-b1fb-860e6171a33e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3fb21197-5bcb-4784-a430-c560052c267f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5904,7 +6504,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/ptv09a-2x20f-xxxx.stp"
 			(offset
-				(xyz 3.5 2.5 9.5)
+				(xyz 3.1 2.5 9.5)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -6048,7 +6648,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6060,11 +6660,47 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 81-GCM188L81H104KA7D; stock 543652; packaging MouseReel; standard pack 4000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "43debf04-d5c4-4025-8f7f-3c93579a1942")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "81-GCM188L81H104KA7D"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f304425f-e7ca-487e-a157-ba231ef90e0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7414bedd-c9b0-4913-b1ad-536291cc4fb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "777a7f0c-c5aa-4ac8-9cae-c183e5e18498")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6291,7 +6927,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6303,11 +6939,47 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 652-PTV09A-2020FB104; stock 213; packaging Tray; standard pack 100; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f589c744-3166-4a19-a714-a57a057acc18")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "652-PTV09A-2020FB104"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8405a71-9b76-4e21-8f6a-a8e8dbffda52")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94c983f5-6111-4ffc-ab5a-198ce7903f0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4bd0f452-c461-4744-8439-0b6817666e79")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6538,7 +7210,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/ptv09a-2x20f-xxxx.stp"
 			(offset
-				(xyz 3.5 2.5 9.5)
+				(xyz 3.1 2.5 9.5)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -6587,7 +7259,7 @@
 				)
 			)
 		)
-		(property "Description" "10u; C_0805_2012Metric; legacy MPN GMK212BBJ106MG-T"
+		(property "Description" "10uF +/-10% 50V X5R MLCC; 0805 (2012 metric)"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -6610,7 +7282,7 @@
 				)
 			)
 		)
-		(property "manf#" "GMK212BBJ106MG-T"
+		(property "manf#" "GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6622,7 +7294,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Taiyo Yuden"
+		(property "Manufacturer" "Murata"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6634,7 +7306,7 @@
 				)
 			)
 		)
-		(property "MPN" "GMK212BBJ106MG-T"
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6646,7 +7318,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GMK212BBJ106MG-T"
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6658,7 +7330,7 @@
 				)
 			)
 		)
-		(property "Mouser" "https://www.mouser.com/c/?q=GMK212BBJ106MG-T"
+		(property "Mouser" "https://www.mouser.com/c/?q=GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6682,7 +7354,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6694,11 +7366,59 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "User-approved breakout substitution 2026-11-07: GMK212BBJ106MG-T -> GRM21BR61H106KE43L. C4 is the 5V LM2663 flying capacitor; C5 bypasses -5V. Remaining parts AC-couple analog paths on the intended +/-5V design; conservative rail-to-rail envelope is 10V, below 50V. Keep manufacturer-application caveat visible: DigiKey lists Mobile Devices Only; the Murata reference sheet obtained through MCP is headed General Purpose. User accepts use for this breakout, not unrestricted production qualification. Validate effective capacitance, charge-pump performance and analog transfer; confirm packaging and height. LCSC C440198; Active per DigiKey. Stock/packing must be rechecked before order."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8b44855e-4eec-4db8-b39d-5499d0eb0dc0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "81-GRM21BR61H106KE3L"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8288423c-9deb-45b5-8ed0-b8a3971eb7ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" "490-18663-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a109495-71e6-4c6e-846d-bea8cc52b0f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c68d515-a9ae-4144-84bf-088f8a200fe0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSCOrderCode" "C440198"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35188b7c-d3ab-491a-8c10-4f28d65625d0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6830,7 +7550,7 @@
 				)
 			)
 		)
-		(property "Description" "10u; C_0805_2012Metric; legacy MPN GMK212BBJ106MG-T"
+		(property "Description" "10uF +/-10% 50V X5R MLCC; 0805 (2012 metric)"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -6853,7 +7573,7 @@
 				)
 			)
 		)
-		(property "manf#" "GMK212BBJ106MG-T"
+		(property "manf#" "GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6865,7 +7585,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Taiyo Yuden"
+		(property "Manufacturer" "Murata"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6877,7 +7597,7 @@
 				)
 			)
 		)
-		(property "MPN" "GMK212BBJ106MG-T"
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6889,7 +7609,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GMK212BBJ106MG-T"
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6901,7 +7621,7 @@
 				)
 			)
 		)
-		(property "Mouser" "https://www.mouser.com/c/?q=GMK212BBJ106MG-T"
+		(property "Mouser" "https://www.mouser.com/c/?q=GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6925,7 +7645,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6937,11 +7657,59 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "User-approved breakout substitution 2026-11-07: GMK212BBJ106MG-T -> GRM21BR61H106KE43L. C4 is the 5V LM2663 flying capacitor; C5 bypasses -5V. Remaining parts AC-couple analog paths on the intended +/-5V design; conservative rail-to-rail envelope is 10V, below 50V. Keep manufacturer-application caveat visible: DigiKey lists Mobile Devices Only; the Murata reference sheet obtained through MCP is headed General Purpose. User accepts use for this breakout, not unrestricted production qualification. Validate effective capacitance, charge-pump performance and analog transfer; confirm packaging and height. LCSC C440198; Active per DigiKey. Stock/packing must be rechecked before order."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "25e5bdea-9d26-4166-a885-982d4cb4913a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "81-GRM21BR61H106KE3L"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "895af06d-57ff-45fc-bab3-66d0bb860c05")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" "490-18663-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe9b9fe3-e07f-4286-84ba-c84bf8ec3646")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4efc31fd-68ac-4ffb-a19a-961409aaa283")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSCOrderCode" "C440198"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0fb0b3c2-5c77-41d4-8837-722b25f2c602")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7180,11 +7948,47 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy PV36W202C01B00 on Bourns 3296W footprint; compare datasheet body, lead positions, pin numbering and adjustment access. PCB pin centers are 0, 2.54, 5.08 mm; pin 3 is unused."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 81-PV36W202C01B00; stock 2466; packaging Tube; standard pack 50; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved. Exact PV36W body/lead geometry, pin order and adjustment access must match Bourns 3296W footprint; 2.54mm lead pitch alone is not qualification."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0c18bd53-e05a-486f-b74a-34ea96593657")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "81-PV36W202C01B00"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2db70b21-0481-4c26-9888-0d86219f91ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbaa2a9c-ac41-4611-9804-25387eb0c652")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e48e07b1-1656-46f5-8bf9-a93e4f6013a9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7377,7 +8181,7 @@
 				)
 			)
 		)
-		(property "Description" "10u; C_0805_2012Metric; legacy MPN GMK212BBJ106MG-T"
+		(property "Description" "10uF +/-10% 50V X5R MLCC; 0805 (2012 metric)"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -7400,7 +8204,7 @@
 				)
 			)
 		)
-		(property "manf#" "GMK212BBJ106MG-T"
+		(property "manf#" "GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7412,7 +8216,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Taiyo Yuden"
+		(property "Manufacturer" "Murata"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7424,7 +8228,7 @@
 				)
 			)
 		)
-		(property "MPN" "GMK212BBJ106MG-T"
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7436,7 +8240,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GMK212BBJ106MG-T"
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7448,7 +8252,7 @@
 				)
 			)
 		)
-		(property "Mouser" "https://www.mouser.com/c/?q=GMK212BBJ106MG-T"
+		(property "Mouser" "https://www.mouser.com/c/?q=GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7472,7 +8276,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7484,11 +8288,59 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "User-approved breakout substitution 2026-11-07: GMK212BBJ106MG-T -> GRM21BR61H106KE43L. C4 is the 5V LM2663 flying capacitor; C5 bypasses -5V. Remaining parts AC-couple analog paths on the intended +/-5V design; conservative rail-to-rail envelope is 10V, below 50V. Keep manufacturer-application caveat visible: DigiKey lists Mobile Devices Only; the Murata reference sheet obtained through MCP is headed General Purpose. User accepts use for this breakout, not unrestricted production qualification. Validate effective capacitance, charge-pump performance and analog transfer; confirm packaging and height. LCSC C440198; Active per DigiKey. Stock/packing must be rechecked before order."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "af863b27-617b-4059-befd-cc50cdc6f96e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "81-GRM21BR61H106KE3L"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a40a6a6-f75e-4074-b368-a6e53e779139")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" "490-18663-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f7c095c-20b8-4ba3-9ad2-e68bc0d57fa8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "477cbd9b-2e6a-47f1-a67d-22a3c1ddf176")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSCOrderCode" "C440198"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d355031-3081-4f61-846a-5fc913e2c456")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7715,7 +8567,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7727,11 +8579,47 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 603-RT0603FRD0710KL; stock 673; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a84b9bc2-afdc-4f56-8017-134640fa8b61")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "603-RT0603FRD0710KL"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "602c0f35-bfc7-4954-8dd4-81969755233f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "177b57d6-014f-4368-be51-501112ea6c80")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f0645f3-db9d-47bc-9c30-3d7fc735a701")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7863,7 +8751,7 @@
 				)
 			)
 		)
-		(property "Description" "22u; C_0805_2012Metric; legacy MPN C2012JB1V226M125AC"
+		(property "Description" "22uF +/-20% 35V X5R MLCC; 0805 (2012 metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7886,7 +8774,7 @@
 				)
 			)
 		)
-		(property "manf#" "C2012JB1V226M125AC"
+		(property "manf#" "C2012X5R1V226MT000E"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7910,7 +8798,7 @@
 				)
 			)
 		)
-		(property "MPN" "C2012JB1V226M125AC"
+		(property "MPN" "C2012X5R1V226MT000E"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7922,7 +8810,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "https://www.digikey.com/en/products?keywords=C2012JB1V226M125AC"
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=C2012X5R1V226MT000E"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7934,7 +8822,7 @@
 				)
 			)
 		)
-		(property "Mouser" "https://www.mouser.com/c/?q=C2012JB1V226M125AC"
+		(property "Mouser" "https://www.mouser.com/c/?q=C2012X5R1V226MT000E"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7958,7 +8846,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "HOLD_LIFECYCLE_REVIEW"
+		(property "SourcingStatus" "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7970,11 +8858,59 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Distributor search results flag this legacy MPN obsolete; confirm lifecycle through distributor API or manufacturer. A replacement must fit 0805 and meet 22 uF, voltage, dielectric, DC-bias and boost-converter stability requirements."
+		(property "SourcingNotes" "User-approved breakout substitution 2026-11-07: C2012JB1V226M125AC -> C2012X5R1V226MT000E. C1 is VBAT-to-GND; C2/C3 are BOOST_5V-to-GND. Intended battery/5V rails are below the unchanged 35V rating. JB-to-X5R change accepted for this breakout; effective capacitance versus bias/temperature and boost startup/ripple/stability remain bench-validation requirements. LCSC C338080; Manufacturer lifecycle not independently verified. Stock/packing must be rechecked before order."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d32785ab-2bb6-466a-af27-2bde9865c7f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff2e9b1e-6772-47ac-b193-a67aded62777")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d375e8c4-9ea2-4f55-8f84-dbae0a8a0b59")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79d4812f-1afa-40f6-8bf2-0b718ab72cde")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSCOrderCode" "C338080"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7517249e-c5e8-4ecc-8fa4-bcc289c74100")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8106,7 +9042,7 @@
 				)
 			)
 		)
-		(property "Description" "22u; C_0805_2012Metric; legacy MPN C2012JB1V226M125AC"
+		(property "Description" "22uF +/-20% 35V X5R MLCC; 0805 (2012 metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8129,7 +9065,7 @@
 				)
 			)
 		)
-		(property "manf#" "C2012JB1V226M125AC"
+		(property "manf#" "C2012X5R1V226MT000E"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8153,7 +9089,7 @@
 				)
 			)
 		)
-		(property "MPN" "C2012JB1V226M125AC"
+		(property "MPN" "C2012X5R1V226MT000E"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8165,7 +9101,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "https://www.digikey.com/en/products?keywords=C2012JB1V226M125AC"
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=C2012X5R1V226MT000E"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8177,7 +9113,7 @@
 				)
 			)
 		)
-		(property "Mouser" "https://www.mouser.com/c/?q=C2012JB1V226M125AC"
+		(property "Mouser" "https://www.mouser.com/c/?q=C2012X5R1V226MT000E"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8201,7 +9137,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "HOLD_LIFECYCLE_REVIEW"
+		(property "SourcingStatus" "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8213,11 +9149,59 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Distributor search results flag this legacy MPN obsolete; confirm lifecycle through distributor API or manufacturer. A replacement must fit 0805 and meet 22 uF, voltage, dielectric, DC-bias and boost-converter stability requirements."
+		(property "SourcingNotes" "User-approved breakout substitution 2026-11-07: C2012JB1V226M125AC -> C2012X5R1V226MT000E. C1 is VBAT-to-GND; C2/C3 are BOOST_5V-to-GND. Intended battery/5V rails are below the unchanged 35V rating. JB-to-X5R change accepted for this breakout; effective capacitance versus bias/temperature and boost startup/ripple/stability remain bench-validation requirements. LCSC C338080; Manufacturer lifecycle not independently verified. Stock/packing must be rechecked before order."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d7143399-d8fc-4b71-9df9-d352dfe4c01e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f3482e3-9c3a-41fd-9c15-225b4b4545dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82acf3d5-0729-4a22-9c3b-db6c4d15be7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a98f1243-ea78-40d8-ba42-64d1995a5c7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSCOrderCode" "C338080"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3cd2f107-dad9-4b4f-bade-ae23b4ee6341")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8444,7 +9428,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8456,11 +9440,47 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 603-RC0603FR-072K2L; stock 930470; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "468f2353-32a1-4c0a-aa54-da082878d922")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "603-RC0603FR-072K2L"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3378efd1-224c-4bac-8f11-f5a16fc6de61")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "afd2c02c-9882-4940-b972-5536b60cbf2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8280476b-172f-4205-b62c-62d1f761b0c6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8687,7 +9707,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8699,11 +9719,47 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 595-LM324PWR; stock 2174; packaging MouseReel; standard pack 2000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3181a104-ea8c-402f-9298-c8345a140805")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "595-LM324PWR"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17a968c5-0dd5-4810-b7dd-7130eaa5c627")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a5c8f7d-07bd-4e39-b16d-84d165413fe0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "abac43da-49b4-464e-a6c4-e70f766bbc2e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9093,7 +10149,7 @@
 				)
 			)
 		)
-		(property "Description" "22u; C_0805_2012Metric; legacy MPN C2012JB1V226M125AC"
+		(property "Description" "22uF +/-20% 35V X5R MLCC; 0805 (2012 metric)"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -9116,7 +10172,7 @@
 				)
 			)
 		)
-		(property "manf#" "C2012JB1V226M125AC"
+		(property "manf#" "C2012X5R1V226MT000E"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9140,7 +10196,7 @@
 				)
 			)
 		)
-		(property "MPN" "C2012JB1V226M125AC"
+		(property "MPN" "C2012X5R1V226MT000E"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9152,7 +10208,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "https://www.digikey.com/en/products?keywords=C2012JB1V226M125AC"
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=C2012X5R1V226MT000E"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9164,7 +10220,7 @@
 				)
 			)
 		)
-		(property "Mouser" "https://www.mouser.com/c/?q=C2012JB1V226M125AC"
+		(property "Mouser" "https://www.mouser.com/c/?q=C2012X5R1V226MT000E"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9188,7 +10244,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "HOLD_LIFECYCLE_REVIEW"
+		(property "SourcingStatus" "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9200,11 +10256,59 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Distributor search results flag this legacy MPN obsolete; confirm lifecycle through distributor API or manufacturer. A replacement must fit 0805 and meet 22 uF, voltage, dielectric, DC-bias and boost-converter stability requirements."
+		(property "SourcingNotes" "User-approved breakout substitution 2026-11-07: C2012JB1V226M125AC -> C2012X5R1V226MT000E. C1 is VBAT-to-GND; C2/C3 are BOOST_5V-to-GND. Intended battery/5V rails are below the unchanged 35V rating. JB-to-X5R change accepted for this breakout; effective capacitance versus bias/temperature and boost startup/ripple/stability remain bench-validation requirements. LCSC C338080; Manufacturer lifecycle not independently verified. Stock/packing must be rechecked before order."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0c75b5b9-5c43-48c8-a804-9c723a41240a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9a3e850-8339-4ab8-8267-e3bcd540a67b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04d750a7-fcf0-454b-821a-298bdc21d104")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee14411e-97c3-44cb-8601-351e01b27baf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSCOrderCode" "C338080"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c648ce3-cd4b-442f-9aa7-2d430ea0988f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9431,7 +10535,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9443,11 +10547,47 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 306-SM04BSRSSTBLFSN; stock 79867; packaging MouseReel; standard pack 3000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ae3bc5cd-0fdd-4d71-a3a8-d1c229bafc22")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "306-SM04BSRSSTBLFSN"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cef6bb72-7b08-4341-b00b-b3369492e1eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e6ac290-a723-4ab9-945a-8b0cd2d1976a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57c56e93-dfbc-4755-bb09-a8394111f45d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9936,7 +11076,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9948,11 +11088,47 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 621-B330B-F; stock 8608; packaging MouseReel; standard pack 3000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b8bad74f-24a0-4c72-8da3-0ebb793474bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "621-B330B-F"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "595c8326-7edb-42a3-8c29-60a4a06c3db8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c81327e9-6472-4f28-964a-8522c1431f8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f65ad3c6-ee5b-4ca5-8f93-d4e3ac057454")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10299,7 +11475,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10311,11 +11487,47 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 652-SRR1005-2R2M; stock 820; packaging MouseReel; standard pack 600; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c63c8430-4e2f-48ff-b22a-90feb05b482d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "652-SRR1005-2R2M"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6930490d-c324-45f9-87c9-66c1e96e1df5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7021005-d1f7-4c1d-b91c-28d01db43c47")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27dfb112-95f2-4973-a9c7-7bc273532522")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10614,7 +11826,7 @@
 				)
 			)
 		)
-		(property "Description" "10u; C_0805_2012Metric; legacy MPN GMK212BBJ106MG-T"
+		(property "Description" "10uF +/-10% 50V X5R MLCC; 0805 (2012 metric)"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -10637,7 +11849,7 @@
 				)
 			)
 		)
-		(property "manf#" "GMK212BBJ106MG-T"
+		(property "manf#" "GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10649,7 +11861,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Taiyo Yuden"
+		(property "Manufacturer" "Murata"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10661,7 +11873,7 @@
 				)
 			)
 		)
-		(property "MPN" "GMK212BBJ106MG-T"
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10673,7 +11885,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GMK212BBJ106MG-T"
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10685,7 +11897,7 @@
 				)
 			)
 		)
-		(property "Mouser" "https://www.mouser.com/c/?q=GMK212BBJ106MG-T"
+		(property "Mouser" "https://www.mouser.com/c/?q=GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10709,7 +11921,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10721,11 +11933,59 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "User-approved breakout substitution 2026-11-07: GMK212BBJ106MG-T -> GRM21BR61H106KE43L. C4 is the 5V LM2663 flying capacitor; C5 bypasses -5V. Remaining parts AC-couple analog paths on the intended +/-5V design; conservative rail-to-rail envelope is 10V, below 50V. Keep manufacturer-application caveat visible: DigiKey lists Mobile Devices Only; the Murata reference sheet obtained through MCP is headed General Purpose. User accepts use for this breakout, not unrestricted production qualification. Validate effective capacitance, charge-pump performance and analog transfer; confirm packaging and height. LCSC C440198; Active per DigiKey. Stock/packing must be rechecked before order."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "043692d6-93b0-4223-9b18-423f7e75c743")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "81-GRM21BR61H106KE3L"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0fa985ba-44f4-4dee-8a1a-cd2a0918b333")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" "490-18663-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5cd0e2ba-c7a8-4f5c-87e4-c68e5ad70a7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6affdc5b-67a4-4bdb-9fd5-52e752b8328e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSCOrderCode" "C440198"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f92ad489-17a7-4250-ac82-a7c6b70fe4b6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10857,7 +12117,7 @@
 				)
 			)
 		)
-		(property "Description" "10u; C_0805_2012Metric; legacy MPN GMK212BBJ106MG-T"
+		(property "Description" "10uF +/-10% 50V X5R MLCC; 0805 (2012 metric)"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -10880,7 +12140,7 @@
 				)
 			)
 		)
-		(property "manf#" "GMK212BBJ106MG-T"
+		(property "manf#" "GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10892,7 +12152,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Taiyo Yuden"
+		(property "Manufacturer" "Murata"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10904,7 +12164,7 @@
 				)
 			)
 		)
-		(property "MPN" "GMK212BBJ106MG-T"
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10916,7 +12176,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GMK212BBJ106MG-T"
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10928,7 +12188,7 @@
 				)
 			)
 		)
-		(property "Mouser" "https://www.mouser.com/c/?q=GMK212BBJ106MG-T"
+		(property "Mouser" "https://www.mouser.com/c/?q=GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10952,7 +12212,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10964,11 +12224,59 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "User-approved breakout substitution 2026-11-07: GMK212BBJ106MG-T -> GRM21BR61H106KE43L. C4 is the 5V LM2663 flying capacitor; C5 bypasses -5V. Remaining parts AC-couple analog paths on the intended +/-5V design; conservative rail-to-rail envelope is 10V, below 50V. Keep manufacturer-application caveat visible: DigiKey lists Mobile Devices Only; the Murata reference sheet obtained through MCP is headed General Purpose. User accepts use for this breakout, not unrestricted production qualification. Validate effective capacitance, charge-pump performance and analog transfer; confirm packaging and height. LCSC C440198; Active per DigiKey. Stock/packing must be rechecked before order."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "eeab09e3-0d11-4d55-852f-597da39817e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "81-GRM21BR61H106KE3L"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "614ee628-2919-41b5-b59c-508400aae4e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" "490-18663-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14c293fd-4f4a-4090-bb1b-4cc0f3d8e676")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e911c5a9-0837-4891-b7f0-6ed615169e66")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSCOrderCode" "C440198"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d059b0fd-73df-4358-b6ed-1e3edd3bcfbf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11417,7 +12725,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11429,11 +12737,47 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 603-RT0603CRE07100KL; stock 163; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved. Only 163 units observed; four per board, so at most 40 boards before spares. Preserve 0.25% tolerance and 50ppm/C."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c9a71ea4-5ff4-4e41-9227-7cd87c5dc206")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "603-RT0603CRE07100KL"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf138edd-0f63-4f40-ba5d-4dcbe09bb639")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5e734aa-c564-4579-8608-515f846a1fd7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b594b24a-9b74-4668-a31f-960e58f8d2a8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11660,7 +13004,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11672,11 +13016,47 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 603-RT0603FRD0710KL; stock 673; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a6a7b67e-8124-430f-870f-e06ec59f0a0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "603-RT0603FRD0710KL"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de15445b-c015-47dc-933e-151cb0e8cf7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c40f10d4-da06-4aec-a141-ad540bef1f7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4620976a-e1f4-44c2-a7cb-b7b291dcebff")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11903,7 +13283,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11915,11 +13295,47 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 81-GCM188L81H104KA7D; stock 543652; packaging MouseReel; standard pack 4000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e60ddcb4-492f-468f-b811-8e53b936c447")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "81-GCM188L81H104KA7D"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60e20449-f9ae-4973-9612-1f42ebfca2f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8fd7c73b-c428-493e-a48a-f54b587f6a6f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b59dcb7-acc6-4331-90b6-a4b33b3b6907")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12051,7 +13467,7 @@
 				)
 			)
 		)
-		(property "Description" "10u; C_0805_2012Metric; legacy MPN GMK212BBJ106MG-T"
+		(property "Description" "10uF +/-10% 50V X5R MLCC; 0805 (2012 metric)"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -12074,7 +13490,7 @@
 				)
 			)
 		)
-		(property "manf#" "GMK212BBJ106MG-T"
+		(property "manf#" "GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12086,7 +13502,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Taiyo Yuden"
+		(property "Manufacturer" "Murata"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12098,7 +13514,7 @@
 				)
 			)
 		)
-		(property "MPN" "GMK212BBJ106MG-T"
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12110,7 +13526,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GMK212BBJ106MG-T"
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12122,7 +13538,7 @@
 				)
 			)
 		)
-		(property "Mouser" "https://www.mouser.com/c/?q=GMK212BBJ106MG-T"
+		(property "Mouser" "https://www.mouser.com/c/?q=GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12146,7 +13562,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12158,11 +13574,59 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "User-approved breakout substitution 2026-11-07: GMK212BBJ106MG-T -> GRM21BR61H106KE43L. C4 is the 5V LM2663 flying capacitor; C5 bypasses -5V. Remaining parts AC-couple analog paths on the intended +/-5V design; conservative rail-to-rail envelope is 10V, below 50V. Keep manufacturer-application caveat visible: DigiKey lists Mobile Devices Only; the Murata reference sheet obtained through MCP is headed General Purpose. User accepts use for this breakout, not unrestricted production qualification. Validate effective capacitance, charge-pump performance and analog transfer; confirm packaging and height. LCSC C440198; Active per DigiKey. Stock/packing must be rechecked before order."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bd26ed98-87c5-42ce-baf7-c7f334ffc31b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "81-GRM21BR61H106KE3L"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86beebb8-82a0-47e4-a43d-599f50984061")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" "490-18663-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1cf597ba-4802-4420-b56d-c6830d822d21")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22dcd99b-b081-4d9e-8140-a2243e09cd21")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSCOrderCode" "C440198"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ac310bc-c67c-478c-a274-368af6fcf0f8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12500,7 +13964,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12512,11 +13976,47 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 652-CRT0603FY1001ELF; stock 26600; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fb369cf7-9c61-4335-83c7-8a21e86d59c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "652-CRT0603FY1001ELF"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f148c8c5-9960-4bb8-9252-9dea22102fbe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e876384-016f-4c05-ad1d-69c5ac41196e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fccf0710-2d11-4cd4-82cb-90cc1e120fe7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12743,7 +14243,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12755,11 +14255,47 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 603-RC0603FR-07750KL; stock 57589; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "89f182fe-1995-4922-a7b8-d5c0399b6cec")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "603-RC0603FR-07750KL"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15fe7084-db41-4095-b13b-8a3c7fb633cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a4c012f-e56b-4f10-8cf9-c6982be45249")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94729d33-8120-4f17-bdfe-d8d49ace51ad")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12986,7 +14522,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12998,11 +14534,47 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 603-RC0603FR-072K2L; stock 930470; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f6302ea4-f8be-4b5f-8a2d-29b6cb004226")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "603-RC0603FR-072K2L"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "00dc2023-9da2-42fa-8bb6-5a31403d67ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9b05359-ce53-48a2-ad12-8afeec7f0323")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0005a09-e8ff-42bf-b7fd-e629fd0d9da3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13134,7 +14706,7 @@
 				)
 			)
 		)
-		(property "Description" "10u; C_0805_2012Metric; legacy MPN GMK212BBJ106MG-T"
+		(property "Description" "10uF +/-10% 50V X5R MLCC; 0805 (2012 metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13157,7 +14729,7 @@
 				)
 			)
 		)
-		(property "manf#" "GMK212BBJ106MG-T"
+		(property "manf#" "GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13169,7 +14741,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Taiyo Yuden"
+		(property "Manufacturer" "Murata"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13181,7 +14753,7 @@
 				)
 			)
 		)
-		(property "MPN" "GMK212BBJ106MG-T"
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13193,7 +14765,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GMK212BBJ106MG-T"
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13205,7 +14777,7 @@
 				)
 			)
 		)
-		(property "Mouser" "https://www.mouser.com/c/?q=GMK212BBJ106MG-T"
+		(property "Mouser" "https://www.mouser.com/c/?q=GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13229,7 +14801,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13241,11 +14813,59 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "User-approved breakout substitution 2026-11-07: GMK212BBJ106MG-T -> GRM21BR61H106KE43L. C4 is the 5V LM2663 flying capacitor; C5 bypasses -5V. Remaining parts AC-couple analog paths on the intended +/-5V design; conservative rail-to-rail envelope is 10V, below 50V. Keep manufacturer-application caveat visible: DigiKey lists Mobile Devices Only; the Murata reference sheet obtained through MCP is headed General Purpose. User accepts use for this breakout, not unrestricted production qualification. Validate effective capacitance, charge-pump performance and analog transfer; confirm packaging and height. LCSC C440198; Active per DigiKey. Stock/packing must be rechecked before order."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "92f7549f-2d48-4f4e-9cf1-f10ce5790505")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "81-GRM21BR61H106KE3L"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d069fff9-14dd-48b9-a622-2819653e51b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" "490-18663-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f97b603-ce15-4848-bde8-b1e5bf308150")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3c53ad3-2d18-4dca-a3cf-7850ee41a4a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSCOrderCode" "C440198"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19f8bcea-7689-4f54-ac38-4514ff44b603")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13377,7 +14997,7 @@
 				)
 			)
 		)
-		(property "Description" "5p; C_0603_1608Metric; legacy MPN GJM0335C1E5R0BB01D"
+		(property "Description" "5pF +/-0.1pF 50V C0G/NP0 MLCC; 0603 (1608 metric)"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -13400,7 +15020,7 @@
 				)
 			)
 		)
-		(property "manf#" "GJM0335C1E5R0BB01D"
+		(property "manf#" "CC0603BRNPO9BN5R0"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13412,7 +15032,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13424,7 +15044,7 @@
 				)
 			)
 		)
-		(property "MPN" "GJM0335C1E5R0BB01D"
+		(property "MPN" "CC0603BRNPO9BN5R0"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13436,7 +15056,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "https://www.digikey.com/en/products?keywords=GJM0335C1E5R0BB01D"
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=CC0603BRNPO9BN5R0"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13448,7 +15068,7 @@
 				)
 			)
 		)
-		(property "Mouser" "https://www.mouser.com/c/?q=GJM0335C1E5R0BB01D"
+		(property "Mouser" "https://www.mouser.com/c/?q=CC0603BRNPO9BN5R0"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13472,7 +15092,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "HOLD_PACKAGE_MISMATCH"
+		(property "SourcingStatus" "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13484,11 +15104,59 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Assigned GJM0335C1E5R0BB01D is 0201 imperial / 0603 metric; PCB is 0603 imperial / 1608 metric. Select a verified 5 pF C0G replacement with matching tolerance, or redesign the footprint. Candidate for review only: GRM1885C1H5R0BA01D (0603 imperial). Do not order the current MPN for this PCB."
+		(property "SourcingNotes" "User-approved breakout substitution 2026-11-07: GJM0335C1E5R0BB01D -> CC0603BRNPO9BN5R0. 5pF compensation capacitor in the +/-5V op-amp/current-source path; 50V exceeds the intended rail-to-rail envelope. Retains 5pF, +/-0.1pF and C0G behavior while correcting the nominal package from legacy 0201 to actual PCB 0603. Validate compensation/stability on hardware. LCSC C519109; Active per earlier DigiKey lookup. Stock/packing must be rechecked before order."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "74f2623a-cfad-4e9e-9342-e76a176c1b47")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "603-CC603BRNPO9BN5R0"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45f616f7-e372-4a59-b2bd-1fad6aea2539")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" "13-CC0603BRNPO9BN5R0CT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "809ce7c1-5ba0-4dac-9141-6a45b8083894")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07c3799e-ada8-4d80-87da-73ef41f7de55")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSCOrderCode" "C519109"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf74bf96-bd13-46c4-ac1e-36a2f2f15cbf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13715,7 +15383,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13727,11 +15395,47 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 652-PTV09A-2020FB104; stock 213; packaging Tray; standard pack 100; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e2188e9b-a31d-4992-b626-b30f12629db0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "652-PTV09A-2020FB104"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c99068fb-90ea-4900-bcd5-006fde3f149d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1648ea1a-bb14-4a46-aa92-59393af6621c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9cc14394-f396-4305-a599-b3a0f1d3fa53")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13963,7 +15667,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/ptv09a-2x20f-xxxx.stp"
 			(offset
-				(xyz 3.5 2.5 9.5)
+				(xyz 3.1 2.5 9.5)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -14107,7 +15811,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14119,11 +15823,47 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 603-RT0603CRE07100KL; stock 163; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved. Only 163 units observed; four per board, so at most 40 boards before spares. Preserve 0.25% tolerance and 50ppm/C."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6447f1b5-d3d6-42bc-ae74-7e660a91baf3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "603-RT0603CRE07100KL"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03f75219-2b7c-44a0-a28f-bd71b7262b36")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "241764df-8c0c-4aca-be6b-8a44ce36488c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a6bc59a-9375-4968-a1da-a816a2da68ff")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14342,7 +16082,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14354,11 +16094,47 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 621-B330B-F; stock 8608; packaging MouseReel; standard pack 3000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "114020bf-90fa-4cc8-a403-b8e6988a2163")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "621-B330B-F"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd067972-381b-4238-a71e-5250c4e6b9ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0180bd3e-5c7e-4898-8680-a16bca615f4b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c67a1b34-615c-4a87-9c76-699cfc0b1b8d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14713,7 +16489,7 @@
 				)
 			)
 		)
-		(property "SourcingStatus" "REVIEW_LEGACY_MPN"
+		(property "SourcingStatus" "REVIEW_DATASHEET_AND_FIT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14725,11 +16501,47 @@
 				)
 			)
 		)
-		(property "SourcingNotes" "Legacy assignment retained; verify datasheet, lifecycle, stock, packaging and price before ordering."
+		(property "SourcingNotes" "pcbparts MCP/Mouser 2026-11-07: exact MPN/manufacturer match; 603-RT0603CRE07100KL; stock 163; packaging MouseReel; standard pack 5000; lifecycle not stated (NOT confirmation of Active). Stock/pricing may change; datasheet electrical and mechanical suitability still require review. No order approved. Only 163 units observed; four per board, so at most 40 boards before spares. Preserve 0.25% tolerance and 50ppm/C."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "737cd84f-15f5-40b8-973e-f55a8f71eb73")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserOrderCode" "603-RT0603CRE07100KL"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "189161e8-9ea8-4094-89c9-f56bb7d86f1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKeyOrderCode" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6800c88e-281d-4883-a5b8-76456f81b1dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DistributorChecked" "2026-11-07"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4dd4c7c-8d5f-4ee2-bd62-4c88363ffe9d")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -4,4 +4,5 @@ sym-lib-table text eol=lf
 fp-lib-table text eol=lf
 Tph_Synth_Featherwing/3dmodels/** text eol=lf
 scripts/prepare_manufacture.py text eol=lf
+sourcing/*.json text eol=lf
 manufacturing/** -text -whitespace

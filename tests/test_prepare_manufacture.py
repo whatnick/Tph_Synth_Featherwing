@@ -40,7 +40,15 @@ class ManufacturingTests(unittest.TestCase):
                 '<export><components><comp ref="MS1"><value>Adapter</value>'
                 '<fields><field name="MPN">3200</field><field name="Assembly">External host</field></fields>'
                 '</comp><comp ref="JP1"><property name="exclude_from_bom"/></comp>'
-                '<comp ref="R1"><property name="dnp"/></comp></components></export>',
+                '<comp ref="R1"><property name="dnp"/></comp>'
+                '<comp ref="U3"><fields><field name="MouserOrderCode">595-LM324PWR</field>'
+                '<field name="DistributorChecked">2026-11-07</field>'
+                '<field name="SourcingStatus">REVIEW_DATASHEET_AND_FIT</field>'
+                '</fields></comp><comp ref="C1"><fields>'
+                '<field name="MPN">C2012X5R1V226MT000E</field>'
+                '<field name="LCSCOrderCode">C338080</field>'
+                '<field name="SourcingStatus">APPROVED_FOR_BREAKOUT_PENDING_VALIDATION</field>'
+                '</fields></comp></components></export>',
                 encoding="utf-8",
             )
             rows = mfg.read_components(path)
@@ -48,6 +56,11 @@ class ManufacturingTests(unittest.TestCase):
             self.assertEqual(rows[0]["MPN"], "3200")
             self.assertTrue(rows[1]["excluded"])
             self.assertTrue(rows[2]["excluded"])
+            self.assertEqual(rows[3]["MouserOrderCode"], "595-LM324PWR")
+            self.assertEqual(rows[3]["DistributorChecked"], "2026-11-07")
+            self.assertEqual(rows[3]["SourcingStatus"], "REVIEW_DATASHEET_AND_FIT")
+            self.assertEqual(rows[4]["LCSCOrderCode"], "C338080")
+            self.assertEqual(rows[4]["SourcingStatus"], "APPROVED_FOR_BREAKOUT_PENDING_VALIDATION")
 
     def test_even_warning_or_parity_only_findings_block_exports(self):
         erc = {"sheets": [{"violations": []}]}

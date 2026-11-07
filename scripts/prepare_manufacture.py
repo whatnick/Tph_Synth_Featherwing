@@ -21,6 +21,8 @@ STEM = "Tph_Synth_Featherwing"
 BOM_FIELDS = (
     "References", "Quantity", "Value", "Footprint", "Manufacturer", "MPN",
     "DigiKey", "Mouser", "Assembly", "SourcingStatus", "SourcingNotes",
+    "MouserOrderCode", "DigiKeyOrderCode", "DistributorChecked",
+    "LCSCOrderCode",
 )
 SOURCE_FIELDS = BOM_FIELDS[4:]
 FAB_EXTENSIONS = {".gtl", ".gbl", ".gts", ".gbs", ".gto", ".gbo", ".gtp", ".gbp", ".gm1", ".drl", ".gbrjob"}
@@ -87,6 +89,9 @@ def source_hashes():
     paths += list((PROJECT / "footprints").rglob("*.kicad_mod"))
     paths += list((PROJECT / "3dmodels").iterdir())
     paths += [Path(__file__).resolve()]
+    paths += list((ROOT / "sourcing").glob("distributor-review-*.json"))
+    if (ROOT / "doc" / "pv36.pdf").is_file():
+        paths.append(ROOT / "doc" / "pv36.pdf")
     return {str(path.relative_to(ROOT)): sha256(path) for path in sorted(paths) if path.is_file()}
 
 
@@ -161,6 +166,7 @@ def prepare(cli, output):
     if not cli_version.startswith("10."):
         raise ValueError(f"Expected KiCad 10, got {cli_version}")
     inputs = source_hashes()
+    reviews = sorted((ROOT / "sourcing").glob("distributor-review-*.json"))
     board_path = PROJECT / (STEM + ".kicad_pcb")
     schematic = PROJECT / (STEM + ".kicad_sch")
     board = pcb.LoadBoard(str(board_path))
@@ -188,6 +194,8 @@ def prepare(cli, output):
     write_csv(assembly / "design-bom.csv", group_bom(components))
     write_csv(assembly / "assembly-bom-REVIEW-ONLY.csv", group_bom(physical))
     write_csv(assembly / "external-host.csv", group_bom([c for c in components if c["Assembly"] == "External host"]))
+    for review in reviews:
+        shutil.copyfile(review, assembly / review.name)
     run(cli, "pcb", "export", "pos", board_path, "--format", "csv", "--units", "mm",
         "--side", "both", "--smd-only", "--exclude-dnp", "-o", assembly / "positions-smt.csv")
     with (assembly / "positions-smt.csv").open(encoding="utf-8-sig", newline="") as stream:
@@ -243,12 +251,21 @@ def prepare(cli, output):
         "tht_references": [c["References"] for c in physical if c["Assembly"] == "THT"],
         "external_host_references": [c["References"] for c in components if c["Assembly"] == "External host"],
         "pcb_feature_references": [c["References"] for c in components if c["excluded"]],
+        "feather_header_assembly_policy": {
+            "factory_population": "DNP",
+            "purchasing_bom": "Excluded; no factory header MPN required.",
+            "user_installation": "Fit compatible Feather stacking headers after manufacture as required.",
+            "scope": "Feather host 12-pin/16-pin rows only; J2 and J3 remain fitted BOM components.",
+        },
         "procurement_blockers": blockers,
-        "live_distributor_stock_pricing_packaging": "NOT_VERIFIED",
+        "live_distributor_stock_pricing_packaging": (
+            "See dated distributor-review JSON in assembly; observations are not purchasing approval."
+            if reviews else "NOT_VERIFIED"
+        ),
         "additional_release_actions": [
-            "Select mating 12-pin/16-pin Feather headers and verify stacking height and host clearance.",
-            "Confirm C12 package correction and C1-C3 lifecycle/replacement before a purchasing BOM is released.",
-            "Check R10 mechanical fit and pin mapping against its exact manufacturer drawing.",
+            "Validate approved capacitor replacements under operating bias/temperature, including boost and charge-pump stability and analog compensation.",
+            "PV36W pitch/pin mapping verified: check R10 0.8mm drills versus recommended 0.9mm and exact body/tool clearance; proxy STEP is not certification.",
+            "Check panel-pot physical seating: aligned family STEP lead sections fit at board midplane but small mounting-feature/board intersections remain.",
             "Confirm material, copper weight, finish, quantity and panelization with fabricator/assembler.",
             "Have assembler confirm SMT rotations, polarity, tooling and the absolute-origin position-file convention.",
             "Bench-test power rails, I2C/DAC, analog outputs and Howland current source before production.",
@@ -269,10 +286,14 @@ def prepare(cli, output):
         "Drill maps and checks remain outside the upload archive.\n"
         "Do not use the historical Tph_Synth_Featherwing\\gerbers or bom folders.\n\n"
         "assembly\\assembly-bom-REVIEW-ONLY.csv is NOT an approved purchasing BOM.\n"
-        "C12's legacy MPN is the wrong package; C1-C3 need lifecycle review; R10 needs mechanical review.\n"
-        "All remaining legacy MPNs require datasheet and live stock/packaging verification.\n"
+        "C1-C3, C4-C11/C18 and C12 use approved breakout replacements; hardware validation remains required.\n"
+        "R10 needs exact mechanical/pin verification. Feather host headers are intentionally DNP, not a factory release blocker.\n"
+        "See assembly\\distributor-review-*.json for dated MCP stock, lifecycle and packaging evidence.\n"
+        "TDK 22uF replacements are sourced through LCSC/JLCPCB; verify exact MPN supply before ordering.\n"
+        "All legacy MPNs still require electrical/mechanical qualification and a fresh stock check before ordering.\n"
         "MS1 is the external host; no adapter PCB is fitted to this PCB at MS1.\n"
-        "Mating 12-pin/16-pin headers are not selected in the schematic BOM.\n"
+        "DO NOT FIT Feather host 12-pin/16-pin headers at manufacture; excluded from purchasing BOM.\n"
+        "Users fit compatible stacking headers to suit their Feather after manufacture. J2/J3 remain fitted.\n"
         "JP1/JP2, test pads and the OSHW logo are PCB features, not purchased components.\n\n"
         "positions-smt.csv covers SMT only; THT parts are listed in release-status.json.\n"
         "Gerbers/drills/positions use absolute CAD origin, millimetres; bottom X is not negated.\n"
@@ -290,7 +311,7 @@ def prepare(cli, output):
     }
     (output / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
     print(f"Prepared {output}; {len(physical)} fitted parts, {len(positions)} SMT positions.")
-    print("ASSEMBLY/PURCHASING ON HOLD: see release-status.json; no live stock claims.")
+    print("ASSEMBLY/PURCHASING ON HOLD: see release-status.json and dated sourcing evidence; no order approval.")
 
 
 def main():

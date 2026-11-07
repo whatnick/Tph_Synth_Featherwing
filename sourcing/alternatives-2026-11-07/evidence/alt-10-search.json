@@ -1,0 +1,317 @@
+{
+  "tool": "jlc_search",
+  "checked_utc": "2026-11-07T06:20:49.9573817Z",
+  "endpoint": "https://pcbparts.dev/mcp",
+  "arguments": {
+    "query": "10uF 35V X5R capacitor",
+    "package": "0805",
+    "strict": true,
+    "limit": 10
+  },
+  "response": {
+    "results": [
+      {
+        "lcsc": "C440198",
+        "model": "GRM21BR61H106KE43L",
+        "manufacturer": "Murata Electronics",
+        "package": "0805",
+        "stock": 1074720,
+        "price": 0.151,
+        "library_type": "basic",
+        "preferred": false,
+        "category": "Capacitors",
+        "subcategory": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+        "subcategory_id": 2929,
+        "mounting_type": "smd",
+        "specs": {
+          "Voltage Rating": "50V",
+          "Tolerance": "±10%",
+          "Capacitance": "10uF",
+          "Temperature Coefficient": "X5R"
+        },
+        "pcba_type": "economic"
+      },
+      {
+        "lcsc": "C2932476",
+        "model": "CL21A106KBYQNNE",
+        "manufacturer": "Samsung Electro-Mechanics",
+        "package": "0805",
+        "stock": 511914,
+        "price": 0.1328,
+        "library_type": "extended",
+        "preferred": false,
+        "category": "Capacitors",
+        "subcategory": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+        "subcategory_id": 2929,
+        "mounting_type": "smd",
+        "specs": {
+          "Voltage Rating": "50V",
+          "Tolerance": "±10%",
+          "Capacitance": "10uF",
+          "Temperature Coefficient": "X5R"
+        },
+        "pcba_type": "economic"
+      },
+      {
+        "lcsc": "C33546007",
+        "model": "HGC0805R5106K350NSLJ",
+        "manufacturer": "Chinocera",
+        "package": "0805",
+        "stock": 439085,
+        "price": 0.0518,
+        "library_type": "extended",
+        "preferred": false,
+        "category": "Capacitors",
+        "subcategory": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+        "subcategory_id": 2929,
+        "mounting_type": "smd",
+        "specs": {
+          "Voltage Rating": "35V",
+          "Tolerance": "±10%",
+          "Capacitance": "10uF",
+          "Temperature Coefficient": "X5R"
+        },
+        "pcba_type": "economic"
+      },
+      {
+        "lcsc": "C22367830",
+        "model": "HGC0805R5106K500NSLJ",
+        "manufacturer": "Chinocera",
+        "package": "0805",
+        "stock": 339300,
+        "price": 0.0971,
+        "library_type": "extended",
+        "preferred": false,
+        "category": "Capacitors",
+        "subcategory": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+        "subcategory_id": 2929,
+        "mounting_type": "smd",
+        "specs": {
+          "Voltage Rating": "50V",
+          "Tolerance": "±10%",
+          "Capacitance": "10uF",
+          "Temperature Coefficient": "X5R"
+        },
+        "pcba_type": "economic"
+      },
+      {
+        "lcsc": "C6119892",
+        "model": "CGA0805X5R106M500MT",
+        "manufacturer": "HRE",
+        "package": "0805",
+        "stock": 77840,
+        "price": 0.0948,
+        "library_type": "extended",
+        "preferred": false,
+        "category": "Capacitors",
+        "subcategory": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+        "subcategory_id": 2929,
+        "mounting_type": "smd",
+        "specs": {
+          "Voltage Rating": "50V",
+          "Tolerance": "±20%",
+          "Capacitance": "10uF",
+          "Temperature Coefficient": "X5R"
+        },
+        "pcba_type": "economic"
+      },
+      {
+        "lcsc": "C18185754",
+        "model": "TCC0805X5R106K350FT",
+        "manufacturer": "CCTC",
+        "package": "0805",
+        "stock": 71165,
+        "price": 0.1071,
+        "library_type": "extended",
+        "preferred": false,
+        "category": "Capacitors",
+        "subcategory": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+        "subcategory_id": 2929,
+        "mounting_type": "smd",
+        "specs": {
+          "Voltage Rating": "35V",
+          "Tolerance": "±10%",
+          "Capacitance": "10uF",
+          "Temperature Coefficient": "X5R"
+        },
+        "pcba_type": "economic"
+      },
+      {
+        "lcsc": "C6119888",
+        "model": "CGA0805X5R106K350MT",
+        "manufacturer": "HRE",
+        "package": "0805",
+        "stock": 70587,
+        "price": 0.0447,
+        "library_type": "extended",
+        "preferred": false,
+        "category": "Capacitors",
+        "subcategory": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+        "subcategory_id": 2929,
+        "mounting_type": "smd",
+        "specs": {
+          "Voltage Rating": "35V",
+          "Tolerance": "±10%",
+          "Capacitance": "10uF",
+          "Temperature Coefficient": "X5R"
+        },
+        "pcba_type": "economic"
+      },
+      {
+        "lcsc": "C162422",
+        "model": "GRM21BR6YA106KE43L",
+        "manufacturer": "Murata Electronics",
+        "package": "0805",
+        "stock": 58156,
+        "price": 0.1266,
+        "library_type": "extended",
+        "preferred": false,
+        "category": "Capacitors",
+        "subcategory": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+        "subcategory_id": 2929,
+        "mounting_type": "smd",
+        "specs": {
+          "Voltage Rating": "35V",
+          "Tolerance": "±10%",
+          "Capacitance": "10uF",
+          "Temperature Coefficient": "X5R"
+        },
+        "pcba_type": "economic"
+      },
+      {
+        "lcsc": "C49010152",
+        "model": "FCC0805X106K350FT",
+        "manufacturer": "FOJAN",
+        "package": "0805",
+        "stock": 35982,
+        "price": 0.069,
+        "library_type": "extended",
+        "preferred": false,
+        "category": "Capacitors",
+        "subcategory": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+        "subcategory_id": 2929,
+        "mounting_type": "smd",
+        "specs": {
+          "Operating Temperature": "-55℃~+85℃",
+          "Voltage Rating": "35V",
+          "Tolerance": "±10%",
+          "Capacitance": "10uF",
+          "Temperature Coefficient": "X5R"
+        },
+        "pcba_type": "economic"
+      },
+      {
+        "lcsc": "C46635915",
+        "model": "FCC0805X106K500FT",
+        "manufacturer": "FOJAN",
+        "package": "0805",
+        "stock": 21800,
+        "price": 0.1014,
+        "library_type": "extended",
+        "preferred": false,
+        "category": "Capacitors",
+        "subcategory": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+        "subcategory_id": 2929,
+        "mounting_type": "smd",
+        "specs": {
+          "Operating Temperature": "-55℃~+85℃",
+          "Voltage Rating": "50V",
+          "Tolerance": "±10%",
+          "Capacitance": "10uF",
+          "Temperature Coefficient": "X5R"
+        },
+        "pcba_type": "economic"
+      }
+    ],
+    "total": 25,
+    "page_info": {
+      "limit": 10,
+      "offset": 0,
+      "returned": 10
+    },
+    "filters_applied": {
+      "query": null,
+      "subcategory_id": 2929,
+      "subcategory_name": "multilayer ceramic capacitors mlcc - smd/smt",
+      "subcategory_resolved": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+      "subcategory_ids": null,
+      "category_id": null,
+      "category_name": null,
+      "category_resolved": null,
+      "spec_filters": [
+        {
+          "name": "Capacitance",
+          "op": "=",
+          "value": "10uF"
+        },
+        {
+          "name": "Voltage Rating",
+          "op": ">=",
+          "value": "35V"
+        },
+        {
+          "name": "Temperature Coefficient",
+          "op": "=",
+          "value": "X5R"
+        }
+      ],
+      "library_type": null,
+      "prefer_no_fee": true,
+      "min_stock": 10,
+      "package": "0805",
+      "packages": null,
+      "manufacturer": null,
+      "match_all_terms": true
+    },
+    "library_type_counts": {
+      "basic": 1,
+      "preferred": 0,
+      "extended": 24
+    },
+    "no_fee_available": true,
+    "parsed": {
+      "original_query": "10uF 35V X5R capacitor",
+      "detected": {
+        "component_type": "capacitor",
+        "subcategory": "multilayer ceramic capacitors mlcc - smd/smt",
+        "values": [
+          {
+            "raw": "10uF",
+            "type": "capacitance",
+            "normalized": "10uF"
+          },
+          {
+            "raw": "35V",
+            "type": "voltage",
+            "normalized": "35V"
+          }
+        ],
+        "semantic": [
+          "x5r"
+        ]
+      },
+      "subcategory": "multilayer ceramic capacitors mlcc - smd/smt",
+      "package": null,
+      "mounting_type": null,
+      "spec_filters": [
+        {
+          "name": "Capacitance",
+          "op": "=",
+          "value": "10uF"
+        },
+        {
+          "name": "Voltage Rating",
+          "op": ">=",
+          "value": "35V"
+        },
+        {
+          "name": "Temperature Coefficient",
+          "op": "=",
+          "value": "X5R"
+        }
+      ],
+      "remaining_text": ""
+    },
+    "data_as_of": "2026-11-06T19:48:46Z"
+  }
+}

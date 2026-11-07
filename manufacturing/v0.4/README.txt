@@ -11,10 +11,14 @@ Drill maps and checks remain outside the upload archive.
 Do not use the historical Tph_Synth_Featherwing\gerbers or bom folders.
 
 assembly\assembly-bom-REVIEW-ONLY.csv is NOT an approved purchasing BOM.
-C12's legacy MPN is the wrong package; C1-C3 need lifecycle review; R10 needs mechanical review.
-All remaining legacy MPNs require datasheet and live stock/packaging verification.
+C1-C3, C4-C11/C18 and C12 use approved breakout replacements; hardware validation remains required.
+R10 needs exact mechanical/pin verification. Feather host headers are intentionally DNP, not a factory release blocker.
+See assembly\distributor-review-*.json for dated MCP stock, lifecycle and packaging evidence.
+TDK 22uF replacements are sourced through LCSC/JLCPCB; verify exact MPN supply before ordering.
+All legacy MPNs still require electrical/mechanical qualification and a fresh stock check before ordering.
 MS1 is the external host; no adapter PCB is fitted to this PCB at MS1.
-Mating 12-pin/16-pin headers are not selected in the schematic BOM.
+DO NOT FIT Feather host 12-pin/16-pin headers at manufacture; excluded from purchasing BOM.
+Users fit compatible stacking headers to suit their Feather after manufacture. J2/J3 remain fitted.
 JP1/JP2, test pads and the OSHW logo are PCB features, not purchased components.
 
 positions-smt.csv covers SMT only; THT parts are listed in release-status.json.

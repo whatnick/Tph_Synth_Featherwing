@@ -1,0 +1,85 @@
+{
+  "arguments": {
+    "product_number": "GRM21BR61H106KE43L"
+  },
+  "response": {
+    "results": [
+      {
+        "source": "digikey",
+        "part_number": "490-18663-1-ND",
+        "mfr_part_number": "GRM21BR61H106KE43L",
+        "manufacturer": "Murata Electronics",
+        "description": "CAP CER 10UF 50V X5R 0805",
+        "category": "Capacitors",
+        "stock": 0,
+        "price": 0.33,
+        "price_breaks": [
+          {
+            "qty": 1,
+            "price": 0.33
+          },
+          {
+            "qty": 10,
+            "price": 0.191
+          },
+          {
+            "qty": 50,
+            "price": 0.1394
+          },
+          {
+            "qty": 100,
+            "price": 0.1233
+          },
+          {
+            "qty": 500,
+            "price": 0.09646
+          }
+        ],
+        "datasheet_url": "//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf",
+        "product_url": "https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61H106KE43L/10326316",
+        "rohs": "ROHS3 Compliant",
+        "lifecycle": "Active",
+        "parameters": {
+          "Capacitance": "10 µF",
+          "Tolerance": "±10%",
+          "Voltage - Rated": "50V",
+          "Temperature Coefficient": "X5R",
+          "Operating Temperature": "-55°C ~ 85°C",
+          "Features": "-",
+          "Ratings": "-",
+          "Applications": "Mobile Devices Only",
+          "Failure Rate": "-",
+          "Mounting Type": "Surface Mount, MLCC",
+          "Package / Case": "0805 (2012 Metric)",
+          "Size / Dimension": "0.079\" L x 0.049\" W (2.00mm x 1.25mm)",
+          "Height - Seated (Max)": "-",
+          "Thickness (Max)": "0.057\" (1.45mm)",
+          "Lead Spacing": "-",
+          "Lead Style": "-"
+        },
+        "min_qty": 1,
+        "currency": "USD",
+        "packaging": "Cut Tape (CT)",
+        "other_packaging": [
+          {
+            "part_number": "490-18663-2-ND",
+            "packaging": "Tape & Reel (TR)",
+            "min_qty": 3000,
+            "price": 0.07227
+          },
+          {
+            "part_number": "490-18663-6-ND",
+            "packaging": "Digi-Reel®",
+            "min_qty": 1,
+            "price": 0.33,
+            "reel_fee": 7.0
+          }
+        ]
+      }
+    ],
+    "total": 1
+  },
+  "endpoint": "https://pcbparts.dev/mcp",
+  "checked_utc": "2026-11-07T06:21:30.8883398Z",
+  "tool": "digikey_get_part"
+}

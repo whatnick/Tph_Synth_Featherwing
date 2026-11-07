@@ -1,0 +1,98 @@
+{
+  "checked_date": "2026-11-07",
+  "purpose": "Find available capacitor alternatives without changing schematic or PCB MPNs.",
+  "status": "HISTORICAL_CANDIDATE_REVIEW_SUPERSEDED_BY_APPROVED_SUBSTITUTIONS",
+  "current_decision": "../distributor-review-substitutions-2026-11-07.json",
+  "endpoint": "https://pcbparts.dev/mcp",
+  "transport_note": "Harness tool discovery returned no tools for this turn. Used the same hosted MCP over Streamable HTTP after tools/list schema discovery.",
+  "evidence": "Exact MCP arguments, timestamps and structured responses are preserved in evidence/*.json.",
+  "prior_evidence": "../distributor-review-2026-11-07.json",
+  "selection": [
+    {
+      "references": ["C1", "C2", "C3"],
+      "original_mpn": "C2012JB1V226M125AC",
+      "candidate_mpn": "C2012X5R1V226MT000E",
+      "manufacturer": "TDK",
+      "available_supplier": "LCSC/JLCPCB C338080",
+      "observed_stock": 56013,
+      "reel_quantity": 2000,
+      "catalog_match": "22uF +/-20%, 35V, 0805",
+      "material_change": "JB to X5R dielectric temperature specification; not an electrically qualified drop-in.",
+      "release_checks": [
+        "Confirm manufacturer current lifecycle and exact ordering code.",
+        "Compare original and candidate temperature-dependent capacitance and DC-bias curves at actual rail voltages.",
+        "Confirm effective capacitance, ESR and boost converter stability/startup requirements.",
+        "Verify exact body thickness and manufacturer land pattern against current 0805 footprint."
+      ]
+    },
+    {
+      "references": ["C4", "C5", "C6", "C7", "C8", "C9", "C10", "C11", "C18"],
+      "original_mpn": "GMK212BBJ106MG-T",
+      "candidate_mpn": "CL21A106KBYQNNE",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "available_supplier": "LCSC/JLCPCB C2932476",
+      "observed_stock": 568902,
+      "reel_quantity": 2000,
+      "catalog_match": "10uF +/-10%, X5R, 50V, 0805; voltage rating not reduced.",
+      "digikey_lifecycle": "Active",
+      "digikey_application": "General Purpose",
+      "mouser_stock": 0,
+      "digikey_stock": 0,
+      "release_checks": [
+        "Compare effective capacitance under DC bias at each operating rail; 50V rating alone does not establish better effective capacitance.",
+        "Verify converter and LM2663 charge-pump capacitor requirements, ESR and stability.",
+        "Confirm height and manufacturer land pattern."
+      ]
+    },
+    {
+      "references": ["C4", "C5", "C6", "C7", "C8", "C9", "C10", "C11", "C18"],
+      "candidate_mpn": "GRM21BR61H106KE43L",
+      "manufacturer": "Murata Electronics",
+      "available_suppliers": [
+        {"supplier":"Mouser","order_code":"81-GRM21BR61H106KE3L","observed_stock":2564},
+        {"supplier":"LCSC/JLCPCB","order_code":"C440198","observed_stock":1065869}
+      ],
+      "reel_quantity": 3000,
+      "catalog_match": "10uF +/-10%, X5R, 50V, 0805",
+      "digikey_lifecycle": "Active",
+      "digikey_stock": 0,
+      "digikey_application": "Mobile Devices Only",
+      "status": "CONDITIONAL_CANDIDATE",
+      "release_checks": [
+        "Resolve DigiKey's Mobile Devices Only application note with Murata before selecting for this board.",
+        "Compare DC-bias effective capacitance and converter/charge-pump suitability.",
+        "Confirm height and land pattern.",
+        "Mouser total stock is below a 3000-piece reel: confirm packaging and full-reel supply separately."
+      ]
+    },
+    {
+      "references": ["C12"],
+      "original_mpn": "GJM0335C1E5R0BB01D",
+      "candidate_mpn": "CC0603BRNPO9BN5R0",
+      "manufacturer": "YAGEO",
+      "available_supplier": "Mouser 603-CC603BRNPO9BN5R0",
+      "observed_stock": 2442,
+      "reel_quantity": 4000,
+      "catalog_match": "5pF +/-0.1pF, C0G/NP0, 50V, 0603 (1608 metric); original MPN is 0201.",
+      "release_checks": [
+        "Verify land pattern and compensation behavior.",
+        "Confirm packaging before ordering; total Mouser stock is below a full 4000-piece reel."
+      ]
+    }
+  ],
+  "not_available_or_rejected": [
+    {"mpn":"C2012X5R1V226M125AC","reason":"DigiKey Active but zero stock at both DigiKey and Mouser; not an immediately available distributor substitute."},
+    {"mpn":"GRM21BR6YA106KE43L","reason":"Mouser zero stock; 50V Murata candidate is stocked there."},
+    {"mpn":"GRM21BR6YA226ME51L","reason":"Mouser not_found; not selected."},
+    {"mpn":"GRM1885C1H5R0BA01D","reason":"Prior Mouser evidence says NRND; prefer active YAGEO qualification candidate."}
+  ],
+  "limitations": [
+    "MCP stock/pricing responses may be cached; no stock reservation or order has been made.",
+    "Unit prices are indicative USD at quantity one; shipping, tax and reel-service fees are excluded.",
+    "Catalog and nominal package matches are not datasheet, land-pattern, DC-bias or stability qualification.",
+    "An unrelated web-search answer claimed the TDK 125AC candidate was widely stocked; actual MCP responses showed zero stock. Only MCP observations are used here.",
+    "This candidate review predates user approval and application of selected substitutions. See current_decision for current MPN choices. Purchasing release remains on hold.",
+    "R10 is already stocked but mechanically unverified; no substitute is needed solely for availability.",
+    "Host mating headers and stacking height remain unselected; capacitor alternatives do not resolve that mechanical decision."
+  ]
+}

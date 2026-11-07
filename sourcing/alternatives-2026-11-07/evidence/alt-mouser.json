@@ -1,0 +1,253 @@
+{
+  "arguments": {
+    "part_number": "GRM21BR61H106KE43L|GRM21BR6YA106KE43L|CL21A106KBYQNNE|GRM21BR6YA226ME51L|C2012X5R1V226M125AC"
+  },
+  "response": {
+    "results": [
+      {
+        "source": "mouser",
+        "part_number": "81-GRM21BR61H106KE3L",
+        "mfr_part_number": "GRM21BR61H106KE43L",
+        "manufacturer": "Murata Electronics",
+        "description": "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10 uF 50 VDC 10% 0805 X5R",
+        "category": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+        "stock": 2564,
+        "price": 0.61,
+        "price_breaks": [
+          {
+            "qty": 1,
+            "price": 0.61,
+            "currency": "USD"
+          },
+          {
+            "qty": 10,
+            "price": 0.352,
+            "currency": "USD"
+          },
+          {
+            "qty": 50,
+            "price": 0.254,
+            "currency": "USD"
+          },
+          {
+            "qty": 100,
+            "price": 0.226,
+            "currency": "USD"
+          },
+          {
+            "qty": 500,
+            "price": 0.177,
+            "currency": "USD"
+          },
+          {
+            "qty": 2000,
+            "price": 0.102,
+            "currency": "USD"
+          },
+          {
+            "qty": 3000,
+            "price": 0.102,
+            "currency": "USD"
+          }
+        ],
+        "datasheet_url": "https://www.mouser.com/datasheet/3/76/1/GRM21BR61H106KE43_01A.pdf",
+        "product_url": "https://www.mouser.ca/en/ProductDetail/Murata-Electronics/GRM21BR61H106KE43L?qs=lYGu3FyN48cBZlIduWKclg%3D%3D",
+        "rohs": "RoHS Compliant",
+        "lifecycle": null,
+        "parameters": {
+          "Packaging": "MouseReel",
+          "Standard Pack Qty": "3000"
+        },
+        "min_qty": 1,
+        "unit_weight_g": 0.0064,
+        "currency": "USD"
+      },
+      {
+        "source": "mouser",
+        "part_number": "81-GRM21BR6YA106KE3L",
+        "mfr_part_number": "GRM21BR6YA106KE43L",
+        "manufacturer": "Murata Electronics",
+        "description": "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10 uF 35 VDC 10% 0805 X5R",
+        "category": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+        "stock": 0,
+        "price": 0.61,
+        "price_breaks": [
+          {
+            "qty": 1,
+            "price": 0.61,
+            "currency": "USD"
+          },
+          {
+            "qty": 10,
+            "price": 0.35,
+            "currency": "USD"
+          },
+          {
+            "qty": 50,
+            "price": 0.253,
+            "currency": "USD"
+          },
+          {
+            "qty": 100,
+            "price": 0.225,
+            "currency": "USD"
+          },
+          {
+            "qty": 500,
+            "price": 0.176,
+            "currency": "USD"
+          },
+          {
+            "qty": 2000,
+            "price": 0.101,
+            "currency": "USD"
+          },
+          {
+            "qty": 3000,
+            "price": 0.101,
+            "currency": "USD"
+          }
+        ],
+        "datasheet_url": "",
+        "product_url": "https://www.mouser.ca/en/ProductDetail/Murata-Electronics/GRM21BR6YA106KE43L?qs=K0Sa7bCb58In4wCNhrzhRQ%3D%3D",
+        "rohs": "RoHS Compliant",
+        "lifecycle": null,
+        "parameters": {
+          "Packaging": "MouseReel",
+          "Standard Pack Qty": "3000"
+        },
+        "min_qty": 1,
+        "unit_weight_g": 0.0064,
+        "currency": "USD"
+      },
+      {
+        "source": "mouser",
+        "part_number": "810-C2012X5R1V226MAC",
+        "mfr_part_number": "C2012X5R1V226M125AC",
+        "manufacturer": "TDK",
+        "description": "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 35VDC 22uF 20% X5R 1.25mm",
+        "category": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+        "stock": 0,
+        "price": 0.52,
+        "price_breaks": [
+          {
+            "qty": 1,
+            "price": 0.52,
+            "currency": "USD"
+          },
+          {
+            "qty": 10,
+            "price": 0.314,
+            "currency": "USD"
+          },
+          {
+            "qty": 50,
+            "price": 0.235,
+            "currency": "USD"
+          },
+          {
+            "qty": 100,
+            "price": 0.21,
+            "currency": "USD"
+          },
+          {
+            "qty": 500,
+            "price": 0.169,
+            "currency": "USD"
+          },
+          {
+            "qty": 2000,
+            "price": 0.166,
+            "currency": "USD"
+          },
+          {
+            "qty": 4000,
+            "price": 0.165,
+            "currency": "USD"
+          },
+          {
+            "qty": 10000,
+            "price": 0.163,
+            "currency": "USD"
+          }
+        ],
+        "datasheet_url": "",
+        "product_url": "https://www.mouser.ca/en/ProductDetail/TDK/C2012X5R1V226M125AC?qs=6JAMGB%252BEdkyUk0d2Mu2IrQ%3D%3D",
+        "rohs": "RoHS Compliant",
+        "lifecycle": null,
+        "parameters": {
+          "Packaging": "MouseReel",
+          "Standard Pack Qty": "2000"
+        },
+        "min_qty": 1,
+        "unit_weight_g": 0.0055,
+        "currency": "USD"
+      },
+      {
+        "source": "mouser",
+        "part_number": "187-CL21A106KBYQNNE",
+        "mfr_part_number": "CL21A106KBYQNNE",
+        "manufacturer": "Samsung Electro-Mechanics",
+        "description": "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF 50V X5R 2012 0805",
+        "category": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+        "stock": 0,
+        "price": 1.16,
+        "price_breaks": [
+          {
+            "qty": 1,
+            "price": 1.16,
+            "currency": "USD"
+          },
+          {
+            "qty": 10,
+            "price": 0.705,
+            "currency": "USD"
+          },
+          {
+            "qty": 50,
+            "price": 0.522,
+            "currency": "USD"
+          },
+          {
+            "qty": 100,
+            "price": 0.464,
+            "currency": "USD"
+          },
+          {
+            "qty": 500,
+            "price": 0.403,
+            "currency": "USD"
+          },
+          {
+            "qty": 1000,
+            "price": 0.234,
+            "currency": "USD"
+          },
+          {
+            "qty": 2000,
+            "price": 0.232,
+            "currency": "USD"
+          }
+        ],
+        "datasheet_url": "",
+        "product_url": "https://www.mouser.ca/en/ProductDetail/Samsung-Electro-Mechanics/CL21A106KBYQNNE?qs=xZ%2FP%252Ba9zWqbaYhx2cI%2FT%252BA%3D%3D",
+        "rohs": "RoHS Compliant",
+        "lifecycle": null,
+        "parameters": {
+          "Packaging": "MouseReel",
+          "Standard Pack Qty": "2000"
+        },
+        "min_qty": 1,
+        "unit_weight_g": 0.0064,
+        "currency": "USD"
+      }
+    ],
+    "total": 4,
+    "not_found": [
+      "GRM21BR6YA226ME51L"
+    ]
+  },
+  "checked_utc": "2026-11-07T06:21:02.1479501Z",
+  "endpoint": "https://pcbparts.dev/mcp",
+  "tool": "mouser_get_part"
+}
