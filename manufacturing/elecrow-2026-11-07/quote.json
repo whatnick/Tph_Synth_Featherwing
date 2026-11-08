@@ -1,59 +1,60 @@
 {
- "date": "2026-11-07",
- "supplier": "Elecrow",
- "status": "IN_CART_UNPAID_NOT_ORDERED",
- "cart_sku": "PCB1107108847",
- "spec": {
-  "material": "FR-4",
-  "layers": 2,
-  "thickness_mm": 1.6,
-  "outline_mm": [
-   58.5,
-   51.0
+  "date": "2026-11-07",
+  "supplier": "Elecrow",
+  "status": "CART_ITEM_ABSENT_ORDERING_STATUS_UNCONFIRMED",
+  "cart_sku": "PCB1107108847",
+  "spec": {
+    "material": "FR-4",
+    "layers": 2,
+    "thickness_mm": 1.6,
+    "outline_mm": [
+      58.5,
+      51.0
+    ],
+    "quantity": 10,
+    "designs": 1,
+    "soldermask": "Black",
+    "silkscreen": "White",
+    "finish": "HASL lead-free",
+    "copper_oz": 1,
+    "castellated": false,
+    "lead_time": "3-5 working days",
+    "stencil": false,
+    "assembly": false
+  },
+  "price_usd": {
+    "pcb_quoted": 10.0,
+    "cart_line_discounted": 9.8,
+    "shipping_estimate": {
+      "destination": "AU",
+      "method": "Economy Express (6-11 business days)",
+      "usd": 14.87,
+      "note": "Cheapest option shown on form; final shipping chosen and confirmed at checkout."
+    }
+  },
+  "upload": {
+    "zip": "Tph_Synth_Featherwing-v0.4-elecrow.zip",
+    "sha256": "6a4e8a7846e575c55dac8e5586f6a39bb98e20b70641c73207352ae0f5584047",
+    "bytes": 122832,
+    "members": {
+      "Tph_Synth_Featherwing-B_Cu.gbl": "273ddb24b2bf01eef22a80aa5e275eccae0b779f93f9a5aae263c4603fa81a42",
+      "Tph_Synth_Featherwing-B_Mask.gbs": "8578050bc4f98086f1308719c1a6f803731abec126860e92b9eb410612335c68",
+      "Tph_Synth_Featherwing-B_Silkscreen.gbo": "1e40d01424e2f3cda14cc53e7dc42d00e2e682da54e504b9ae8b6da61fbcafee",
+      "Tph_Synth_Featherwing-Edge_Cuts.gm1": "6f84d3c70a6eae5a2210113a7d108731a5ab70ac95ba1122a46b46276ed741de",
+      "Tph_Synth_Featherwing-F_Cu.gtl": "b03b08e8e5fdcb0462360a7ac1fb2d4f67865dfddd2eef740f9cf9125603d980",
+      "Tph_Synth_Featherwing-F_Mask.gts": "0ef9590b315d392c7f636c624b8f0c47f29887d937304e6b9693ee834e02a488",
+      "Tph_Synth_Featherwing-F_Silkscreen.gto": "1cb6383a1e9dc8e31d10fdcbc81cf64c4f483d11659fa5576361436a6c245e36",
+      "Tph_Synth_Featherwing-NPTH.drl": "6cdeb894656dcac192d27c089742f1c045b6634402bdee93add7c90c3c64af75",
+      "Tph_Synth_Featherwing-PTH.drl": "588668d47f47af7f187f392cdcd0986ed3dc8461a1af85ae6fb3a90df075c7b1",
+      "FABRICATION-NOTES.txt": "810dfd0b60290fd96e77e4eaa66667e036100a20f17524300a30b7f091f5b698"
+    }
+  },
+  "server_copy_sha256_matches": true,
+  "notes": [
+    "Gerber preview service could not render images; Elecrow states it follows files strictly. Not a DFM approval.",
+    "No manual engineering review requested.",
+    "Fabrication notes inside ZIP: FABRICATION-NOTES.txt.",
+    "Unrelated pre-existing cart item (PCB Assembly) left untouched."
   ],
-  "quantity": 10,
-  "designs": 1,
-  "soldermask": "Black",
-  "silkscreen": "White",
-  "finish": "HASL lead-free",
-  "copper_oz": 1,
-  "castellated": false,
-  "lead_time": "3-5 working days",
-  "stencil": false,
-  "assembly": false
- },
- "price_usd": {
-  "pcb_quoted": 10.0,
-  "cart_line_discounted": 9.8,
-  "shipping_estimate": {
-   "destination": "AU",
-   "method": "Economy Express (6-11 business days)",
-   "usd": 14.87,
-   "note": "Cheapest option shown on form; final shipping chosen and confirmed at checkout."
-  }
- },
- "upload": {
-  "zip": "Tph_Synth_Featherwing-v0.4-elecrow.zip",
-  "sha256": "6a4e8a7846e575c55dac8e5586f6a39bb98e20b70641c73207352ae0f5584047",
-  "bytes": 122832,
-  "members": {
-   "Tph_Synth_Featherwing-B_Cu.gbl": "273ddb24b2bf01eef22a80aa5e275eccae0b779f93f9a5aae263c4603fa81a42",
-   "Tph_Synth_Featherwing-B_Mask.gbs": "8578050bc4f98086f1308719c1a6f803731abec126860e92b9eb410612335c68",
-   "Tph_Synth_Featherwing-B_Silkscreen.gbo": "1e40d01424e2f3cda14cc53e7dc42d00e2e682da54e504b9ae8b6da61fbcafee",
-   "Tph_Synth_Featherwing-Edge_Cuts.gm1": "6f84d3c70a6eae5a2210113a7d108731a5ab70ac95ba1122a46b46276ed741de",
-   "Tph_Synth_Featherwing-F_Cu.gtl": "b03b08e8e5fdcb0462360a7ac1fb2d4f67865dfddd2eef740f9cf9125603d980",
-   "Tph_Synth_Featherwing-F_Mask.gts": "0ef9590b315d392c7f636c624b8f0c47f29887d937304e6b9693ee834e02a488",
-   "Tph_Synth_Featherwing-F_Silkscreen.gto": "1cb6383a1e9dc8e31d10fdcbc81cf64c4f483d11659fa5576361436a6c245e36",
-   "Tph_Synth_Featherwing-NPTH.drl": "6cdeb894656dcac192d27c089742f1c045b6634402bdee93add7c90c3c64af75",
-   "Tph_Synth_Featherwing-PTH.drl": "588668d47f47af7f187f392cdcd0986ed3dc8461a1af85ae6fb3a90df075c7b1",
-   "FABRICATION-NOTES.txt": "810dfd0b60290fd96e77e4eaa66667e036100a20f17524300a30b7f091f5b698"
-  }
- },
- "server_copy_sha256_matches": true,
- "notes": [
-  "Gerber preview service could not render images; Elecrow states it follows files strictly. Not a DFM approval.",
-  "No manual engineering review requested.",
-  "Fabrication notes inside ZIP: FABRICATION-NOTES.txt.",
-  "Unrelated pre-existing cart item (PCB Assembly) left untouched."
- ]
+  "status_note": "2026-11-07: the user checked out the cart in another browser session. The checked order did not contain bare-PCB SKU PCB1107108847 and the cart was empty. These observations do not establish a complete ordering history. PCBA RFQ PN 20261107105421 includes PCB fabrication; avoid duplicate purchasing without checking supplier records."
 }

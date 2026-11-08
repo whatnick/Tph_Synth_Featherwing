@@ -1,0 +1,80 @@
+{
+  "supplier": "Elecrow",
+  "type": "PCBA quotation request (unpaid, not checked out)",
+  "pn_code": "20261107105421",
+  "submitted": "2026-11-07 10:32:09 (Elecrow time)",
+  "status": "Pending Quotation",
+  "last_checked": "2026-11-08",
+  "status_verified_live": true,
+  "evidence_note": "service-order-row.png records submission-time status, not the latest live check; the project-manager identity is redacted.",
+  "status_check_note": "Read the exact PN row in Elecrow Service Orders through the saved task-specific browser profile. Still Pending Quotation; components $0 (not priced), displayed total $88, freight separately listed as $15.94. No order, approval or payment action taken.",
+  "project_manager_assigned": true,
+  "provisional": {
+    "currency": "USD",
+    "pcb": 10.0,
+    "stencil": 12.0,
+    "components": 0.0,
+    "assembly": 66.0,
+    "freight_economy_express_AU": 15.94,
+    "unit": 8.8,
+    "total": 88.0,
+    "note": "Components shown as $0 until Elecrow prices the turnkey BOM; final price comes from the project manager quotation."
+  },
+  "pcba_qty": 10,
+  "unique_parts": 22,
+  "components": 46,
+  "smt": 40,
+  "tht": 6,
+  "parts_sourcing": "Turnkey (requested in special requirements)",
+  "ict": "No",
+  "sample_confirmation": "Form option hidden for this job; image first-article approval requested in special requirements",
+  "pcb": {
+    "material": "FR-4",
+    "layers": 2,
+    "size_mm": [
+      58.5,
+      51
+    ],
+    "qty": 10,
+    "designs": 1,
+    "thickness_mm": 1.6,
+    "mask": "Black",
+    "silk": "White",
+    "finish": "HASL lead free",
+    "castellated": false,
+    "copper_oz": 1
+  },
+  "destination": "Australia",
+  "shipping": "Economy Express",
+  "uploads": {
+    "gerber": {
+      "file": "Tph_Synth_Featherwing-v0.4-elecrow.zip",
+      "sha256": "6a4e8a7846e575c55dac8e5586f6a39bb98e20b70641c73207352ae0f5584047",
+      "server_copy_matches": true,
+      "repo_copy": "manufacturing/elecrow-2026-11-07/"
+    },
+    "bom": {
+      "file": "Tph_Synth_Featherwing-v0.4-BOM.xlsx",
+      "sha256": "68a51374cfb3f34b1c002517e0979db328f907ace5575bbf72d052afe5bd5dd2",
+      "server_copy_matches": true
+    },
+    "other": {
+      "file": "Tph_Synth_Featherwing-v0.4-placement.zip",
+      "sha256": "d6795ad4fbcbb74a81a1984157f0a520b4a8ed53119aa136c89599df3f835447",
+      "server_copy_matches": true,
+      "contents": [
+        "Tph_Synth_Featherwing-v0.4-positions.csv",
+        "positions-smt-kicad.csv",
+        "assembly-top.pdf",
+        "assembly-bottom.pdf",
+        "PCBA-NOTES.txt"
+      ]
+    }
+  },
+  "open_holds": [
+    "R10 0.8 mm holes vs 0.9 mm recommended: first-board insertion check",
+    "PTV09 seating check",
+    "capacitor substitutions need bench validation"
+  ],
+  "cart_note": "The PCBA RFQ is a service order, not a cart item. The separate bare-PCB SKU PCB1107108847 was absent from the checked order and the cart was empty; this is not proof of a complete ordering history. The PCBA RFQ includes 10 PCBs, so avoid duplicate bare-PCB purchasing."
+}
