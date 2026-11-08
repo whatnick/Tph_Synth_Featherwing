@@ -1,7 +1,27 @@
 # 3-Phase ELV synthesizer using DAC and Opamps
 
-This is a FeatherWing ideally used with Teensy 3.2/4.0 to drive a high-speed DAC with 
-filtering and signal conditioning using Opamps.
+This is an extra-low-voltage (ELV) FeatherWing using an MCP4728 four-channel,
+12-bit I2C DAC with filtering and op-amp signal conditioning. The schematic
+exposes three voltage outputs and one Howland current output, not three
+independent voltage/current pairs. Host timing, output range and accuracy
+require hardware validation; this is not a mains power source or a certified
+meter calibrator.
+
+## Background and availability
+
+The original prototype is described in
+[Simulating 3-phase AC for Energy Monitor testing (October 2017)](https://whatnicklife.blogspot.com/2017/10/simulating-3-phase-ac-for-energy.html).
+It used a Teensy 3.2, MCP4728 and op-amp conditioning to test energy monitors.
+Those historical results do not qualify the current v0.4 hardware.
+
+The [Tindie listing](https://www.tindie.com/products/whatnick/3-phase-ac-synthesizer/)
+was US$50 and out of stock when checked on 2026-11-08. See the
+[market, lab TCO and NILM replay assessment](doc/synthesis-business-case.md)
+for competing equipment, cost assumptions, research references and the
+limitations of appliance-signature injection.
+The matching Tindie blog-link update is tracked in
+[issue #7](https://github.com/whatnick/Tph_Synth_Featherwing/issues/7);
+publishing it requires authenticated seller access.
 
 ## KiCad 10 design
 
@@ -45,8 +65,13 @@ fabrication ZIP there, not the historical `Tph_Synth_Featherwing\gerbers`,
 `bom` spreadsheet or iBOM. The archive has copper, mask, silkscreen, paste and
 outline Gerbers plus separate PTH/NPTH drills. The nominal outline is
 51 x 58.5 mm, two copper layers, 1.6 mm board thickness. Confirm material,
-copper weight, surface finish, quantity and panelization with the fabricator;
-none has been ordered.
+copper weight, surface finish, quantity and panelization with the fabricator.
+The [ten-board Elecrow PCBA request](manufacturing/elecrow-pcba-2026-11-07/quote.json),
+PN `20261107105421`, was submitted on 2026-11-07 and remains Pending Quotation
+on the 2026-11-08 live check. Components are unpriced; US$88 plus separately
+listed US$15.94 freight is not the final turnkey price. No payment or
+production approval was made. The earlier bare-PCB cart entry is historical
+and its absence does not establish a complete ordering history.
 
 Generate a new package into an empty directory using KiCad's bundled Python:
 
@@ -165,16 +190,19 @@ their lookups. Keep credentials outside the repository.
 - Pot driven voltage Setting by controlling inverting-Opamp gain.
 - Modified-Howland current source to simulate current clamp output.
 - Pot driven current source using a tapped potentiometer attached to DAC output.
-- ±5v RMS output using dual-rail Opamp mode - [OPA4170AIPW](https://au.element14.com/texas-instruments/opa4170aipw/op-amp-quad-rro-1mhz-14tssop/dp/2095843) or [LM324PWR](https://au.element14.com/texas-instruments/lm324pwr/ic-op-amp-1-2mhz-0-5v-us-tssop/dp/2342289)
+- Adjustable AC voltage outputs from nominal +/-5 V op-amp supplies; available
+  swing depends on headroom and load, and is not a +/-5 V RMS specification.
 - Dual-voltage rail generation using [LM2663](https://au.element14.com/texas-instruments/lm2663mx-nopb/dc-dc-charge-pump-inverting-soic/dp/3008264) to flip 5v input to -5v.
 - Boost-converter to push battery voltage (4.2v-3.7v) to 5v for non-USB power mode using [PAM2401](https://au.mouser.com/datasheet/2/115/PAM2401-347378.pdf).
-- I2C DAC circuit to generate plausible phase shifted sine-wave, like in my [DIYODE 
-Article](https://diyodemag.com/features/safe_3-phase_generator) using [MCP4728](https://au.element14.com/microchip/mcp4728-e-un/ic-dac-12bit-quad-10msop/dp/1800217).
+- I2C DAC circuit to generate phase-shifted sine waves, as described in the
+  [original prototype blog post](https://whatnicklife.blogspot.com/2017/10/simulating-3-phase-ac-for-energy.html),
+  using [MCP4728](https://au.element14.com/microchip/mcp4728-e-un/ic-dac-12bit-quad-10msop/dp/1800217).
 - Fully open-source schematic/pcb in KiCAD.
-![Schematic Screenshot](https://raw.githubusercontent.com/whatnick/Tph_Synth_Featherwing/master/doc/block_schematic.JPG)
+![Schematic Screenshot](doc/block_schematic.JPG)
 
 
 ## Roadmap Features :
-- Experiment with power Opamps or eBay power amplifiers to output real 240v rail-to-rail swings.
-- Experiment with power path IC's to manage supply from USB vs Battery. Particulary [LTC4412](https://www.analog.com/media/en/technical-documentation/data-sheets/4412fb.pdf) is of interest at high-power modes due to losses in [Schottky diodes](https://www.analog.com/media/en/technical-documentation/product-information/Battery_Management_Soulutions_PowerPath.pdf) and LV usage with buck-converters from 240v.
+- Keep this board ELV-only; qualify output limits and provide repeatable
+  low-voltage teaching and meter-front-end test procedures.
+- Evaluate USB/battery power-path improvements within the ELV design envelope.
 - Add I2C digital pots instead of physical pots.
